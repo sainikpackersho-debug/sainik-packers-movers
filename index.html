@@ -1,0 +1,3231 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sainik Packers & Movers</title>
+<meta name="description"
+        content="Professional Packers and Movers Services Across India">
+
+    <!-- Tailwind CSS v4 -->
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- Alpine JS -->
+    <script defer
+        src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js">
+    </script>
+<!-- Swiper CSS -->
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+<!-- AOS CSS -->
+    <link rel="stylesheet"
+        href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+ <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+<!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+<style>
+        body {
+            font-family: 'Inter', sans-serif;
+            overflow-x: hidden;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        :root {
+            --primary: #071B45;
+            --secondary: #FF6B00;
+            --light: #F8FAFC;
+            --dark: #111827;
+        }
+
+        .container-custom {
+            max-width: 1280px;
+            margin: auto;
+            padding-left: 16px;
+            padding-right: 16px;
+        }
+
+        .glass {
+            backdrop-filter: blur(20px);
+            background: rgba(255,255,255,.85);
+        }
+
+        .gradient-bg {
+            background: linear-gradient(
+                135deg,
+                #071B45 0%,
+                #102C6A 100%
+            );
+        }
+    </style>
+<script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+
+<body class="bg-white text-slate-800">
+<nav
+    x-data="{
+        mobileMenu:false,
+        servicesMenu:false,
+        scrolled:false
+    }"
+    x-init="
+        window.addEventListener('scroll',()=>{
+            scrolled = window.scrollY > 50
+        })
+    "
+    class="sticky top-0 z-[9999]">
+
+    <!-- TOP CONTACT BAR -->
+
+    <div class="bg-[#071B45] text-white">
+
+        <div class="container-custom">
+
+            <div class="flex flex-wrap items-center justify-between py-2 text-sm">
+
+                <div class="flex items-center gap-6">
+
+                    <span>
+                        <i class="fa-solid fa-shield-halved text-orange-500 mr-2"></i>
+                        GST Registered
+                    </span>
+
+                    <span class="hidden lg:block">
+                        <i class="fa-solid fa-award text-orange-500 mr-2"></i>
+                        ISO Certified
+                    </span>
+
+                </div>
+
+                <div class="flex items-center gap-5">
+
+                    <a href="tel:9342422422">
+                        <i class="fa-solid fa-phone text-orange-500 mr-2"></i>
+                        9342-422-422
+                    </a>
+
+                    <a href="mailto:sainikpackermovers@gmail.com">
+                        <i class="fa-solid fa-envelope text-orange-500 mr-2"></i>
+                        Email Us
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- MAIN NAVBAR -->
+
+    <div
+        :class="scrolled
+        ? 'bg-white shadow-xl'
+        : 'bg-white/95 backdrop-blur-md'"
+        class="transition-all duration-300">
+
+        <div class="container-custom">
+
+            <div class="flex items-center justify-between h-[88px]">
+
+                <!-- LOGO -->
+
+                <a href="/" class="flex items-center gap-3">
+
+                    <img
+                        src="https://www.sainikpackersmovers.in/assets/img/logo/logo.png"
+                        alt="Sainik Packers"
+                        class="h-14">
+
+                    <div>
+
+                        <h2 class="font-extrabold text-2xl text-[#071B45]">
+                            SAINIK
+                        </h2>
+
+                        <p class="text-xs text-slate-500">
+                            Packers & Movers
+                        </p>
+
+                    </div>
+
+                </a>
+
+                <!-- DESKTOP MENU -->
+
+                <!-- DESKTOP MENU -->
+
+<ul class="hidden xl:flex items-center gap-7">
+
+    <!-- Home -->
+
+    <li>
+        <a href="/"
+            class="flex items-center gap-2 font-medium text-slate-700 hover:text-orange-500 transition">
+
+            <i class="fa-solid fa-house text-[13px]"></i>
+
+            Home
+
+        </a>
+    </li>
+
+    <!-- About -->
+
+    <li>
+        <a href="/about.php"
+            class="flex items-center gap-2 font-medium text-slate-700 hover:text-orange-500 transition">
+
+            <i class="fa-solid fa-circle-info text-[13px]"></i>
+
+            About Us
+
+        </a>
+    </li>
+
+    <!-- SERVICES -->
+
+    <li
+        class="relative"
+        @mouseenter="servicesMenu=true"
+        @mouseleave="servicesMenu=false">
+
+        <button
+            class="flex items-center gap-2 font-medium text-slate-700 hover:text-orange-500 transition">
+
+            <i class="fa-solid fa-truck-fast text-[13px]"></i>
+
+            Services
+
+            <i class="fa-solid fa-chevron-down text-[10px]"></i>
+
+        </button>
+
+        <!-- PREMIUM MEGA MENU -->
+
+        <div
+            x-show="servicesMenu"
+            x-cloak
+            x-transition
+            class="absolute left-1/2 -translate-x-1/2 mt-7 w-[920px] bg-white rounded-[28px] shadow-[0_25px_60px_rgba(0,0,0,0.12)] border border-slate-100 overflow-hidden">
+
+            <div class="grid grid-cols-3">
+
+                <!-- COLUMN -->
+
+                <div class="p-7 border-r border-slate-100">
+
+                    <div class="flex items-center gap-3 mb-5">
+
+                        <div class="w-11 h-11 rounded-xl bg-orange-50 flex items-center justify-center">
+
+                            <i class="fa-solid fa-house text-orange-500"></i>
+
+                        </div>
+
+                        <h3 class="font-bold text-[#071B45]">
+                            Household Moving
+                        </h3>
+
+                    </div>
+
+                    <div class="space-y-4 text-sm">
+
+                        <a href="#" class="flex items-center gap-3 hover:text-orange-500">
+
+                            <i class="fa-solid fa-box"></i>
+
+                            Home Shifting
+
+                        </a>
+
+                        <a href="#" class="flex items-center gap-3 hover:text-orange-500">
+
+                            <i class="fa-solid fa-building"></i>
+
+                            Apartment Moving
+
+                        </a>
+
+                        <a href="#" class="flex items-center gap-3 hover:text-orange-500">
+
+                            <i class="fa-solid fa-house-chimney"></i>
+
+                            Villa Relocation
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <!-- COLUMN -->
+
+                <div class="p-7 border-r border-slate-100">
+
+                    <div class="flex items-center gap-3 mb-5">
+
+                        <div class="w-11 h-11 rounded-xl bg-blue-50 flex items-center justify-center">
+
+                            <i class="fa-solid fa-car-side text-blue-600"></i>
+
+                        </div>
+
+                        <h3 class="font-bold text-[#071B45]">
+                            Vehicle Transport
+                        </h3>
+
+                    </div>
+
+                    <div class="space-y-4 text-sm">
+
+                        <a href="#" class="flex items-center gap-3 hover:text-orange-500">
+
+                            <i class="fa-solid fa-car"></i>
+
+                            Car Transport
+
+                        </a>
+
+                        <a href="#" class="flex items-center gap-3 hover:text-orange-500">
+
+                            <i class="fa-solid fa-motorcycle"></i>
+
+                            Bike Transport
+
+                        </a>
+
+                        <a href="#" class="flex items-center gap-3 hover:text-orange-500">
+
+                            <i class="fa-solid fa-scooter"></i>
+
+                            Scooter Moving
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <!-- COLUMN -->
+
+                <div class="p-7">
+
+                    <div class="flex items-center gap-3 mb-5">
+
+                        <div class="w-11 h-11 rounded-xl bg-green-50 flex items-center justify-center">
+
+                            <i class="fa-solid fa-building-user text-green-600"></i>
+
+                        </div>
+
+                        <h3 class="font-bold text-[#071B45]">
+                            Corporate Solutions
+                        </h3>
+
+                    </div>
+
+                    <div class="space-y-4 text-sm">
+
+                        <a href="#" class="flex items-center gap-3 hover:text-orange-500">
+
+                            <i class="fa-solid fa-briefcase"></i>
+
+                            Office Relocation
+
+                        </a>
+
+                        <a href="#" class="flex items-center gap-3 hover:text-orange-500">
+
+                            <i class="fa-solid fa-warehouse"></i>
+
+                            Warehousing
+
+                        </a>
+
+                        <a href="#" class="flex items-center gap-3 hover:text-orange-500">
+
+                            <i class="fa-solid fa-boxes-stacked"></i>
+
+                            Storage Solutions
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Footer CTA -->
+
+            <div class="bg-slate-50 px-7 py-4 flex items-center justify-between">
+
+                <div>
+
+                    <h4 class="font-semibold text-[#071B45] text-sm">
+                        Need Help Choosing a Service?
+                    </h4>
+
+                    <p class="text-xs text-slate-500">
+                        Speak with our relocation expert.
+                    </p>
+
+                </div>
+
+                <a href="tel:9342422422"
+                    class="px-5 py-2.5 bg-orange-500 text-white rounded-xl text-sm font-semibold hover:bg-orange-600">
+
+                    Call Now
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </li>
+
+    <!-- Cities -->
+
+    <li>
+        <a href="/cities.php"
+            class="flex items-center gap-2 font-medium text-slate-700 hover:text-orange-500 transition">
+
+            <i class="fa-solid fa-location-dot text-[13px]"></i>
+
+            Cities
+
+        </a>
+    </li>
+
+    <!-- Gallery -->
+
+    <li>
+        <a href="/gallery.php"
+            class="flex items-center gap-2 font-medium text-slate-700 hover:text-orange-500 transition">
+
+            <i class="fa-solid fa-images text-[13px]"></i>
+
+            Gallery
+
+        </a>
+    </li>
+
+    <!-- Contact -->
+
+    <li>
+        <a href="/contact.php"
+            class="flex items-center gap-2 font-medium text-slate-700 hover:text-orange-500 transition">
+
+            <i class="fa-solid fa-headset text-[13px]"></i>
+
+            Contact
+
+        </a>
+    </li>
+
+</ul>
+
+                <!-- CTA -->
+
+                <div class="hidden xl:flex items-center gap-4">
+
+                    <a
+                        href="https://wa.me/919342422422"
+                        target="_blank"
+                        class="w-11 h-11 rounded-full bg-green-500 text-white flex items-center justify-center">
+
+                        <i class="fa-brands fa-whatsapp"></i>
+
+                    </a>
+
+                    <a
+                        href="get-quote.html"
+                        class="bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded-xl font-semibold shadow-lg">
+
+                        Get Free Quote
+
+                    </a>
+
+                </div>
+
+                <!-- MOBILE BUTTON -->
+
+                <button
+                    @click="mobileMenu=true"
+                    class="xl:hidden text-3xl">
+
+                    <i class="fa-solid fa-bars"></i>
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <!-- MOBILE MENU -->
+
+   <!-- PREMIUM COMPACT APP STYLE MOBILE MENU -->
+
+
+
+<div
+    x-cloak
+    x-show="mobileMenu"
+    style="display:none;"
+    x-transition.opacity
+    class="fixed inset-0 z-[99999]">   
+    <div
+        @click="mobileMenu=false"
+        class="absolute inset-0 bg-black/50 backdrop-blur-sm">
+    </div>
+
+    <!-- Drawer -->
+
+    <div
+        x-transition:enter="transition ease-out duration-300"
+        x-transition:enter-start="translate-x-full"
+        x-transition:enter-end="translate-x-0"
+        x-transition:leave="transition ease-in duration-200"
+        x-transition:leave-start="translate-x-0"
+        x-transition:leave-end="translate-x-full"
+        class="absolute right-0 top-0 h-full w-[280px] bg-white shadow-2xl overflow-y-auto">
+
+        <!-- Header -->
+
+        <div class="bg-gradient-to-r from-[#071B45] to-[#0B2C6B] p-4">
+
+            <div class="flex items-center justify-between">
+
+                <div>
+
+                    <h3 class="text-white font-semibold text-base">
+                        Sainik Packers
+                    </h3>
+
+                    <p class="text-blue-100 text-[11px]">
+                        Safe Moving Partner
+                    </p>
+
+                </div>
+
+                <button
+                    @click="mobileMenu=false"
+                    class="w-8 h-8 rounded-lg bg-white/10 text-white flex items-center justify-center">
+
+                    <i class="fa-solid fa-xmark text-sm"></i>
+
+                </button>
+
+            </div>
+
+            <!-- Quick Actions -->
+
+            <div class="grid grid-cols-3 gap-2 mt-4">
+
+                <a
+                    href="tel:9342422422"
+                    class="bg-white/10 rounded-xl p-2 text-center">
+
+                    <i class="fa-solid fa-phone text-white text-sm"></i>
+
+                    <div class="text-white text-[10px] mt-1">
+                        Call
+                    </div>
+
+                </a>
+
+                <a
+                    href="https://wa.me/919342422422"
+                    class="bg-white/10 rounded-xl p-2 text-center">
+
+                    <i class="fa-brands fa-whatsapp text-white text-sm"></i>
+
+                    <div class="text-white text-[10px] mt-1">
+                        WhatsApp
+                    </div>
+
+                </a>
+
+                <a
+                    href="#quote"
+                    class="bg-white/10 rounded-xl p-2 text-center">
+
+                    <i class="fa-solid fa-file-signature text-white text-sm"></i>
+
+                    <div class="text-white text-[10px] mt-1">
+                        Quote
+                    </div>
+
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- Menu Links -->
+
+        <div class="p-3 space-y-1">
+
+            <a href="/"
+                class="flex items-center gap-3 p-3 rounded-xl hover:bg-slate-50 transition">
+
+                <div class="w-10 h-10 rounded-xl bg-orange-100 flex items-center justify-center">
+
+                    <i class="fa-solid fa-house text-orange-500 text-sm"></i>
+
+                </div>
+
+                <div>
+
+                    <div class="font-medium text-sm text-[#071B45]">
+                        Home
+                    </div>
+
+                    <div class="text-[11px] text-slate-500">
+                        Homepage
+                    </div>
+
+                </div>
+
+            </a>
+
+            <a href="/about.php"
+                class="flex items-center gap-3 p-3 rounded-xl hover:bg-slate-50 transition">
+
+                <div class="w-10 h-10 rounded-xl bg-blue-100 flex items-center justify-center">
+
+                    <i class="fa-solid fa-users text-blue-600 text-sm"></i>
+
+                </div>
+
+                <div>
+
+                    <div class="font-medium text-sm text-[#071B45]">
+                        About Us
+                    </div>
+
+                    <div class="text-[11px] text-slate-500">
+                        Company Profile
+                    </div>
+
+                </div>
+
+            </a>
+
+            <a href="/services.php"
+                class="flex items-center gap-3 p-3 rounded-xl hover:bg-slate-50 transition">
+
+                <div class="w-10 h-10 rounded-xl bg-green-100 flex items-center justify-center">
+
+                    <i class="fa-solid fa-truck-fast text-green-600 text-sm"></i>
+
+                </div>
+
+                <div>
+
+                    <div class="font-medium text-sm text-[#071B45]">
+                        Services
+                    </div>
+
+                    <div class="text-[11px] text-slate-500">
+                        Moving Solutions
+                    </div>
+
+                </div>
+
+            </a>
+
+            <a href="/cities.php"
+                class="flex items-center gap-3 p-3 rounded-xl hover:bg-slate-50 transition">
+
+                <div class="w-10 h-10 rounded-xl bg-purple-100 flex items-center justify-center">
+
+                    <i class="fa-solid fa-location-dot text-purple-600 text-sm"></i>
+
+                </div>
+
+                <div>
+
+                    <div class="font-medium text-sm text-[#071B45]">
+                        Cities
+                    </div>
+
+                    <div class="text-[11px] text-slate-500">
+                        500+ Locations
+                    </div>
+
+                </div>
+
+            </a>
+
+            <a href="/gallery.php"
+                class="flex items-center gap-3 p-3 rounded-xl hover:bg-slate-50 transition">
+
+                <div class="w-10 h-10 rounded-xl bg-pink-100 flex items-center justify-center">
+
+                    <i class="fa-solid fa-image text-pink-600 text-sm"></i>
+
+                </div>
+
+                <div>
+
+                    <div class="font-medium text-sm text-[#071B45]">
+                        Gallery
+                    </div>
+
+                    <div class="text-[11px] text-slate-500">
+                        Our Projects
+                    </div>
+
+                </div>
+
+            </a>
+
+            <a href="/contact.php"
+                class="flex items-center gap-3 p-3 rounded-xl hover:bg-slate-50 transition">
+
+                <div class="w-10 h-10 rounded-xl bg-red-100 flex items-center justify-center">
+
+                    <i class="fa-solid fa-headset text-red-600 text-sm"></i>
+
+                </div>
+
+                <div>
+
+                    <div class="font-medium text-sm text-[#071B45]">
+                        Contact
+                    </div>
+
+                    <div class="text-[11px] text-slate-500">
+                        24×7 Support
+                    </div>
+
+                </div>
+
+            </a>
+
+        </div>
+
+        <!-- Bottom CTA -->
+
+        <div class="p-3 border-t border-slate-100">
+
+            <a
+                href="#quote"
+                class="flex items-center justify-center gap-2 h-11 bg-orange-500 hover:bg-orange-600 text-white rounded-xl text-sm font-medium transition">
+
+                <i class="fa-solid fa-paper-plane text-xs"></i>
+
+                Get Free Quote
+
+            </a>
+
+        </div>
+
+
+</nav>
+<!--------body content ------->
+<section class="relative overflow-hidden min-h-screen">
+
+    <!-- Background -->
+
+    <div class="absolute inset-0">
+
+        <div class="absolute -top-48 -left-32 w-[520px] h-[520px] rounded-full bg-orange-200 blur-[120px] opacity-40"></div>
+
+        <div class="absolute top-0 right-[-150px] w-[520px] h-[520px] rounded-full bg-blue-200 blur-[120px] opacity-50"></div>
+
+        <div class="absolute bottom-[-180px] left-1/3 w-[420px] h-[420px] rounded-full bg-orange-100 blur-[120px] opacity-50"></div>
+
+    </div>
+
+    <div class="relative z-20 max-w-7xl mx-auto px-5 lg:px-8">
+
+        <!-- HERO GRID -->
+
+        <div class="grid lg:grid-cols-2 gap-12 items-center min-h-screen py-10">
+
+            <!-- ========================= -->
+            <!-- LEFT CONTENT -->
+            <!-- ========================= -->
+
+            <div>
+
+                <!-- Badge -->
+
+                <div
+                    class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/80 backdrop-blur-xl border border-orange-100 shadow">
+
+                    <span class="w-2 h-2 rounded-full bg-green-500 animate-pulse"></span>
+
+                    <span class="text-[11px] font-semibold text-[#071B45]">
+
+                        India's Trusted Choice for Premium Relocation Services
+
+                    </span>
+
+                </div>
+
+                <!-- Heading -->
+
+                
+                
+                <h1 class="mt-5 font-black leading-tight">
+
+                    <span class="block text-1xl lg:text-2xl text-[#071B45]">
+
+                        Get Your
+
+                    </span>
+
+                    <span class="block mt-2 text-2xl lg:text-3xl bg-gradient-to-r from-orange-500 to-red-500 bg-clip-text text-transparent">
+
+                        Instant Quote
+
+                    </span>
+
+                    <span class="block mt-2 text-2xl lg:text-2xl text-[#071B45]">
+
+                        In 30 Seconds
+
+                    </span>
+
+                </h1>
+
+                <!-- Description -->
+
+                <p class="mt-5 max-w-lg text-sm leading-7 text-slate-600 text-[12px]">
+
+                    Premium Packing & Moving Solutions Designed for Modern Families & Businesses
+Experience professional packing, secure transit & reliable delivery.
+
+                </p>
+
+                <!-- Buttons -->
+
+                <div class="flex flex-wrap gap-3 mt-7">
+
+                    <a href="#quote"
+
+                        class="h-11 px-6 rounded-xl bg-orange-500 hover:bg-orange-600 text-white text-sm font-semibold flex items-center gap-2 shadow-lg">
+
+                        <i class="fa-solid fa-paper-plane"></i>
+
+                        Get Free Quote
+
+                    </a>
+
+                    <a href="tel:+919999999999"
+
+                        class="h-11 px-6 rounded-xl bg-white border border-slate-200 hover:border-orange-300 text-sm font-semibold flex items-center gap-2">
+
+                        <i class="fa-solid fa-phone text-orange-500"></i>
+
+                        Call Now
+
+                    </a>
+
+                </div>
+
+                <!-- Features -->
+
+                <div class="grid grid-cols-2 gap-3 mt-10">
+
+                    <div class="bg-white/80 backdrop-blur-xl rounded-2xl p-4 shadow">
+
+                        <div class="flex items-center gap-3">
+
+                            <div class="w-10 h-10 rounded-xl bg-green-100 flex items-center justify-center">
+
+                               <i class="fa-solid fa-shield-halved text-green-500 text-1xl"></i>
+
+
+                            </div>
+
+                            <div>
+
+                                <h4 class="text-sm font-bold">
+
+                                    Safe Moving
+
+                                </h4>
+
+                                <p class="text-[11px] text-slate-500">
+
+                                    Damage Protection
+
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="bg-white/80 backdrop-blur-xl rounded-2xl p-4 shadow">
+
+                        <div class="flex items-center gap-3">
+
+                            <div class="w-10 h-10 rounded-xl bg-blue-100 flex items-center justify-center">
+
+                                <i class="fa-solid fa-bolt text-blue-600"></i>
+
+                            </div>
+
+                            <div>
+
+                                <h4 class="text-sm font-bold">
+
+                                    Instant Quote
+
+                                </h4>
+
+                                <p class="text-[11px] text-slate-500">
+
+                                    Within 30 Seconds
+
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Stats -->
+
+                <div class="grid grid-cols-3 gap-3 mt-8">
+
+                    <div class="bg-white rounded-2xl shadow p-4 text-center">
+
+                        <h3 class="text-1xl font-black text-orange-500">
+
+                            10K+
+
+                        </h3>
+
+                        <p class="text-[11px] text-slate-500">
+
+                            Customers
+
+                        </p>
+
+                    </div>
+
+                    <div class="bg-white rounded-2xl shadow p-4 text-center">
+
+                        <h3 class="text-1xl font-black text-orange-500">
+
+                            500+
+
+                        </h3>
+
+                        <p class="text-[11px] text-slate-500">
+
+                            Cities
+
+                        </p>
+
+                    </div>
+
+                    <div class="bg-white rounded-2xl shadow p-4 text-center">
+
+                        <h3 class="text-1xl font-black text-orange-500">
+
+                            4.9★
+
+                        </h3>
+
+                        <p class="text-[11px] text-slate-500">
+
+                            Rating
+
+                        </p>
+
+                    </div>
+
+                </div>
+<div class="flex flex-wrap justify-center gap-2 mt-5 mb-10">
+
+    <span class="px-4 py-2 bg-white rounded-xl shadow text-[11px] font-semibold">
+        ✅ ISO Certified
+    </span>
+
+    <span class="px-4 py-2 bg-white rounded-xl shadow text-[11px] font-semibold">
+        🏛 GST Registered
+    </span>
+
+    <span class="px-4 py-2 bg-white rounded-xl shadow text-[11px] font-semibold">
+        🛡 IBA Approved
+    </span>
+
+    <span class="px-4 py-2 bg-white rounded-xl shadow text-[11px] font-semibold">
+        🚚 PAN India Service
+    </span>
+
+</div>
+            </div>
+
+            <!-- RIGHT FORM -->
+
+            <div id="quote">
+
+               <div class="relative max-w-[420px] mx-auto">
+
+    <!-- Glow -->
+
+    <div class="absolute -inset-2 bg-orange-300 blur-3xl opacity-20 rounded-[35px]"></div>
+
+    <!-- Card -->
+
+    <div class="relative bg-white/80 backdrop-blur-2xl rounded-[30px] border border-white shadow-[0_20px_60px_rgba(0,0,0,.12)] overflow-hidden">
+
+        <!-- Header -->
+
+        <div class="bg-gradient-to-r from-[#071B45] to-[#0B2C6B] p-5">
+
+            <div class="flex items-center gap-3">
+
+                <div class="w-12 h-12 rounded-2xl bg-orange-500 flex items-center justify-center shadow-lg">
+
+                    <i class="fa-solid fa-truck-fast text-white text-lg"></i>
+
+                </div>
+
+                <div>
+
+                    <h3 class="text-white font-bold text-lg">
+
+                        Get Instant Quote
+
+                    </h3>
+
+                    <p class="text-blue-100 text-[11px]">
+
+                        Fill details in 30 seconds
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- FORM -->
+
+        <form class="p-5 space-y-3">
+
+            <!-- Name -->
+
+            <div class="relative">
+
+                <i class="fa-solid fa-user absolute left-4 top-1/2 -translate-y-1/2 text-orange-500 text-sm"></i>
+
+                <input type="text"
+                    placeholder="Full Name"
+                    class="w-full h-11 pl-11 pr-4 rounded-xl bg-slate-50 border border-slate-200 text-sm outline-none focus:border-orange-500 focus:ring-4 focus:ring-orange-100">
+
+            </div>
+
+            <!-- Mobile -->
+
+            <div class="relative">
+
+                <i class="fa-solid fa-phone absolute left-4 top-1/2 -translate-y-1/2 text-orange-500 text-sm"></i>
+
+                <input type="tel"
+                    placeholder="Mobile Number"
+                    class="w-full h-11 pl-11 pr-4 rounded-xl bg-slate-50 border border-slate-200 text-sm outline-none focus:border-orange-500 focus:ring-4 focus:ring-orange-100">
+
+            </div>
+
+            <!-- From -->
+
+            <div class="relative">
+
+                <i class="fa-solid fa-location-dot absolute left-4 top-1/2 -translate-y-1/2 text-green-500 text-sm"></i>
+
+                <input type="text"
+                    placeholder="Moving From"
+                    class="w-full h-11 pl-11 pr-4 rounded-xl bg-slate-50 border border-slate-200 text-sm outline-none focus:border-orange-500 focus:ring-4 focus:ring-orange-100">
+
+            </div>
+
+            <!-- To -->
+
+            <div class="relative">
+
+                <i class="fa-solid fa-location-arrow absolute left-4 top-1/2 -translate-y-1/2 text-red-500 text-sm"></i>
+
+                <input type="text"
+                    placeholder="Moving To"
+                    class="w-full h-11 pl-11 pr-4 rounded-xl bg-slate-50 border border-slate-200 text-sm outline-none focus:border-orange-500 focus:ring-4 focus:ring-orange-100">
+
+            </div>
+
+            <!-- Row -->
+
+            <div class="grid grid-cols-2 gap-3">
+
+                <select
+                    class="h-11 rounded-xl bg-slate-50 border border-slate-200 px-3 text-sm outline-none focus:border-orange-500">
+
+                    <option>Move Size</option>
+                    <option>1 RK</option>
+                    <option>1 BHK</option>
+                    <option>2 BHK</option>
+                    <option>3 BHK</option>
+                    <option>Villa</option>
+
+                </select>
+
+                <input
+                    type="date"
+                    class="h-11 rounded-xl bg-slate-50 border border-slate-200 px-3 text-sm outline-none focus:border-orange-500">
+
+            </div>
+
+            <!-- Service -->
+
+            <select
+                class="w-full h-11 rounded-xl bg-slate-50 border border-slate-200 px-3 text-sm outline-none focus:border-orange-500">
+
+                <option>Select Service</option>
+
+                <option>House Shifting</option>
+
+                <option>Office Relocation</option>
+
+                <option>Car Transport</option>
+
+                <option>Bike Transport</option>
+
+                <option>Warehouse</option>
+
+            </select>
+
+            <!-- Button -->
+
+            <button
+                class="w-full h-11 rounded-xl bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white text-sm font-semibold shadow-lg transition">
+
+                <i class="fa-solid fa-paper-plane mr-2"></i>
+
+                Get Free Quote
+
+            </button>
+
+            <!-- Divider -->
+
+            <div class="flex items-center gap-2 py-1">
+
+                <div class="flex-1 h-px bg-slate-200"></div>
+
+                <span class="text-[10px] text-slate-400 uppercase">
+
+                    Trusted
+
+                </span>
+
+                <div class="flex-1 h-px bg-slate-200"></div>
+
+            </div>
+
+            <!-- Trust -->
+
+            <div class="grid grid-cols-3 gap-2">
+
+                <div class="bg-slate-50 rounded-xl py-3 text-center">
+
+                    <i class="fa-solid fa-shield-halved text-green-500"></i>
+
+
+                    <p class="text-[10px] mt-1">
+
+                        Safe Move
+
+                    </p>
+
+                </div>
+
+                <div class="bg-slate-50 rounded-xl py-3 text-center">
+
+                    <i class="fa-solid fa-clock text-blue-500"></i>
+
+                    <p class="text-[10px] mt-1">
+
+                        Fast Quote
+
+                    </p>
+
+                </div>
+
+                <div class="bg-slate-50 rounded-xl py-3 text-center">
+
+                    <i class="fa-solid fa-headset text-orange-500"></i>
+
+                    <p class="text-[10px] mt-1">
+
+                        24×7 Help
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </form>
+
+    </div>
+
+</div>
+
+            </div>
+
+        </div>
+
+    </div>
+<!-- =========================
+TRUST BAR
+========================== -->
+
+<div class="mt-1 mb-5">
+
+    <div class="bg-white/80 backdrop-blur-xl rounded-3xl border border-white shadow-xl p-3">
+
+        <div class="grid grid-cols-2 lg:grid-cols-4 gap-5">
+
+            <!-- Rating -->
+
+            <div class="flex items-center gap-3">
+
+                <div class="w-12 h-12 rounded-2xl bg-orange-100 flex items-center justify-center">
+
+                    <i class="fa-solid fa-star text-orange-500"></i>
+
+                </div>
+
+                <div>
+
+                    <h3 class="font-bold text-lg text-[#071B45]">
+
+                        4.9★
+
+                    </h3>
+
+                    <p class="text-[11px] text-slate-500">
+
+                        Google Rating
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!-- Customers -->
+
+            <div class="flex items-center gap-3">
+
+                <div class="w-12 h-12 rounded-2xl bg-blue-100 flex items-center justify-center">
+
+                    <i class="fa-solid fa-users text-blue-600"></i>
+
+                </div>
+
+                <div>
+
+                    <h3 class="font-bold text-lg text-[#071B45]">
+
+                        10K+
+
+                    </h3>
+
+                    <p class="text-[11px] text-slate-500">
+
+                        Happy Customers
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!-- Cities -->
+
+            <div class="flex items-center gap-3">
+
+                <div class="w-12 h-12 rounded-2xl bg-green-100 flex items-center justify-center">
+
+                    <i class="fa-solid fa-truck-fast text-green-600"></i>
+
+                </div>
+
+                <div>
+
+                    <h3 class="font-bold text-lg text-[#071B45]">
+
+                        500+
+
+                    </h3>
+
+                    <p class="text-[11px] text-slate-500">
+
+                        Cities Covered
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!-- Support -->
+
+            <div class="flex items-center gap-3">
+
+                <div class="w-12 h-12 rounded-2xl bg-purple-100 flex items-center justify-center">
+
+                    <i class="fa-solid fa-headset text-purple-600"></i>
+
+                </div>
+
+                <div>
+
+                    <h3 class="font-bold text-lg text-[#071B45]">
+
+                        24×7
+
+                    </h3>
+
+                    <p class="text-[11px] text-slate-500">
+
+                        Live Support
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- Certification -->
+
+
+
+</div> <!-- Container End -->
+
+</section>
+<!----why choose----->
+<section class="py-10 bg-[#F8FAFC]">
+
+    <div class="container-custom">
+
+        <!-- Header -->
+
+        <div class="text-center mb-8">
+
+            <span
+                class="inline-flex px-3 py-1 rounded-full bg-orange-100 text-orange-600 text-[10px] font-semibold uppercase tracking-wider">
+
+                Why Choose Us
+
+            </span>
+
+            <h2
+                class="mt-3 text-2xl font-bold text-[#071B45]">
+
+                Why Customers Trust
+                <span class="text-orange-500">
+                    Sainik Packers
+                </span>
+
+            </h2>
+
+            <p
+                class="mt-2 text-xs text-slate-500">
+
+                Trusted relocation partner across India.
+
+            </p>
+
+        </div>
+
+        <!-- Compact Grid -->
+
+        <div
+            class="grid grid-cols-2 lg:grid-cols-3 gap-3">
+
+            <!-- Card 1 -->
+
+            <div
+                class="bg-white rounded-2xl border border-slate-200 p-4 hover:border-orange-200 hover:shadow-lg transition">
+
+                <div
+                    class="w-10 h-10 rounded-xl bg-orange-100 text-orange-500 flex items-center justify-center">
+
+                    <i class="fa-solid fa-box-open text-sm"></i>
+
+                </div>
+
+                <h3
+                    class="mt-3 text-sm font-semibold text-[#071B45]">
+
+                    Safe Packing
+
+                </h3>
+
+                <p
+                    class="mt-1 text-[11px] text-slate-500 leading-5">
+
+                    Premium materials for maximum protection.
+
+                </p>
+
+            </div>
+
+            <!-- Card 2 -->
+
+            <div
+                class="bg-white rounded-2xl border border-slate-200 p-4 hover:border-orange-200 hover:shadow-lg transition">
+
+                <div
+                    class="w-10 h-10 rounded-xl bg-[#071B45]/10 text-[#071B45] flex items-center justify-center">
+
+                    <i class="fa-solid fa-truck-fast text-sm"></i>
+
+                </div>
+
+                <h3
+                    class="mt-3 text-sm font-semibold text-[#071B45]">
+
+                    Fast Delivery
+
+                </h3>
+
+                <p
+                    class="mt-1 text-[11px] text-slate-500 leading-5">
+
+                    Timely transportation across India.
+
+                </p>
+
+            </div>
+
+            <!-- Card 3 -->
+
+            <div
+                class="bg-white rounded-2xl border border-slate-200 p-4 hover:border-orange-200 hover:shadow-lg transition">
+
+                <div
+                    class="w-10 h-10 rounded-xl bg-orange-100 text-orange-500 flex items-center justify-center">
+
+                    <i class="fa-solid fa-shield-halved text-sm"></i>
+
+                </div>
+
+                <h3
+                    class="mt-3 text-sm font-semibold text-[#071B45]">
+
+                    Insurance
+
+                </h3>
+
+                <p
+                    class="mt-1 text-[11px] text-slate-500 leading-5">
+
+                    Transit damage protection available.
+
+                </p>
+
+            </div>
+
+            <!-- Card 4 -->
+
+            <div
+                class="bg-white rounded-2xl border border-slate-200 p-4 hover:border-orange-200 hover:shadow-lg transition">
+
+                <div
+                    class="w-10 h-10 rounded-xl bg-[#071B45]/10 text-[#071B45] flex items-center justify-center">
+
+                    <i class="fa-solid fa-user-check text-sm"></i>
+
+                </div>
+
+                <h3
+                    class="mt-3 text-sm font-semibold text-[#071B45]">
+
+                    Verified Team
+
+                </h3>
+
+                <p
+                    class="mt-1 text-[11px] text-slate-500 leading-5">
+
+                    Skilled & background verified staff.
+
+                </p>
+
+            </div>
+
+            <!-- Card 5 -->
+
+            <div
+                class="bg-white rounded-2xl border border-slate-200 p-4 hover:border-orange-200 hover:shadow-lg transition">
+
+                <div
+                    class="w-10 h-10 rounded-xl bg-orange-100 text-orange-500 flex items-center justify-center">
+
+                    <i class="fa-solid fa-location-dot text-sm"></i>
+
+                </div>
+
+                <h3
+                    class="mt-3 text-sm font-semibold text-[#071B45]">
+
+                    PAN India
+
+                </h3>
+
+                <p
+                    class="mt-1 text-[11px] text-slate-500 leading-5">
+
+                    Available in 500+ cities.
+
+                </p>
+
+            </div>
+
+            <!-- Featured Card -->
+
+            <div
+                class="bg-[#071B45] rounded-2xl p-4 text-white relative overflow-hidden">
+
+                <div
+                    class="absolute -right-8 -top-8 w-24 h-24 rounded-full bg-orange-500/20 blur-2xl">
+                </div>
+
+                <div class="relative">
+
+                    <div
+                        class="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center">
+
+                        <i class="fa-solid fa-headset text-orange-400 text-sm"></i>
+
+                    </div>
+
+                    <h3
+                        class="mt-3 text-sm font-semibold">
+
+                        24×7 Support
+
+                    </h3>
+
+                    <p
+                        class="mt-1 text-[11px] text-slate-300 leading-5">
+
+                        Dedicated assistance throughout your move.
+
+                    </p>
+
+                    <div
+                        class="mt-3 text-[10px] font-semibold text-orange-400">
+
+                        Always Available →
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Bottom Trust Bar -->
+
+        <div
+            class="mt-5 flex flex-wrap justify-center gap-2">
+
+            <span class="px-3 py-1 rounded-full bg-white border text-[10px] text-slate-600">
+                10,000+ Moves
+            </span>
+
+            <span class="px-3 py-1 rounded-full bg-white border text-[10px] text-slate-600">
+                GPS Tracking
+            </span>
+
+            <span class="px-3 py-1 rounded-full bg-white border text-[10px] text-slate-600">
+                Door Pickup
+            </span>
+
+            <span class="px-3 py-1 rounded-full bg-white border text-[10px] text-slate-600">
+                Damage Protection
+            </span>
+
+            <span class="px-3 py-1 rounded-full bg-white border text-[10px] text-slate-600">
+                Trusted Network
+            </span>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!----Services--->
+<section class="py-10 lg:py-14 bg-[#071B45] overflow-hidden">
+    <div class="absolute top-0 left-0 w-72 h-72 bg-orange-500/10 blur-[120px] rounded-full"></div>
+<div class="absolute bottom-0 right-0 w-72 h-72 bg-blue-500/10 blur-[120px] rounded-full"></div> 
+    <div class="container-custom">
+
+        <!-- Compact Header -->
+        <div class="text-center mb-8">
+
+            <span
+                class="inline-flex px-3 py-1 rounded-full bg-orange-100 text-orange-600 text-[11px] font-semibold">
+                Premium Services
+            </span>
+
+            <h2 class="mt-5 text-2xl font-bold text-white leading-tight">
+                Smart Moving &
+                <span class="text-orange-500">Relocation Solutions</span>
+            </h2>
+
+            <p
+                class="mt-2 text-xs lg:text-sm text-slate-400 max-w-xl mx-auto">
+                Complete packing and moving services for homes, offices and
+                vehicles.
+            </p>
+
+        </div>
+
+        <!-- Services Grid -->
+        <div
+            class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
+
+            <!-- Card -->
+            <a href="#"
+                class="group bg-white rounded-2xl p-4 border border-slate-200 hover:border-orange-300 hover:shadow-lg transition-all duration-300">
+
+                <div
+                    class="w-10 h-10 rounded-xl bg-orange-50 text-orange-500 flex items-center justify-center text-lg">
+                    <i class="fa-solid fa-house"></i>
+                </div>
+
+                <h3
+                    class="mt-3 text-[13px] font-semibold text-slate-900">
+                    Home Shifting
+                </h3>
+
+                <p
+                    class="mt-1 text-[11px] text-slate-500 leading-relaxed">
+                    Safe household relocation.
+                </p>
+
+            </a>
+
+            <!-- Card -->
+            <a href="#"
+                class="group bg-white rounded-2xl p-4 border border-slate-200 hover:border-blue-300 hover:shadow-lg transition">
+
+                <div
+                    class="w-10 h-10 rounded-xl bg-blue-50 text-blue-500 flex items-center justify-center text-lg">
+                    <i class="fa-solid fa-building"></i>
+                </div>
+
+                <h3
+                    class="mt-3 text-[13px] font-semibold text-slate-900">
+                    Office Move
+                </h3>
+
+                <p
+                    class="mt-1 text-[11px] text-slate-500">
+                    Fast business relocation.
+                </p>
+
+            </a>
+
+            <!-- Card -->
+            <a href="#"
+                class="group bg-white rounded-2xl p-4 border border-slate-200 hover:border-green-300 hover:shadow-lg transition">
+
+                <div
+                    class="w-10 h-10 rounded-xl bg-green-50 text-green-500 flex items-center justify-center text-lg">
+                    <i class="fa-solid fa-car"></i>
+                </div>
+
+                <h3
+                    class="mt-3 text-[13px] font-semibold text-slate-900">
+                    Car Transport
+                </h3>
+
+                <p
+                    class="mt-1 text-[11px] text-slate-500">
+                    Door-to-door delivery.
+                </p>
+
+            </a>
+
+            <!-- Card -->
+            <a href="#"
+                class="group bg-white rounded-2xl p-4 border border-slate-200 hover:border-purple-300 hover:shadow-lg transition">
+
+                <div
+                    class="w-10 h-10 rounded-xl bg-purple-50 text-purple-500 flex items-center justify-center text-lg">
+                    <i class="fa-solid fa-motorcycle"></i>
+                </div>
+
+                <h3
+                    class="mt-3 text-[13px] font-semibold text-slate-900">
+                    Bike Transport
+                </h3>
+
+                <p
+                    class="mt-1 text-[11px] text-slate-500">
+                    Secure bike shipping.
+                </p>
+
+            </a>
+
+            <!-- Card -->
+            <a href="#"
+                class="group bg-white rounded-2xl p-4 border border-slate-200 hover:border-red-300 hover:shadow-lg transition">
+
+                <div
+                    class="w-10 h-10 rounded-xl bg-red-50 text-red-500 flex items-center justify-center text-lg">
+                    <i class="fa-solid fa-location-dot"></i>
+                </div>
+
+                <h3
+                    class="mt-3 text-[13px] font-semibold text-slate-900">
+                    Local Shifting
+                </h3>
+
+                <p
+                    class="mt-1 text-[11px] text-slate-500">
+                    Bangalore local moves.
+                </p>
+
+            </a>
+
+            <!-- Card -->
+            <a href="#"
+                class="group bg-white rounded-2xl p-4 border border-slate-200 hover:border-cyan-300 hover:shadow-lg transition">
+
+                <div
+                    class="w-10 h-10 rounded-xl bg-cyan-50 text-cyan-500 flex items-center justify-center text-lg">
+                    <i class="fa-solid fa-road"></i>
+                </div>
+
+                <h3
+                    class="mt-3 text-[13px] font-semibold text-slate-900">
+                    Intercity Move
+                </h3>
+
+                <p
+                    class="mt-1 text-[11px] text-slate-500">
+                    Across India shifting.
+                </p>
+
+            </a>
+
+            <!-- Card -->
+            <a href="#"
+                class="group bg-white rounded-2xl p-4 border border-slate-200 hover:border-amber-300 hover:shadow-lg transition">
+
+                <div
+                    class="w-10 h-10 rounded-xl bg-amber-50 text-amber-500 flex items-center justify-center text-lg">
+                    <i class="fa-solid fa-dolly"></i>
+                </div>
+
+                <h3
+                    class="mt-3 text-[13px] font-semibold text-slate-900">
+                    Loading
+                </h3>
+
+                <p
+                    class="mt-1 text-[11px] text-slate-500">
+                    Expert item handling.
+                </p>
+
+            </a>
+
+            <!-- Card -->
+            <!-- Warehousing -->
+<a href="#"
+    class="group bg-white rounded-2xl p-4 border border-slate-200 hover:border-orange-300 hover:shadow-lg transition-all duration-300">
+
+    <div
+        class="w-10 h-10 rounded-xl bg-orange-50 text-orange-500 flex items-center justify-center text-lg">
+        <i class="fa-solid fa-warehouse"></i>
+    </div>
+
+    <h3
+        class="mt-3 text-[13px] font-semibold text-slate-900">
+        Warehousing
+    </h3>
+
+    <p
+        class="mt-1 text-[11px] text-slate-500 leading-relaxed">
+        Secure short & long-term storage.
+    </p>
+
+</a>
+
+
+
+
+        </div>
+
+    </div>
+</section>
+
+<!-----review---->
+<section class="py-12 lg:py-16 bg-slate-50 overflow-hidden">
+
+    <div class="container-custom">
+
+        <!-- Header -->
+        <div class="text-center max-w-2xl mx-auto">
+
+            <span
+                class="inline-flex px-3 py-1 rounded-full bg-orange-100 text-orange-600 text-[11px] font-semibold">
+                CUSTOMER REVIEWS
+            </span>
+
+            <h2
+                class="mt-3 text-2xl lg:text-2xl font-bold text-slate-900">
+                Trusted By
+                <span class="text-orange-500">
+                    Thousands
+                </span>
+            </h2>
+
+            <p
+                class="mt-2 text-xs lg:text-sm text-slate-500">
+                Real experiences from customers who moved with Sainik Packers & Movers.
+            </p>
+
+        </div>
+
+        <!-- Trust Stats -->
+        <div
+            class="grid grid-cols-2 lg:grid-cols-4 gap-3 mt-8">
+
+            <div
+                class="bg-white rounded-2xl border border-slate-200 p-4 text-center">
+
+                <div class="text-yellow-400 text-lg">
+                    ★★★★★
+                </div>
+
+                <h3
+                    class="text-2xl font-bold text-slate-900 mt-1">
+                    4.9
+                </h3>
+
+                <p
+                    class="text-[11px] text-slate-500">
+                    Google Rating
+                </p>
+
+            </div>
+
+            <div
+                class="bg-white rounded-2xl border border-slate-200 p-4 text-center">
+
+                <h3
+                    class="text-2xl font-bold text-orange-500">
+                    1200+
+                </h3>
+
+                <p
+                    class="text-[11px] text-slate-500">
+                    Reviews
+                </p>
+
+            </div>
+
+            <div
+                class="bg-white rounded-2xl border border-slate-200 p-4 text-center">
+
+                <h3
+                    class="text-2xl font-bold text-green-500">
+                    15K+
+                </h3>
+
+                <p
+                    class="text-[11px] text-slate-500">
+                    Shifting Done
+                </p>
+
+            </div>
+
+            <div
+                class="bg-white rounded-2xl border border-slate-200 p-4 text-center">
+
+                <h3
+                    class="text-2xl font-bold text-blue-500">
+                    98%
+                </h3>
+
+                <p
+                    class="text-[11px] text-slate-500">
+                    Satisfaction
+                </p>
+
+            </div>
+
+        </div>
+
+        <!-- Testimonials -->
+        <div
+            class="swiper testimonialSwiper mt-8">
+
+            <div class="swiper-wrapper">
+
+                <!-- Review -->
+                <div class="swiper-slide">
+
+                    <div
+                        class="bg-white rounded-2xl border border-slate-200 p-5 hover:shadow-lg transition">
+
+                        <div
+                            class="flex items-center gap-3">
+
+                            <img
+                                src="assets/images/testimonials/client-1.jpg"
+                                class="w-10 h-10 rounded-full object-cover"
+                                alt="">
+
+                            <div>
+
+                                <h4
+                                    class="text-sm font-semibold text-slate-900">
+                                    Rahul Sharma
+                                </h4>
+
+                                <p
+                                    class="text-[11px] text-slate-500">
+                                    Bangalore
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                        <div
+                            class="mt-3 text-yellow-400 text-sm">
+                            ★★★★★
+                        </div>
+
+                        <p
+                            class="mt-2 text-[12px] text-slate-600 leading-relaxed">
+                            Excellent service. Packing quality was amazing and delivery was on time.
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <!-- Review -->
+                <div class="swiper-slide">
+
+                    <div
+                        class="bg-white rounded-2xl border border-slate-200 p-5 hover:shadow-lg transition">
+
+                        <div
+                            class="flex items-center gap-3">
+
+                            <img
+                                src="assets/images/testimonials/client-2.jpg"
+                                class="w-10 h-10 rounded-full object-cover"
+                                alt="">
+
+                            <div>
+
+                                <h4
+                                    class="text-sm font-semibold text-slate-900">
+                                    Priya Verma
+                                </h4>
+
+                                <p
+                                    class="text-[11px] text-slate-500">
+                                    Hyderabad
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                        <div
+                            class="mt-3 text-yellow-400 text-sm">
+                            ★★★★★
+                        </div>
+
+                        <p
+                            class="mt-2 text-[12px] text-slate-600 leading-relaxed">
+                            Professional staff and smooth relocation process. Highly recommended.
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <!-- Review -->
+                <div class="swiper-slide">
+
+                    <div
+                        class="bg-white rounded-2xl border border-slate-200 p-5 hover:shadow-lg transition">
+
+                        <div
+                            class="flex items-center gap-3">
+
+                            <img
+                                src="assets/images/testimonials/client-3.jpg"
+                                class="w-10 h-10 rounded-full object-cover"
+                                alt="">
+
+                            <div>
+
+                                <h4
+                                    class="text-sm font-semibold text-slate-900">
+                                    Amit Kumar
+                                </h4>
+
+                                <p
+                                    class="text-[11px] text-slate-500">
+                                    Pune
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                        <div
+                            class="mt-3 text-yellow-400 text-sm">
+                            ★★★★★
+                        </div>
+
+                        <p
+                            class="mt-2 text-[12px] text-slate-600 leading-relaxed">
+                            Safe transportation and no damage to fragile items.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+ <!-- Popular Cities -->
+<section class="relative py-10 bg-[#071B45] overflow-hidden">
+
+
+<!-- Glow Effects -->
+<div class="absolute top-0 left-0 w-72 h-72 bg-orange-500/10 blur-[120px] rounded-full"></div>
+<div class="absolute bottom-0 right-0 w-72 h-72 bg-blue-500/10 blur-[120px] rounded-full"></div>
+
+<div class="container-custom relative z-10">
+
+    <!-- Header -->
+    <div class="text-center max-w-xl mx-auto">
+
+        <span
+            class="inline-flex px-3 py-1 rounded-full bg-white/10 text-orange-400 text-[10px] font-semibold">
+            PAN INDIA NETWORK
+        </span>
+
+        <h2
+            class="mt-3 text-2xl lg:text-2xl font-bold text-white">
+            Serving
+            <span class="text-orange-500">
+                500+ Cities
+            </span>
+        </h2>
+
+        <p
+            class="mt-2 text-xs lg:text-sm text-slate-400">
+            Fast, safe and reliable relocation services across India.
+        </p>
+
+    </div>
+
+    <!-- Compact Stats -->
+    <div
+        class="grid grid-cols-3 gap-3 mt-8">
+
+        <div
+            class="bg-white/10 backdrop-blur rounded-2xl border border-white/10 p-4 text-center">
+
+            <h3
+                class="text-xl lg:text-2xl font-bold text-orange-400">
+                500+
+            </h3>
+
+            <p
+                class="text-[10px] lg:text-xs text-slate-300">
+                Cities
+            </p>
+
+        </div>
+
+        <div
+            class="bg-white/10 backdrop-blur rounded-2xl border border-white/10 p-4 text-center">
+
+            <h3
+                class="text-xl lg:text-2xl font-bold text-orange-400">
+                28
+            </h3>
+
+            <p
+                class="text-[10px] lg:text-xs text-slate-300">
+                States
+            </p>
+
+        </div>
+
+        <div
+            class="bg-white/10 backdrop-blur rounded-2xl border border-white/10 p-4 text-center">
+
+            <h3
+                class="text-xl lg:text-2xl font-bold text-orange-400">
+                10K+
+            </h3>
+
+            <p
+                class="text-[10px] lg:text-xs text-slate-300">
+                Moves
+            </p>
+
+        </div>
+
+    </div>
+
+    <!-- Popular Cities -->
+   <div class="mt-8">
+
+
+<div class="flex flex-wrap justify-center gap-2">
+
+    <a href="/packers-and-movers-bangalore"
+        class="group flex items-center gap-2 px-3 py-2 bg-white/10 hover:bg-orange-500 border border-white/10 rounded-xl text-[11px] text-white transition-all duration-300">
+        <i class="fa-solid fa-location-dot text-[10px]"></i>
+        Bangalore
+    </a>
+
+    <a href="/packers-and-movers-hyderabad"
+        class="group flex items-center gap-2 px-3 py-2 bg-white/10 hover:bg-orange-500 border border-white/10 rounded-xl text-[11px] text-white transition-all duration-300">
+        <i class="fa-solid fa-location-dot text-[10px]"></i>
+        Hyderabad
+    </a>
+
+    <a href="/packers-and-movers-chennai"
+        class="group flex items-center gap-2 px-3 py-2 bg-white/10 hover:bg-orange-500 border border-white/10 rounded-xl text-[11px] text-white transition-all duration-300">
+        <i class="fa-solid fa-location-dot text-[10px]"></i>
+        Chennai
+    </a>
+
+    <a href="/packers-and-movers-mumbai"
+        class="group flex items-center gap-2 px-3 py-2 bg-white/10 hover:bg-orange-500 border border-white/10 rounded-xl text-[11px] text-white transition-all duration-300">
+        <i class="fa-solid fa-location-dot text-[10px]"></i>
+        Mumbai
+    </a>
+
+    <a href="/packers-and-movers-delhi"
+        class="group flex items-center gap-2 px-3 py-2 bg-white/10 hover:bg-orange-500 border border-white/10 rounded-xl text-[11px] text-white transition-all duration-300">
+        <i class="fa-solid fa-location-dot text-[10px]"></i>
+        Delhi
+    </a>
+
+    <a href="/packers-and-movers-pune"
+        class="group flex items-center gap-2 px-3 py-2 bg-white/10 hover:bg-orange-500 border border-white/10 rounded-xl text-[11px] text-white transition-all duration-300">
+        <i class="fa-solid fa-location-dot text-[10px]"></i>
+        Pune
+    </a>
+
+    <a href="/packers-and-movers-kolkata"
+        class="group flex items-center gap-2 px-3 py-2 bg-white/10 hover:bg-orange-500 border border-white/10 rounded-xl text-[11px] text-white transition-all duration-300">
+        <i class="fa-solid fa-location-dot text-[10px]"></i>
+        Kolkata
+    </a>
+
+    <a href="/packers-and-movers-ahmedabad"
+        class="group flex items-center gap-2 px-3 py-2 bg-white/10 hover:bg-orange-500 border border-white/10 rounded-xl text-[11px] text-white transition-all duration-300">
+        <i class="fa-solid fa-location-dot text-[10px]"></i>
+        Ahmedabad
+    </a>
+
+    <a href="/packers-and-movers-noida"
+        class="group flex items-center gap-2 px-3 py-2 bg-white/10 hover:bg-orange-500 border border-white/10 rounded-xl text-[11px] text-white transition-all duration-300">
+        <i class="fa-solid fa-location-dot text-[10px]"></i>
+        Noida
+    </a>
+
+    <a href="/packers-and-movers-gurgaon"
+        class="group flex items-center gap-2 px-3 py-2 bg-white/10 hover:bg-orange-500 border border-white/10 rounded-xl text-[11px] text-white transition-all duration-300">
+        <i class="fa-solid fa-location-dot text-[10px]"></i>
+        Gurgaon
+    </a>
+
+    <a href="/packers-and-movers-jaipur"
+        class="group flex items-center gap-2 px-3 py-2 bg-white/10 hover:bg-orange-500 border border-white/10 rounded-xl text-[11px] text-white transition-all duration-300">
+        <i class="fa-solid fa-location-dot text-[10px]"></i>
+        Jaipur
+    </a>
+
+    <a href="/packers-and-movers-lucknow"
+        class="group flex items-center gap-2 px-3 py-2 bg-white/10 hover:bg-orange-500 border border-white/10 rounded-xl text-[11px] text-white transition-all duration-300">
+        <i class="fa-solid fa-location-dot text-[10px]"></i>
+        Lucknow
+    </a>
+
+    <a href="/packers-and-movers-chandigarh"
+        class="group flex items-center gap-2 px-3 py-2 bg-white/10 hover:bg-orange-500 border border-white/10 rounded-xl text-[11px] text-white transition-all duration-300">
+        <i class="fa-solid fa-location-dot text-[10px]"></i>
+        Chandigarh
+    </a>
+
+    <a href="/packers-and-movers-kochi"
+        class="group flex items-center gap-2 px-3 py-2 bg-white/10 hover:bg-orange-500 border border-white/10 rounded-xl text-[11px] text-white transition-all duration-300">
+        <i class="fa-solid fa-location-dot text-[10px]"></i>
+        Kochi
+    </a>
+
+    <a href="/packers-and-movers-coimbatore"
+        class="group flex items-center gap-2 px-3 py-2 bg-white/10 hover:bg-orange-500 border border-white/10 rounded-xl text-[11px] text-white transition-all duration-300">
+        <i class="fa-solid fa-location-dot text-[10px]"></i>
+        Coimbatore
+    </a>
+
+    <a href="/packers-and-movers-visakhapatnam"
+        class="group flex items-center gap-2 px-3 py-2 bg-white/10 hover:bg-orange-500 border border-white/10 rounded-xl text-[11px] text-white transition-all duration-300">
+        <i class="fa-solid fa-location-dot text-[10px]"></i>
+        Visakhapatnam
+    </a>
+
+    <a href="/packers-and-movers-indore"
+        class="group flex items-center gap-2 px-3 py-2 bg-white/10 hover:bg-orange-500 border border-white/10 rounded-xl text-[11px] text-white transition-all duration-300">
+        <i class="fa-solid fa-location-dot text-[10px]"></i>
+        Indore
+    </a>
+
+    <a href="/packers-and-movers-bhopal"
+        class="group flex items-center gap-2 px-3 py-2 bg-white/10 hover:bg-orange-500 border border-white/10 rounded-xl text-[11px] text-white transition-all duration-300">
+        <i class="fa-solid fa-location-dot text-[10px]"></i>
+        Bhopal
+    </a>
+
+    <a href="/packers-and-movers-nagpur"
+        class="group flex items-center gap-2 px-3 py-2 bg-white/10 hover:bg-orange-500 border border-white/10 rounded-xl text-[11px] text-white transition-all duration-300">
+        <i class="fa-solid fa-location-dot text-[10px]"></i>
+       Nagpur
+    </a>
+
+    <a href="/packers-and-movers-surat"
+        class="group flex items-center gap-2 px-3 py-2 bg-white/10 hover:bg-orange-500 border border-white/10 rounded-xl text-[11px] text-white transition-all duration-300">
+        <i class="fa-solid fa-location-dot text-[10px]"></i>
+      Surat
+    </a>
+
+</div>
+
+
+</div>
+
+
+   
+
+
+</div>
+
+
+</section>
+
+
+ <!-- ROUTES + FAQ -->
+<section class="py-10 bg-[#F7F8FB]">
+
+    <div class="container-custom">
+
+        <!-- HEADER -->
+
+        <div class="text-center mb-6">
+
+            <span
+                class="inline-flex px-3 py-1 rounded-full bg-orange-100 text-orange-600 text-[10px] font-semibold uppercase tracking-wider">
+
+                PAN India Network
+
+            </span>
+
+            <h2
+                class="mt-3 text-2xl font-bold text-[#071B45]">
+
+                Popular Routes &
+                <span class="text-orange-500">
+                    Quick Answers
+                </span>
+
+            </h2>
+
+        </div>
+
+       
+
+        <div
+            class="grid lg:grid-cols-2 gap-4">
+
+            <!-- ROUTES CARD -->
+
+            <div
+                class="bg-white rounded-3xl border border-slate-200 p-4">
+
+                <div
+                    class="flex items-center justify-between mb-4">
+
+                    <h3
+                        class="text-sm font-bold text-[#071B45]">
+
+                        Popular Moving Routes
+
+                    </h3>
+
+                    <a href="/routes.php"
+                        class="text-[11px] font-medium text-orange-500">
+                        View All
+                    </a>
+
+                </div>
+
+                <div
+                    class="grid grid-cols-2 gap-2">
+
+                    <a href="/bangalore-to-delhi-packers-movers"
+                        class="bg-slate-50 hover:bg-orange-50 rounded-xl p-3 transition">
+
+                        <div
+                            class="text-[10px] text-slate-500">
+                            Bangalore
+                        </div>
+
+                        <div
+                            class="text-xs font-semibold text-[#071B45]">
+                            → Delhi
+                        </div>
+
+                    </a>
+
+                    <a href="/mumbai-to-pune-packers-movers"
+                        class="bg-slate-50 hover:bg-orange-50 rounded-xl p-3 transition">
+
+                        <div
+                            class="text-[10px] text-slate-500">
+                            Mumbai
+                        </div>
+
+                        <div
+                            class="text-xs font-semibold text-[#071B45]">
+                            → Pune
+                        </div>
+
+                    </a>
+
+                    <a href="/hyderabad-to-vijayawada-packers-movers"
+                        class="bg-slate-50 hover:bg-orange-50 rounded-xl p-3 transition">
+
+                        <div
+                            class="text-[10px] text-slate-500">
+                            Hyderabad
+                        </div>
+
+                        <div
+                            class="text-xs font-semibold text-[#071B45]">
+                            → Vijayawada
+                        </div>
+
+                    </a>
+
+                    <a href="/chennai-to-coimbatore-packers-movers"
+                        class="bg-slate-50 hover:bg-orange-50 rounded-xl p-3 transition">
+
+                        <div
+                            class="text-[10px] text-slate-500">
+                            Chennai
+                        </div>
+
+                        <div
+                            class="text-xs font-semibold text-[#071B45]">
+                            → Coimbatore
+                        </div>
+
+                    </a>
+
+                    <a href="/bangalore-to-hyderabad-packers-movers"
+                        class="bg-slate-50 hover:bg-orange-50 rounded-xl p-3 transition">
+
+                        <div
+                            class="text-[10px] text-slate-500">
+                            Bangalore
+                        </div>
+
+                        <div
+                            class="text-xs font-semibold text-[#071B45]">
+                            → Hyderabad
+                        </div>
+
+                    </a>
+
+                    <a href="/delhi-to-gurgaon-packers-movers"
+                        class="bg-slate-50 hover:bg-orange-50 rounded-xl p-3 transition">
+
+                        <div
+                            class="text-[10px] text-slate-500">
+                            Delhi
+                        </div>
+
+                        <div
+                            class="text-xs font-semibold text-[#071B45]">
+                            → Gurgaon
+                        </div>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- FAQ CARD -->
+
+            <div
+                x-data="{active:null}"
+                class="bg-white rounded-3xl border border-slate-200 p-4">
+
+                <div
+                    class="flex items-center justify-between mb-4">
+
+                    <h3
+                        class="text-sm font-bold text-[#071B45]">
+
+                        Frequently Asked Questions
+
+                    </h3>
+
+                </div>
+
+                <div
+                    class="space-y-2">
+
+                    <template x-for="(item,index) in [
+
+                    'How do I get a quote?',
+
+                    'Is transit insurance available?',
+
+                    'Do you provide vehicle transport?',
+
+                    'Is packing material included?',
+
+                    'Do you provide storage service?'
+
+                    ]">
+
+                        <div
+                            class="border border-slate-200 rounded-xl overflow-hidden">
+
+                            <button
+                                @click="active===index ? active=null : active=index"
+                                class="w-full h-11 px-4 flex items-center justify-between text-left text-xs font-medium text-[#071B45]">
+
+                                <span x-text="item"></span>
+
+                                <i
+                                    class="fa-solid"
+                                    :class="active===index ? 'fa-minus':'fa-plus'">
+                                </i>
+
+                            </button>
+
+                            <div
+                                x-show="active===index"
+                                x-transition
+                                class="px-4 pb-3 text-[11px] text-slate-500 leading-5">
+
+                                Sainik Packers & Movers provides professional
+                                packing, loading, transportation and safe
+                                doorstep delivery services across India.
+
+                            </div>
+
+                        </div>
+
+                    </template>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- CTA -->
+
+        <div
+            class="mt-5 bg-gradient-to-r from-orange-500 to-orange-400 rounded-3xl p-5">
+
+            <div
+                class="flex flex-col lg:flex-row items-center justify-between gap-4">
+
+                <div>
+
+                    <h3
+                        class="text-lg lg:text-2xl font-bold text-white">
+
+                        Ready To Move Anywhere In India?
+
+                    </h3>
+
+                    <p
+                        class="text-[11px] lg:text-sm text-orange-100 mt-1">
+
+                        Get a free relocation quote in less than 30 seconds.
+
+                    </p>
+
+                </div>
+
+                <div
+                    class="flex gap-2">
+
+                    <a
+                        href="tel:9342422422"
+                        class="h-10 px-4 rounded-xl bg-[#071B45] text-white text-xs font-semibold flex items-center gap-2">
+
+                        <i class="fa-solid fa-phone"></i>
+
+                        Call Now
+
+                    </a>
+
+                    <a
+                        href="https://wa.me/919342422422"
+                        class="h-10 px-4 rounded-xl bg-white text-[#071B45] text-xs font-semibold flex items-center gap-2">
+
+                        <i class="fa-brands fa-whatsapp text-green-500"></i>
+
+                        WhatsApp
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!----timeline_----->
+<section class="py-12 bg-[#F8FAFC] overflow-hidden">
+
+    <div class="container-custom">
+
+        <!-- Header -->
+
+        <div class="text-center mb-10">
+
+            <span
+                class="inline-flex px-3 py-1 rounded-full bg-cyan-100 text-cyan-700 text-[10px] font-semibold uppercase tracking-wider">
+
+                How It Works
+
+            </span>
+
+            <h2
+                class="mt-3 text-2xl font-bold text-[#071B45]">
+
+                Your Moving Journey
+            </h2>
+
+            <p
+                class="mt-2 text-sm text-slate-500">
+
+                Fast, transparent and hassle-free relocation process.
+
+            </p>
+
+        </div>
+
+        <!-- Timeline -->
+
+        <div class="relative">
+
+            <!-- Line -->
+
+            <div
+                class="hidden lg:block absolute left-0 right-0 top-8 h-[2px] bg-gradient-to-r from-cyan-500 via-blue-500 to-indigo-500">
+            </div>
+
+            <div
+                class="flex lg:grid lg:grid-cols-6 gap-4 overflow-x-auto pb-4 scrollbar-hide">
+
+                <!-- Step 1 -->
+
+                <div
+                    class="min-w-[170px] relative">
+
+                    <div
+                        class="w-16 h-16 mx-auto rounded-2xl bg-white shadow-lg border border-cyan-100 flex items-center justify-center relative z-10">
+
+                        <i class="fa-solid fa-phone-volume text-cyan-600 text-xl"></i>
+
+                    </div>
+
+                    <div
+                        class="mt-3 bg-white rounded-2xl border border-slate-200 p-4 text-center hover:shadow-xl transition">
+
+                        <span
+                            class="text-[10px] font-bold text-cyan-600">
+
+                            STEP 01
+
+                        </span>
+
+                        <h3
+                            class="mt-1 text-sm font-bold text-[#071B45]">
+
+                            Survey
+
+                        </h3>
+
+                        <p
+                            class="mt-1 text-[11px] text-slate-500">
+
+                            Free moving assessment and quotation.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <!-- Step 2 -->
+
+                <div class="min-w-[170px] relative">
+
+                    <div
+                        class="w-16 h-16 mx-auto rounded-2xl bg-white shadow-lg border border-blue-100 flex items-center justify-center relative z-10">
+
+                        <i class="fa-solid fa-box-open text-blue-600 text-xl"></i>
+
+                    </div>
+
+                    <div
+                        class="mt-3 bg-white rounded-2xl border border-slate-200 p-4 text-center">
+
+                        <span
+                            class="text-[10px] font-bold text-blue-600">
+
+                            STEP 02
+
+                        </span>
+
+                        <h3
+                            class="mt-1 text-sm font-bold text-[#071B45]">
+
+                            Packing
+
+                        </h3>
+
+                        <p
+                            class="mt-1 text-[11px] text-slate-500">
+
+                            Premium quality packing materials.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <!-- Step 3 -->
+
+                <div class="min-w-[170px] relative">
+
+                    <div
+                        class="w-16 h-16 mx-auto rounded-2xl bg-white shadow-lg border border-indigo-100 flex items-center justify-center relative z-10">
+
+                        <i class="fa-solid fa-dolly text-indigo-600 text-xl"></i>
+
+                    </div>
+
+                    <div
+                        class="mt-3 bg-white rounded-2xl border border-slate-200 p-4 text-center">
+
+                        <span
+                            class="text-[10px] font-bold text-indigo-600">
+
+                            STEP 03
+
+                        </span>
+
+                        <h3
+                            class="mt-1 text-sm font-bold text-[#071B45]">
+
+                            Loading
+
+                        </h3>
+
+                        <p
+                            class="mt-1 text-[11px] text-slate-500">
+
+                            Secure handling of household goods.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <!-- Step 4 -->
+
+                <div class="min-w-[170px] relative">
+
+                    <div
+                        class="w-16 h-16 mx-auto rounded-2xl bg-white shadow-lg border border-emerald-100 flex items-center justify-center relative z-10">
+
+                        <i class="fa-solid fa-truck-fast text-emerald-600 text-xl"></i>
+
+                    </div>
+
+                    <div
+                        class="mt-3 bg-white rounded-2xl border border-slate-200 p-4 text-center">
+
+                        <span
+                            class="text-[10px] font-bold text-emerald-600">
+
+                            STEP 04
+
+                        </span>
+
+                        <h3
+                            class="mt-1 text-sm font-bold text-[#071B45]">
+
+                            Transit
+
+                        </h3>
+
+                        <p
+                            class="mt-1 text-[11px] text-slate-500">
+
+                            GPS tracked transportation.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <!-- Step 5 -->
+
+                <div class="min-w-[170px] relative">
+
+                    <div
+                        class="w-16 h-16 mx-auto rounded-2xl bg-white shadow-lg border border-orange-100 flex items-center justify-center relative z-10">
+
+                        <i class="fa-solid fa-truck-ramp-box text-orange-500 text-xl"></i>
+
+                    </div>
+
+                    <div
+                        class="mt-3 bg-white rounded-2xl border border-slate-200 p-4 text-center">
+
+                        <span
+                            class="text-[10px] font-bold text-orange-500">
+
+                            STEP 05
+
+                        </span>
+
+                        <h3
+                            class="mt-1 text-sm font-bold text-[#071B45]">
+
+                            Unloading
+
+                        </h3>
+
+                        <p
+                            class="mt-1 text-[11px] text-slate-500">
+
+                            Careful unloading at destination.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <!-- Step 6 -->
+
+                <div class="min-w-[170px] relative">
+
+                    <div
+                        class="w-16 h-16 mx-auto rounded-2xl bg-[#071B45] shadow-lg flex items-center justify-center relative z-10">
+
+                        <i class="fa-solid fa-house-circle-check text-white text-xl"></i>
+
+                    </div>
+
+                    <div
+                        class="mt-3 bg-[#071B45] rounded-2xl p-4 text-center text-white">
+
+                        <span
+                            class="text-[10px] font-bold text-cyan-300">
+
+                            STEP 06
+
+                        </span>
+
+                        <h3
+                            class="mt-1 text-sm font-bold">
+
+                            Delivered
+
+                        </h3>
+
+                        <p
+                            class="mt-1 text-[11px] text-slate-300">
+
+                            Safe delivery & placement support.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+    <!-- MAIN FOOTER -->
+ <footer class="bg-[#03112F] text-white relative overflow-hidden">
+
+    <!-- Glow Effect -->
+
+    <div class="absolute top-0 right-0 w-96 h-96 bg-orange-500/10 blur-[120px]"></div>
+
+    <div class="container-custom relative z-10 py-10">
+
+        <div class="grid lg:grid-cols-4 gap-6">
+
+            <!-- COMPANY -->
+
+            <div>
+
+                <img
+                    src="assets/images/logo-white.png"
+                    alt="Sainik Packers Movers"
+                    class="h-11">
+
+                <p
+                    class="mt-4 text-[12px] leading-6 text-slate-400">
+
+                    Professional relocation company providing home shifting,
+                    office moving, vehicle transportation and warehousing
+                    solutions across India.
+
+                </p>
+
+                <!-- Service Tags -->
+
+                <div class="flex flex-wrap gap-2 mt-4">
+
+                    <span class="px-2 py-1 rounded-lg bg-white/5 text-[10px]">
+                        <i class="fa-solid fa-house text-orange-500 mr-1"></i>
+                        Home
+                    </span>
+
+                    <span class="px-2 py-1 rounded-lg bg-white/5 text-[10px]">
+                        <i class="fa-solid fa-building text-orange-500 mr-1"></i>
+                        Office
+                    </span>
+
+                    <span class="px-2 py-1 rounded-lg bg-white/5 text-[10px]">
+                        <i class="fa-solid fa-car-side text-orange-500 mr-1"></i>
+                        Car
+                    </span>
+
+                    <span class="px-2 py-1 rounded-lg bg-white/5 text-[10px]">
+                        <i class="fa-solid fa-motorcycle text-orange-500 mr-1"></i>
+                        Bike
+                    </span>
+
+                </div>
+
+                <!-- Social -->
+
+                <div class="flex gap-2 mt-5">
+
+                    <a href="#"
+                        class="w-8 h-8 rounded-xl bg-white/5 hover:bg-orange-500 flex items-center justify-center transition">
+
+                        <i class="fab fa-facebook-f text-xs"></i>
+
+                    </a>
+
+                    <a href="#"
+                        class="w-8 h-8 rounded-xl bg-white/5 hover:bg-orange-500 flex items-center justify-center transition">
+
+                        <i class="fab fa-instagram text-xs"></i>
+
+                    </a>
+
+                    <a href="#"
+                        class="w-8 h-8 rounded-xl bg-white/5 hover:bg-orange-500 flex items-center justify-center transition">
+
+                        <i class="fab fa-linkedin-in text-xs"></i>
+
+                    </a>
+
+                    <a href="#"
+                        class="w-8 h-8 rounded-xl bg-white/5 hover:bg-orange-500 flex items-center justify-center transition">
+
+                        <i class="fab fa-youtube text-xs"></i>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- QUICK LINKS -->
+
+            <div>
+
+                <h3
+                    class="text-sm font-semibold uppercase tracking-wider mb-4">
+
+                    Quick Links
+
+                </h3>
+
+                <ul class="space-y-2">
+
+                    <li><a href="/" class="group flex items-center gap-2 text-[12px] text-slate-400 hover:text-orange-400">
+                        <i class="fa-solid fa-chevron-right text-[8px] text-orange-500"></i> Home
+                    </a></li>
+
+                    <li><a href="/about.php" class="group flex items-center gap-2 text-[12px] text-slate-400 hover:text-orange-400">
+                        <i class="fa-solid fa-chevron-right text-[8px] text-orange-500"></i> About Us
+                    </a></li>
+
+                    <li><a href="/services.php" class="group flex items-center gap-2 text-[12px] text-slate-400 hover:text-orange-400">
+                        <i class="fa-solid fa-chevron-right text-[8px] text-orange-500"></i> Services
+                    </a></li>
+
+                    <li><a href="/gallery.php" class="group flex items-center gap-2 text-[12px] text-slate-400 hover:text-orange-400">
+                        <i class="fa-solid fa-chevron-right text-[8px] text-orange-500"></i> Gallery
+                    </a></li>
+
+                    <li><a href="/blog.php" class="group flex items-center gap-2 text-[12px] text-slate-400 hover:text-orange-400">
+                        <i class="fa-solid fa-chevron-right text-[8px] text-orange-500"></i> Blog
+                    </a></li>
+
+                    <li><a href="/contact.php" class="group flex items-center gap-2 text-[12px] text-slate-400 hover:text-orange-400">
+                        <i class="fa-solid fa-chevron-right text-[8px] text-orange-500"></i> Contact
+                    </a></li>
+
+                </ul>
+
+            </div>
+
+            <!-- SERVICES -->
+
+            <div>
+
+                <h3
+                    class="text-sm font-semibold uppercase tracking-wider mb-4">
+
+                    Services
+
+                </h3>
+
+                <ul class="space-y-2">
+
+                    <li><a href="#" class="flex items-center gap-2 text-[12px] text-slate-400 hover:text-orange-400">
+                        <i class="fa-solid fa-house text-orange-500 text-[10px]"></i>
+                        Home Shifting
+                    </a></li>
+
+                    <li><a href="#" class="flex items-center gap-2 text-[12px] text-slate-400 hover:text-orange-400">
+                        <i class="fa-solid fa-building text-orange-500 text-[10px]"></i>
+                        Office Relocation
+                    </a></li>
+
+                    <li><a href="#" class="flex items-center gap-2 text-[12px] text-slate-400 hover:text-orange-400">
+                        <i class="fa-solid fa-car text-orange-500 text-[10px]"></i>
+                        Car Transport
+                    </a></li>
+
+                    <li><a href="#" class="flex items-center gap-2 text-[12px] text-slate-400 hover:text-orange-400">
+                        <i class="fa-solid fa-motorcycle text-orange-500 text-[10px]"></i>
+                        Bike Transport
+                    </a></li>
+
+                    <li><a href="#" class="flex items-center gap-2 text-[12px] text-slate-400 hover:text-orange-400">
+                        <i class="fa-solid fa-box text-orange-500 text-[10px]"></i>
+                        Packing Service
+                    </a></li>
+
+                    <li><a href="#" class="flex items-center gap-2 text-[12px] text-slate-400 hover:text-orange-400">
+                        <i class="fa-solid fa-warehouse text-orange-500 text-[10px]"></i>
+                        Warehousing
+                    </a></li>
+
+                </ul>
+
+            </div>
+
+            <!-- CONTACT -->
+
+            <div>
+
+                <h3
+                    class="text-sm font-semibold uppercase tracking-wider mb-4">
+
+                    Contact Us
+
+                </h3>
+
+                <div class="space-y-3">
+
+                    <a href="tel:9342422422"
+                        class="flex items-center gap-3 p-3 rounded-2xl bg-white/5 hover:bg-white/10 transition">
+
+                        <div class="w-9 h-9 rounded-xl bg-orange-500/20 flex items-center justify-center">
+                            <i class="fa-solid fa-phone text-orange-500 text-xs"></i>
+                        </div>
+
+                        <div>
+                            <div class="text-[12px] font-medium">
+                                9342-422-422
+                            </div>
+                            <div class="text-[10px] text-slate-500">
+                                24×7 Support
+                            </div>
+                        </div>
+
+                    </a>
+
+                    <a href="mailto:sainikpackermovers@gmail.com"
+                        class="flex items-center gap-3 p-3 rounded-2xl bg-white/5 hover:bg-white/10 transition">
+
+                        <div class="w-9 h-9 rounded-xl bg-orange-500/20 flex items-center justify-center">
+                            <i class="fa-solid fa-envelope text-orange-500 text-xs"></i>
+                        </div>
+
+                        <div class="text-[11px] text-slate-300">
+                            sainikpackermovers@gmail.com
+                        </div>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- TRUST BADGES -->
+
+    <div class="border-t border-white/10">
+
+        <div class="container-custom py-4">
+
+            <div class="flex flex-wrap justify-center gap-2">
+
+                <span class="px-3 py-1 rounded-full bg-white/5 text-[10px]">
+                    🛡 Verified Professionals
+                </span>
+
+                <span class="px-3 py-1 rounded-full bg-white/5 text-[10px]">
+                    🚚 PAN India Network
+                </span>
+
+                <span class="px-3 py-1 rounded-full bg-white/5 text-[10px]">
+                    ⭐ Premium Moving Service
+                </span>
+
+                <span class="px-3 py-1 rounded-full bg-white/5 text-[10px]">
+                    ☎ 24×7 Support
+                </span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- SEO CITY LINKS -->
+    <div class="border-t border-white/10">
+
+        <div class="container-custom py-6">
+
+            <h4
+                class="text-xs font-semibold uppercase tracking-wide text-white mb-4">
+
+                Packers & Movers Services Across India
+
+            </h4>
+
+            <div
+                class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-x-4 gap-y-1">
+
+                <a href="/packers-and-movers-bangalore" class="text-[11px] text-slate-500 hover:text-orange-400">Packers & Movers Bangalore</a>
+                <a href="/packers-and-movers-hyderabad" class="text-[11px] text-slate-500 hover:text-orange-400">Packers & Movers Hyderabad</a>
+                <a href="/packers-and-movers-chennai" class="text-[11px] text-slate-500 hover:text-orange-400">Packers & Movers Chennai</a>
+                <a href="/packers-and-movers-mumbai" class="text-[11px] text-slate-500 hover:text-orange-400">Packers & Movers Mumbai</a>
+                <a href="/packers-and-movers-delhi" class="text-[11px] text-slate-500 hover:text-orange-400">Packers & Movers Delhi</a>
+                <a href="/packers-and-movers-pune" class="text-[11px] text-slate-500 hover:text-orange-400">Packers & Movers Pune</a>
+
+                <a href="/packers-and-movers-noida" class="text-[11px] text-slate-500 hover:text-orange-400">Packers & Movers Noida</a>
+                <a href="/packers-and-movers-gurgaon" class="text-[11px] text-slate-500 hover:text-orange-400">Packers & Movers Gurgaon</a>
+                <a href="/packers-and-movers-faridabad" class="text-[11px] text-slate-500 hover:text-orange-400">Packers & Movers Faridabad</a>
+                <a href="/packers-and-movers-ghaziabad" class="text-[11px] text-slate-500 hover:text-orange-400">Packers & Movers Ghaziabad</a>
+                <a href="/packers-and-movers-jaipur" class="text-[11px] text-slate-500 hover:text-orange-400">Packers & Movers Jaipur</a>
+                <a href="/packers-and-movers-udaipur" class="text-[11px] text-slate-500 hover:text-orange-400">Packers & Movers Udaipur</a>
+
+                <a href="/packers-and-movers-jodhpur" class="text-[11px] text-slate-500 hover:text-orange-400">Packers & Movers Jodhpur</a>
+                <a href="/packers-and-movers-kolkata" class="text-[11px] text-slate-500 hover:text-orange-400">Packers & Movers Kolkata</a>
+                <a href="/packers-and-movers-ahmedabad" class="text-[11px] text-slate-500 hover:text-orange-400">Packers & Movers Ahmedabad</a>
+                <a href="/packers-and-movers-surat" class="text-[11px] text-slate-500 hover:text-orange-400">Packers & Movers Surat</a>
+                <a href="/packers-and-movers-vadodara" class="text-[11px] text-slate-500 hover:text-orange-400">Packers & Movers Vadodara</a>
+                <a href="/packers-and-movers-rajkot" class="text-[11px] text-slate-500 hover:text-orange-400">Packers & Movers Rajkot</a>
+
+                <a href="/packers-and-movers-indore" class="text-[11px] text-slate-500 hover:text-orange-400">Packers & Movers Indore</a>
+                <a href="/packers-and-movers-bhopal" class="text-[11px] text-slate-500 hover:text-orange-400">Packers & Movers Bhopal</a>
+                <a href="/packers-and-movers-nagpur" class="text-[11px] text-slate-500 hover:text-orange-400">Packers & Movers Nagpur</a>
+                <a href="/packers-and-movers-lucknow" class="text-[11px] text-slate-500 hover:text-orange-400">Packers & Movers Lucknow</a>
+                <a href="/packers-and-movers-kanpur" class="text-[11px] text-slate-500 hover:text-orange-400">Packers & Movers Kanpur</a>
+                <a href="/packers-and-movers-varanasi" class="text-[11px] text-slate-500 hover:text-orange-400">Packers & Movers Varanasi</a>
+
+                <a href="/packers-and-movers-kochi" class="text-[11px] text-slate-500 hover:text-orange-400">Packers & Movers Kochi</a>
+                <a href="/packers-and-movers-coimbatore" class="text-[11px] text-slate-500 hover:text-orange-400">Packers & Movers Coimbatore</a>
+                <a href="/packers-and-movers-visakhapatnam" class="text-[11px] text-slate-500 hover:text-orange-400">Packers & Movers Visakhapatnam</a>
+                <a href="/packers-and-movers-vijayawada" class="text-[11px] text-slate-500 hover:text-orange-400">Packers & Movers Vijayawada</a>
+                <a href="/packers-and-movers-mysore" class="text-[11px] text-slate-500 hover:text-orange-400">Packers & Movers Mysore</a>
+                <a href="/packers-and-movers-mangalore" class="text-[11px] text-slate-500 hover:text-orange-400">Packers & Movers Mangalore</a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- COPYRIGHT -->
+    <div class="border-t border-white/10">
+
+        <div
+            class="container-custom py-3 flex flex-col md:flex-row items-center justify-between gap-2">
+
+            <p
+                class="text-[11px] text-slate-500 text-center md:text-left">
+
+                © 2026 Sainik Packers & Movers. All Rights Reserved.
+
+            </p>
+
+            <div
+                class="flex items-center gap-4">
+
+                <a href="/privacy-policy.php"
+                    class="text-[11px] text-slate-500 hover:text-orange-400">
+                    Privacy Policy
+                </a>
+
+                <a href="/terms.php"
+                    class="text-[11px] text-slate-500 hover:text-orange-400">
+                    Terms & Conditions
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    
+
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+<script>
+
+    new Swiper(".testimonialSwiper", {
+    loop: true,
+    autoplay: {
+        delay: 3000,
+    },
+    spaceBetween: 16,
+    slidesPerView: 1.2,
+
+    breakpoints: {
+        640: {
+            slidesPerView: 2
+        },
+        1024: {
+            slidesPerView: 3
+        }
+    }
+});
+</script>
+
+</body>
+</html>
+
