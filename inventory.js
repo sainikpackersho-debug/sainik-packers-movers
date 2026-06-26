@@ -14,7 +14,7 @@ let categories = [];
 let items = [];
 let settings = {};
 
-let distanceKm = 5;
+let distanceKm = 0;
 let pickupFloor = 0;
 let dropFloor = 0;
 
