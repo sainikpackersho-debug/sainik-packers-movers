@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sainik Packers Calculator</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-slate-100 pb-24">
+
+    <div class="max-w-md mx-auto p-2">
+
+        <!-- Compact Header -->
+
+        <div class="bg-[#071B45] rounded-2xl p-3 text-white">
+
+            <div class="flex items-center gap-3">
+
+                <div
+                    class="w-10 h-10 rounded-xl bg-orange-500 flex items-center justify-center text-lg">
+
+                    🚚
+
+                </div>
+
+                <div>
+
+                    <h1 class="font-bold text-base">
+                        Sainik Moving Calculator
+                    </h1>
+
+                    <p class="text-[10px] text-slate-300">
+                        Instant relocation estimate
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Move Details -->
+
+        <div
+            class="bg-white rounded-2xl shadow-sm p-3 mt-2">
+
+            <div
+                class="flex items-center justify-between mb-3">
+
+                <h3
+                    class="text-sm font-semibold text-[#071B45]">
+
+                    Move Details
+
+                </h3>
+
+                <span
+                    class="text-[10px] bg-orange-100 text-orange-600 px-2 py-1 rounded-full">
+
+                    Quick Setup
+
+                </span>
+
+            </div>
+
+            <div
+                class="grid grid-cols-3 gap-2">
+
+                <!-- Distance -->
+
+                <div>
+
+                    <label
+                        class="text-[10px] text-slate-500 block mb-1">
+
+                        Distance
+
+                    </label>
+
+                    <select
+                        id="distanceKm"
+                        class="w-full h-9 px-2 rounded-lg border border-slate-200 text-xs">
+
+                        <option value="5">0-5 KM</option>
+                        <option value="10">5-10 KM</option>
+                        <option value="20">10-20 KM</option>
+                        <option value="30">20-30 KM</option>
+                        <option value="50">30-50 KM</option>
+
+                    </select>
+
+                </div>
+
+                <!-- Pickup -->
+
+                <div>
+
+                    <label
+                        class="text-[10px] text-slate-500 block mb-1">
+
+                        Pickup
+
+                    </label>
+
+                    <select
+                        id="pickupFloor"
+                        class="w-full h-9 px-2 rounded-lg border border-slate-200 text-xs">
+
+                        <option value="0">G</option>
+                        <option value="1">1F</option>
+                        <option value="2">2F</option>
+                        <option value="3">3F</option>
+                        <option value="4">4F</option>
+
+                    </select>
+
+                    <label
+                        class="flex items-center gap-1 mt-1 text-[10px] text-slate-600">
+
+                        <input
+                            type="checkbox"
+                            id="pickupLift"
+                            checked>
+
+                        Lift
+
+                    </label>
+
+                </div>
+
+                <!-- Drop -->
+
+                <div>
+
+                    <label
+                        class="text-[10px] text-slate-500 block mb-1">
+
+                        Drop
+
+                    </label>
+
+                    <select
+                        id="dropFloor"
+                        class="w-full h-9 px-2 rounded-lg border border-slate-200 text-xs">
+
+                        <option value="0">G</option>
+                        <option value="1">1F</option>
+                        <option value="2">2F</option>
+                        <option value="3">3F</option>
+                        <option value="4">4F</option>
+
+                    </select>
+
+                    <label
+                        class="flex items-center gap-1 mt-1 text-[10px] text-slate-600">
+
+                        <input
+                            type="checkbox"
+                            id="dropLift"
+                            checked>
+
+                        Lift
+
+                    </label>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Inventory Header -->
+
+        <div
+            class="flex items-center justify-between mt-3 mb-2">
+
+            <h2
+                class="font-semibold text-sm text-[#071B45]">
+
+                Inventory Items
+
+            </h2>
+
+            <span
+                class="text-[10px] bg-orange-100 text-orange-600 px-2 py-1 rounded-full">
+
+                Select Items
+
+            </span>
+
+        </div>
+
+        <!-- Firebase Categories -->
+
+        <div id="categories">
+            
+        </div>
+
+    </div>
+
+    <!-- Premium Floating Summary -->
+
+    <div
+        id="summaryBar"
+        class="fixed bottom-2 left-2 right-2 z-50">
+
+        <div
+            class="max-w-md mx-auto bg-white rounded-2xl border border-slate-200 shadow-xl p-3">
+
+            <div
+                class="flex items-center justify-between">
+
+                <div>
+
+                    <div
+                        class="text-[9px] text-slate-500">
+
+                        Selected Items
+
+                    </div>
+
+                    <div
+                        id="totalItems"
+                        class="font-bold text-base text-[#071B45]">
+
+                        0
+
+                    </div>
+
+                </div>
+
+                <div
+                    id="estimatePrice"
+                    class="font-bold text-lg text-orange-500">
+
+                    ₹0
+
+                </div>
+
+                <button
+                    class="h-10 px-4 rounded-xl bg-orange-500 hover:bg-orange-600 text-white text-xs font-semibold transition">
+
+                    Continue →
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script type="module" src="./js/inventory.js"></script>
+
+</body>
+
+</html>
