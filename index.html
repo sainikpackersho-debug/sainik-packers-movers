@@ -3225,59 +3225,75 @@ TRUST BAR
     }
 });
 </script>
-<script>
-document
-  .getElementById("quoteForm")
-  .addEventListener("submit", async function (e) {
+const form = document.getElementById("quoteForm");
+
+form.addEventListener("submit", async function (e) {
 
     e.preventDefault();
 
-    const form = e.target;
+    const btn = form.querySelector("button[type='submit']");
+
+    btn.disabled = true;
+    btn.innerHTML = `
+        <i class="fa-solid fa-spinner fa-spin mr-2"></i>
+        Submitting...
+    `;
 
     const data = {
-      name: form.name.value,
-      mobile: form.mobile.value,
-      from: form.from.value,
-      to: form.to.value,
-      moveSize: form.moveSize.value,
-      moveDate: form.moveDate.value,
-      service: form.service.value
+        name: form.name.value,
+        mobile: form.mobile.value,
+        from: form.from.value,
+        to: form.to.value,
+        moveSize: form.moveSize.value,
+        moveDate: form.moveDate.value,
+        service: form.service.value
     };
 
     try {
 
-      const response = await fetch(
-        "https://super-union-c50dsainik-leads.sainikpackersho.workers.dev/",
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json"
-          },
-          body: JSON.stringify(data)
+        const response = await fetch(
+            "https://super-union-c50dsainik-leads.sainikpackersho.workers.dev/",
+            {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify(data)
+            }
+        );
+
+        const result = await response.json();
+
+        if (result.success) {
+
+            form.reset();
+
+            window.location.href = "/thank-you.html";
+
+        } else {
+
+            alert("Submission Failed. Please try again.");
+
+            btn.disabled = false;
+            btn.innerHTML = `
+                <i class="fa-solid fa-paper-plane mr-2"></i>
+                Get Free Quote
+            `;
         }
-      );
 
-      const result = await response.json();
+    } catch (err) {
 
-      if (result.success) {
+        alert("Server Error");
 
-        window.location.href = "https://sainik-packers-movers.sainikpackersho.workers.dev/thank-you";
-
-      } else {
-
-        alert("Submission Failed");
-
-      }
-
-    } catch (error) {
-
-      console.error(error);
-      alert("Server Error");
+        btn.disabled = false;
+        btn.innerHTML = `
+            <i class="fa-solid fa-paper-plane mr-2"></i>
+            Get Free Quote
+        `;
 
     }
 
 });
-</script>
 </body>
 </html>
 
