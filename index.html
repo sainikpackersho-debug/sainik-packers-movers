@@ -1037,7 +1037,7 @@ Experience professional packing, secure transit & reliable delivery.
 
         <!-- FORM -->
 
-        <form class="p-5 space-y-3">
+        <form id="quoteForm" class="p-5 space-y-3">
 
             <!-- Name -->
 
@@ -1045,8 +1045,8 @@ Experience professional packing, secure transit & reliable delivery.
 
                 <i class="fa-solid fa-user absolute left-4 top-1/2 -translate-y-1/2 text-orange-500 text-sm"></i>
 
-                <input type="text"
-                    placeholder="Full Name"
+                <input type="text" name="name"
+                    placeholder="Full Name" required
                     class="w-full h-11 pl-11 pr-4 rounded-xl bg-slate-50 border border-slate-200 text-sm outline-none focus:border-orange-500 focus:ring-4 focus:ring-orange-100">
 
             </div>
@@ -1058,7 +1058,7 @@ Experience professional packing, secure transit & reliable delivery.
                 <i class="fa-solid fa-phone absolute left-4 top-1/2 -translate-y-1/2 text-orange-500 text-sm"></i>
 
                 <input type="tel"
-                    placeholder="Mobile Number"
+                    placeholder="Mobile Number" name="mobile" required
                     class="w-full h-11 pl-11 pr-4 rounded-xl bg-slate-50 border border-slate-200 text-sm outline-none focus:border-orange-500 focus:ring-4 focus:ring-orange-100">
 
             </div>
@@ -1070,7 +1070,7 @@ Experience professional packing, secure transit & reliable delivery.
                 <i class="fa-solid fa-location-dot absolute left-4 top-1/2 -translate-y-1/2 text-green-500 text-sm"></i>
 
                 <input type="text"
-                    placeholder="Moving From"
+                    placeholder="Moving From" name="from" required
                     class="w-full h-11 pl-11 pr-4 rounded-xl bg-slate-50 border border-slate-200 text-sm outline-none focus:border-orange-500 focus:ring-4 focus:ring-orange-100">
 
             </div>
@@ -1082,7 +1082,7 @@ Experience professional packing, secure transit & reliable delivery.
                 <i class="fa-solid fa-location-arrow absolute left-4 top-1/2 -translate-y-1/2 text-red-500 text-sm"></i>
 
                 <input type="text"
-                    placeholder="Moving To"
+                    placeholder="Moving To" name="to" required
                     class="w-full h-11 pl-11 pr-4 rounded-xl bg-slate-50 border border-slate-200 text-sm outline-none focus:border-orange-500 focus:ring-4 focus:ring-orange-100">
 
             </div>
@@ -1091,7 +1091,7 @@ Experience professional packing, secure transit & reliable delivery.
 
             <div class="grid grid-cols-2 gap-3">
 
-                <select
+                <select name="moveSize"
                     class="h-11 rounded-xl bg-slate-50 border border-slate-200 px-3 text-sm outline-none focus:border-orange-500">
 
                     <option>Move Size</option>
@@ -1104,14 +1104,14 @@ Experience professional packing, secure transit & reliable delivery.
                 </select>
 
                 <input
-                    type="date"
+                    type="date" placeholder="Shifting Date" name="moveDate"
                     class="h-11 rounded-xl bg-slate-50 border border-slate-200 px-3 text-sm outline-none focus:border-orange-500">
 
             </div>
 
             <!-- Service -->
 
-            <select
+            <select name="service"
                 class="w-full h-11 rounded-xl bg-slate-50 border border-slate-200 px-3 text-sm outline-none focus:border-orange-500">
 
                 <option>Select Service</option>
@@ -1131,7 +1131,7 @@ Experience professional packing, secure transit & reliable delivery.
             <!-- Button -->
 
             <button
-                class="w-full h-11 rounded-xl bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white text-sm font-semibold shadow-lg transition">
+               type="submit" class="w-full h-11 rounded-xl bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white text-sm font-semibold shadow-lg transition">
 
                 <i class="fa-solid fa-paper-plane mr-2"></i>
 
