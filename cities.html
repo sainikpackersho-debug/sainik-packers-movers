@@ -1,0 +1,3776 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Packers Movers services in nearby cities | Sainik Packers & Movers</title>
+<meta name="description" content="Packers & Movers by State
+Choose your state to explore professional packing & moving services in nearby cities">
+<meta name="keywords" content="Packers and Movers Near By You All India">
+
+    <!-- Tailwind CSS v4 -->
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- Alpine JS -->
+    <script defer
+        src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js">
+    </script>
+<!-- Swiper CSS -->
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+<!-- AOS CSS -->
+    <link rel="stylesheet"
+        href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+ <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+<!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+<style>
+        body {
+            font-family: 'Inter', sans-serif;
+            overflow-x: hidden;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        :root {
+            --primary: #071B45;
+            --secondary: #FF6B00;
+            --light: #F8FAFC;
+            --dark: #111827;
+        }
+
+        .container-custom {
+            max-width: 1280px;
+            margin: auto;
+            padding-left: 16px;
+            padding-right: 16px;
+        }
+
+        .glass {
+            backdrop-filter: blur(20px);
+            background: rgba(255,255,255,.85);
+        }
+
+        .gradient-bg {
+            background: linear-gradient(
+                135deg,
+                #071B45 0%,
+                #102C6A 100%
+            );
+        }
+    </style>
+<script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="bg-white text-slate-800">
+<nav
+    x-data="{
+        mobileMenu:false,
+        servicesMenu:false,
+        scrolled:false
+    }"
+    x-init="
+        window.addEventListener('scroll',()=>{
+            scrolled = window.scrollY > 50
+        })
+    "
+    class="sticky top-0 z-[9999]">
+
+    <!-- TOP CONTACT BAR -->
+
+    <div class="bg-[#071B45] text-white">
+
+        <div class="container-custom">
+
+            <div class="flex flex-wrap items-center justify-between py-2 text-sm">
+
+                <div class="flex items-center gap-6">
+
+                    <span>
+                        <i class="fa-solid fa-shield-halved text-orange-500 mr-2"></i>
+                        GST Registered
+                    </span>
+
+                    <span class="hidden lg:block">
+                        <i class="fa-solid fa-award text-orange-500 mr-2"></i>
+                        ISO Certified
+                    </span>
+
+                </div>
+
+                <div class="flex items-center gap-5">
+
+                    <a href="tel:9342422422">
+                        <i class="fa-solid fa-phone text-orange-500 mr-2"></i>
+                        9342-422-422
+                    </a>
+
+                    <a href="mailto:sainikpackermovers@gmail.com">
+                        <i class="fa-solid fa-envelope text-orange-500 mr-2"></i>
+                        Email Us
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- MAIN NAVBAR -->
+
+    <div
+        :class="scrolled
+        ? 'bg-white shadow-xl'
+        : 'bg-white/95 backdrop-blur-md'"
+        class="transition-all duration-300">
+
+        <div class="container-custom">
+
+            <div class="flex items-center justify-between h-[88px]">
+
+                <!-- LOGO -->
+
+                <a href="/" class="flex items-center gap-3">
+
+                    <img
+                        src="https://www.sainikpackersmovers.in/assets/img/logo/logo.png"
+                        alt="Sainik Packers"
+                        class="h-14">
+
+                    <div>
+
+                        <h2 class="font-extrabold text-2xl text-[#071B45]">
+                            SAINIK
+                        </h2>
+
+                        <p class="text-xs text-slate-500">
+                            Packers & Movers
+                        </p>
+
+                    </div>
+
+                </a>
+
+                <!-- DESKTOP MENU -->
+
+                <!-- DESKTOP MENU -->
+
+<ul class="hidden xl:flex items-center gap-7">
+
+    <!-- Home -->
+
+    <li>
+        <a href="/"
+            class="flex items-center gap-2 font-medium text-slate-700 hover:text-orange-500 transition">
+
+            <i class="fa-solid fa-house text-[13px]"></i>
+
+            Home
+
+        </a>
+    </li>
+
+    <!-- About -->
+
+    <li>
+        <a href="about.html"
+            class="flex items-center gap-2 font-medium text-slate-700 hover:text-orange-500 transition">
+
+            <i class="fa-solid fa-circle-info text-[13px]"></i>
+
+            About Us
+
+        </a>
+    </li>
+
+    <!-- SERVICES -->
+
+    <li
+        class="relative"
+        @mouseenter="servicesMenu=true"
+        @mouseleave="servicesMenu=false">
+
+        <button
+            class="flex items-center gap-2 font-medium text-slate-700 hover:text-orange-500 transition">
+
+            <i class="fa-solid fa-truck-fast text-[13px]"></i>
+
+            Services
+
+            <i class="fa-solid fa-chevron-down text-[10px]"></i>
+
+        </button>
+
+        <!-- PREMIUM MEGA MENU -->
+
+        <div
+            x-show="servicesMenu"
+            x-cloak
+            x-transition
+            class="absolute left-1/2 -translate-x-1/2 mt-7 w-[920px] bg-white rounded-[28px] shadow-[0_25px_60px_rgba(0,0,0,0.12)] border border-slate-100 overflow-hidden">
+
+            <div class="grid grid-cols-3">
+
+                <!-- COLUMN -->
+
+                <div class="p-7 border-r border-slate-100">
+
+                    <div class="flex items-center gap-3 mb-5">
+
+                        <div class="w-11 h-11 rounded-xl bg-orange-50 flex items-center justify-center">
+
+                            <i class="fa-solid fa-house text-orange-500"></i>
+
+                        </div>
+
+                        <h3 class="font-bold text-[#071B45]">
+                            Household Moving
+                        </h3>
+
+                    </div>
+
+                    <div class="space-y-4 text-sm">
+
+                        <a href="#" class="flex items-center gap-3 hover:text-orange-500">
+
+                            <i class="fa-solid fa-box"></i>
+
+                            Home Shifting
+
+                        </a>
+
+                        <a href="#" class="flex items-center gap-3 hover:text-orange-500">
+
+                            <i class="fa-solid fa-building"></i>
+
+                            Apartment Moving
+
+                        </a>
+
+                        <a href="#" class="flex items-center gap-3 hover:text-orange-500">
+
+                            <i class="fa-solid fa-house-chimney"></i>
+
+                            Villa Relocation
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <!-- COLUMN -->
+
+                <div class="p-7 border-r border-slate-100">
+
+                    <div class="flex items-center gap-3 mb-5">
+
+                        <div class="w-11 h-11 rounded-xl bg-blue-50 flex items-center justify-center">
+
+                            <i class="fa-solid fa-car-side text-blue-600"></i>
+
+                        </div>
+
+                        <h3 class="font-bold text-[#071B45]">
+                            Vehicle Transport
+                        </h3>
+
+                    </div>
+
+                    <div class="space-y-4 text-sm">
+
+                        <a href="#" class="flex items-center gap-3 hover:text-orange-500">
+
+                            <i class="fa-solid fa-car"></i>
+
+                            Car Transport
+
+                        </a>
+
+                        <a href="#" class="flex items-center gap-3 hover:text-orange-500">
+
+                            <i class="fa-solid fa-motorcycle"></i>
+
+                            Bike Transport
+
+                        </a>
+
+                        <a href="#" class="flex items-center gap-3 hover:text-orange-500">
+
+                            <i class="fa-solid fa-scooter"></i>
+
+                            Scooter Moving
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <!-- COLUMN -->
+
+                <div class="p-7">
+
+                    <div class="flex items-center gap-3 mb-5">
+
+                        <div class="w-11 h-11 rounded-xl bg-green-50 flex items-center justify-center">
+
+                            <i class="fa-solid fa-building-user text-green-600"></i>
+
+                        </div>
+
+                        <h3 class="font-bold text-[#071B45]">
+                            Corporate Solutions
+                        </h3>
+
+                    </div>
+
+                    <div class="space-y-4 text-sm">
+
+                        <a href="#" class="flex items-center gap-3 hover:text-orange-500">
+
+                            <i class="fa-solid fa-briefcase"></i>
+
+                            Office Relocation
+
+                        </a>
+
+                        <a href="#" class="flex items-center gap-3 hover:text-orange-500">
+
+                            <i class="fa-solid fa-warehouse"></i>
+
+                            Warehousing
+
+                        </a>
+
+                        <a href="#" class="flex items-center gap-3 hover:text-orange-500">
+
+                            <i class="fa-solid fa-boxes-stacked"></i>
+
+                            Storage Solutions
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Footer CTA -->
+
+            <div class="bg-slate-50 px-7 py-4 flex items-center justify-between">
+
+                <div>
+
+                    <h4 class="font-semibold text-[#071B45] text-sm">
+                        Need Help Choosing a Service?
+                    </h4>
+
+                    <p class="text-xs text-slate-500">
+                        Speak with our relocation expert.
+                    </p>
+
+                </div>
+
+                <a href="tel:9342422422"
+                    class="px-5 py-2.5 bg-orange-500 text-white rounded-xl text-sm font-semibold hover:bg-orange-600">
+
+                    Call Now
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </li>
+
+    <!-- Cities -->
+
+    <li>
+        <a href="#"
+            class="flex items-center gap-2 font-medium text-slate-700 hover:text-orange-500 transition">
+
+            <i class="fa-solid fa-location-dot text-[13px]"></i>
+
+            Cities
+
+        </a>
+    </li>
+
+    <!-- Gallery -->
+
+    <li>
+        <a href="#"
+            class="flex items-center gap-2 font-medium text-slate-700 hover:text-orange-500 transition">
+
+            <i class="fa-solid fa-images text-[13px]"></i>
+
+            Gallery
+
+        </a>
+    </li>
+
+    <!-- Contact -->
+
+    <li>
+        <a href="#"
+            class="flex items-center gap-2 font-medium text-slate-700 hover:text-orange-500 transition">
+
+            <i class="fa-solid fa-headset text-[13px]"></i>
+
+            Contact
+
+        </a>
+    </li>
+
+</ul>
+
+                <!-- CTA -->
+
+                <div class="hidden xl:flex items-center gap-4">
+
+                    <a
+                        href="https://wa.me/919342422422"
+                        target="_blank"
+                        class="w-11 h-11 rounded-full bg-green-500 text-white flex items-center justify-center">
+
+                        <i class="fa-brands fa-whatsapp"></i>
+
+                    </a>
+
+                    <a
+                        href="#"
+                        class="bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded-xl font-semibold shadow-lg">
+
+                        Get Free Quote
+
+                    </a>
+
+                </div>
+
+                <!-- MOBILE BUTTON -->
+
+                <button
+                    @click="mobileMenu=true"
+                    class="xl:hidden text-3xl">
+
+                    <i class="fa-solid fa-bars"></i>
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <!-- MOBILE MENU -->
+
+   <!-- PREMIUM COMPACT APP STYLE MOBILE MENU -->
+
+
+
+<div
+    x-cloak
+    x-show="mobileMenu"
+    style="display:none;"
+    x-transition.opacity
+    class="fixed inset-0 z-[99999]">   
+    <div
+        @click="mobileMenu=false"
+        class="absolute inset-0 bg-black/50 backdrop-blur-sm">
+    </div>
+
+    <!-- Drawer -->
+
+    <div
+        x-transition:enter="transition ease-out duration-300"
+        x-transition:enter-start="translate-x-full"
+        x-transition:enter-end="translate-x-0"
+        x-transition:leave="transition ease-in duration-200"
+        x-transition:leave-start="translate-x-0"
+        x-transition:leave-end="translate-x-full"
+        class="absolute right-0 top-0 h-full w-[280px] bg-white shadow-2xl overflow-y-auto">
+
+        <!-- Header -->
+
+        <div class="bg-gradient-to-r from-[#071B45] to-[#0B2C6B] p-4">
+
+            <div class="flex items-center justify-between">
+
+                <div>
+
+                    <h3 class="text-white font-semibold text-base">
+                        Sainik Packers
+                    </h3>
+
+                    <p class="text-blue-100 text-[11px]">
+                        Safe Moving Partner
+                    </p>
+
+                </div>
+
+                <button
+                    @click="mobileMenu=false"
+                    class="w-8 h-8 rounded-lg bg-white/10 text-white flex items-center justify-center">
+
+                    <i class="fa-solid fa-xmark text-sm"></i>
+
+                </button>
+
+            </div>
+
+            <!-- Quick Actions -->
+
+            <div class="grid grid-cols-3 gap-2 mt-4">
+
+                <a
+                    href="tel:9342422422"
+                    class="bg-white/10 rounded-xl p-2 text-center">
+
+                    <i class="fa-solid fa-phone text-white text-sm"></i>
+
+                    <div class="text-white text-[10px] mt-1">
+                        Call
+                    </div>
+
+                </a>
+
+                <a
+                    href="https://wa.me/919342422422"
+                    class="bg-white/10 rounded-xl p-2 text-center">
+
+                    <i class="fa-brands fa-whatsapp text-white text-sm"></i>
+
+                    <div class="text-white text-[10px] mt-1">
+                        WhatsApp
+                    </div>
+
+                </a>
+
+                <a
+                    href="#quote"
+                    class="bg-white/10 rounded-xl p-2 text-center">
+
+                    <i class="fa-solid fa-file-signature text-white text-sm"></i>
+
+                    <div class="text-white text-[10px] mt-1">
+                        Quote
+                    </div>
+
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- Menu Links -->
+
+        <div class="p-3 space-y-1">
+
+            <a href="/"
+                class="flex items-center gap-3 p-3 rounded-xl hover:bg-slate-50 transition">
+
+                <div class="w-10 h-10 rounded-xl bg-orange-100 flex items-center justify-center">
+
+                    <i class="fa-solid fa-house text-orange-500 text-sm"></i>
+
+                </div>
+
+                <div>
+
+                    <div class="font-medium text-sm text-[#071B45]">
+                        Home
+                    </div>
+
+                    <div class="text-[11px] text-slate-500">
+                        Homepage
+                    </div>
+
+                </div>
+
+            </a>
+
+            <a href="about.html"
+                class="flex items-center gap-3 p-3 rounded-xl hover:bg-slate-50 transition">
+
+                <div class="w-10 h-10 rounded-xl bg-blue-100 flex items-center justify-center">
+
+                    <i class="fa-solid fa-users text-blue-600 text-sm"></i>
+
+                </div>
+
+                <div>
+
+                    <div class="font-medium text-sm text-[#071B45]">
+                        About Us
+                    </div>
+
+                    <div class="text-[11px] text-slate-500">
+                        Company Profile
+                    </div>
+
+                </div>
+
+            </a>
+
+            <a href="#"
+                class="flex items-center gap-3 p-3 rounded-xl hover:bg-slate-50 transition">
+
+                <div class="w-10 h-10 rounded-xl bg-green-100 flex items-center justify-center">
+
+                    <i class="fa-solid fa-truck-fast text-green-600 text-sm"></i>
+
+                </div>
+
+                <div>
+
+                    <div class="font-medium text-sm text-[#071B45]">
+                        Services
+                    </div>
+
+                    <div class="text-[11px] text-slate-500">
+                        Moving Solutions
+                    </div>
+
+                </div>
+
+            </a>
+
+            <a href="#"
+                class="flex items-center gap-3 p-3 rounded-xl hover:bg-slate-50 transition">
+
+                <div class="w-10 h-10 rounded-xl bg-purple-100 flex items-center justify-center">
+
+                    <i class="fa-solid fa-location-dot text-purple-600 text-sm"></i>
+
+                </div>
+
+                <div>
+
+                    <div class="font-medium text-sm text-[#071B45]">
+                        Cities
+                    </div>
+
+                    <div class="text-[11px] text-slate-500">
+                        500+ Locations
+                    </div>
+
+                </div>
+
+            </a>
+
+            <a href="#"
+                class="flex items-center gap-3 p-3 rounded-xl hover:bg-slate-50 transition">
+
+                <div class="w-10 h-10 rounded-xl bg-pink-100 flex items-center justify-center">
+
+                    <i class="fa-solid fa-image text-pink-600 text-sm"></i>
+
+                </div>
+
+                <div>
+
+                    <div class="font-medium text-sm text-[#071B45]">
+                        Gallery
+                    </div>
+
+                    <div class="text-[11px] text-slate-500">
+                        Our Projects
+                    </div>
+
+                </div>
+
+            </a>
+
+            <a href="#"
+                class="flex items-center gap-3 p-3 rounded-xl hover:bg-slate-50 transition">
+
+                <div class="w-10 h-10 rounded-xl bg-red-100 flex items-center justify-center">
+
+                    <i class="fa-solid fa-headset text-red-600 text-sm"></i>
+
+                </div>
+
+                <div>
+
+                    <div class="font-medium text-sm text-[#071B45]">
+                        Contact
+                    </div>
+
+                    <div class="text-[11px] text-slate-500">
+                        24×7 Support
+                    </div>
+
+                </div>
+
+            </a>
+
+        </div>
+
+        <!-- Bottom CTA -->
+
+        <div class="p-3 border-t border-slate-100">
+
+            <a
+                href="#quote"
+                class="flex items-center justify-center gap-2 h-11 bg-orange-500 hover:bg-orange-600 text-white rounded-xl text-sm font-medium transition">
+
+                <i class="fa-solid fa-paper-plane text-xs"></i>
+
+                Get Free Quote
+
+            </a>
+
+        </div>
+
+
+</nav>
+<!-- =========================
+STATE ACCORDION
+
+========================= -->
+<section class="py-8 bg-[#F8FAFC]">
+
+    <div class="container-custom">
+
+         <div class="text-center mb-6">
+
+            <span class="inline-flex px-3 py-1 rounded-full bg-orange-100 text-orange-600 text-[10px] font-semibold uppercase">
+                Service Network
+            </span>
+
+            <h2 class="mt-3 text-2xl font-bold text-[#071B45]">
+                Packers & Movers by <span class="text-orange-500">State</span>
+            </h2>
+
+            <p class="mt-2 text-xs text-slate-500 max-w-xl mx-auto">
+                Choose your state to explore professional packing & moving services in nearby cities.
+            </p>
+
+        </div>
+
+        <div class="max-w-6xl mx-auto">
+
+            <details class="group bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden">
+
+                <!-- Header -->
+
+                <summary
+                    class="list-none cursor-pointer flex items-center justify-between p-4 hover:bg-slate-50 transition">
+
+                    <div class="flex items-center gap-3">
+
+                        <div
+                            class="w-11 h-11 rounded-xl bg-gradient-to-br from-blue-500 to-indigo-600 text-white flex items-center justify-center">
+
+                            <i class="fa-solid fa-map-location-dot"></i>
+
+                        </div>
+
+                        <div>
+
+                            <h3 class="text-sm font-bold text-[#071B45]">
+
+                                Karnataka
+
+                            </h3>
+
+                            <p class="text-[11px] text-slate-500">
+
+                                32+ Cities Available
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <i
+                        class="fa-solid fa-chevron-down text-slate-400 group-open:rotate-180 transition duration-300"></i>
+
+                </summary>
+
+                <!-- Cities -->
+
+                <div class="px-4 pb-4">
+
+                    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2">
+
+                        <a href="/packers-and-movers-bangalore" class="city-link">Bangalore</a>
+
+                        <a href="/packers-and-movers-mysore" class="city-link">Mysore</a>
+
+                        <a href="/packers-and-movers-mangalore" class="city-link">Mangalore</a>
+
+                        <a href="/packers-and-movers-hubli" class="city-link">Hubli</a>
+
+                        <a href="/packers-and-movers-dharwad" class="city-link">Dharwad</a>
+
+                        <a href="/packers-and-movers-belgaum" class="city-link">Belagavi</a>
+
+                        <a href="/packers-and-movers-ballari" class="city-link">Ballari</a>
+
+                        <a href="/packers-and-movers-shivamogga" class="city-link">Shivamogga</a>
+
+                        <a href="/packers-and-movers-tumkur" class="city-link">Tumakuru</a>
+
+                        <a href="/packers-and-movers-hassan" class="city-link">Hassan</a>
+
+                        <a href="/packers-and-movers-udupi" class="city-link">Udupi</a>
+
+                        <a href="/packers-and-movers-mandya" class="city-link">Mandya</a>
+
+                        <a href="/packers-and-movers-raichur" class="city-link">Raichur</a>
+
+                        <a href="/packers-and-movers-bidar" class="city-link">Bidar</a>
+
+                        <a href="/packers-and-movers-koppal" class="city-link">Koppal</a>
+
+                        <a href="/packers-and-movers-vijayapura" class="city-link">Vijayapura</a>
+
+                        <a href="/packers-and-movers-kalaburagi" class="city-link">Kalaburagi</a>
+
+                        <a href="/packers-and-movers-chikkamagaluru" class="city-link">Chikkamagaluru</a>
+
+                        <a href="/packers-and-movers-davanagere" class="city-link">Davanagere</a>
+
+                        <a href="/packers-and-movers-haveri" class="city-link">Haveri</a>
+
+                        <a href="/packers-and-movers-bagalkot" class="city-link">Bagalkot</a>
+
+                        <a href="/packers-and-movers-gadag" class="city-link">Gadag</a>
+
+                        <a href="/packers-and-movers-chamarajanagar" class="city-link">Chamarajanagar</a>
+
+                        <a href="/packers-and-movers-yadgir" class="city-link">Yadgir</a>
+
+                        <a href="/packers-and-movers-chikkaballapur" class="city-link">Chikkaballapur</a>
+
+                    </div>
+
+                </div>
+
+            </details>
+
+
+            <!-- =========================
+STATE ACCORDION
+TAMIL NADU
+========================= -->
+
+<details class="group bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mt-4">
+
+    <!-- Header -->
+
+    <summary
+        class="list-none cursor-pointer flex items-center justify-between p-4 hover:bg-slate-50 transition">
+
+        <div class="flex items-center gap-3">
+
+            <div
+                class="w-11 h-11 rounded-xl bg-gradient-to-br from-orange-500 to-red-500 text-white flex items-center justify-center">
+
+                <i class="fa-solid fa-map-location-dot"></i>
+
+            </div>
+
+            <div>
+
+                <h3 class="text-sm font-bold text-[#071B45]">
+
+                    Tamil Nadu
+
+                </h3>
+
+                <p class="text-[11px] text-slate-500">
+
+                    38+ Cities Available
+
+                </p>
+
+            </div>
+
+        </div>
+
+        <i
+            class="fa-solid fa-chevron-down text-slate-400 group-open:rotate-180 transition duration-300"></i>
+
+    </summary>
+
+    <!-- Cities -->
+
+    <div class="px-4 pb-4">
+
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2">
+
+            <a href="/packers-and-movers-chennai" class="city-link">Chennai</a>
+
+            <a href="/packers-and-movers-coimbatore" class="city-link">Coimbatore</a>
+
+            <a href="/packers-and-movers-madurai" class="city-link">Madurai</a>
+
+            <a href="/packers-and-movers-salem" class="city-link">Salem</a>
+
+            <a href="/packers-and-movers-erode" class="city-link">Erode</a>
+
+            <a href="/packers-and-movers-tiruchirappalli" class="city-link">Tiruchirappalli</a>
+
+            <a href="/packers-and-movers-tirunelveli" class="city-link">Tirunelveli</a>
+
+            <a href="/packers-and-movers-vellore" class="city-link">Vellore</a>
+
+            <a href="/packers-and-movers-thanjavur" class="city-link">Thanjavur</a>
+
+            <a href="/packers-and-movers-thoothukudi" class="city-link">Thoothukudi</a>
+
+            <a href="/packers-and-movers-dindigul" class="city-link">Dindigul</a>
+
+            <a href="/packers-and-movers-karur" class="city-link">Karur</a>
+
+            <a href="/packers-and-movers-namakkal" class="city-link">Namakkal</a>
+
+            <a href="/packers-and-movers-hosur" class="city-link">Hosur</a>
+
+            <a href="/packers-and-movers-kanchipuram" class="city-link">Kanchipuram</a>
+
+            <a href="/packers-and-movers-cuddalore" class="city-link">Cuddalore</a>
+
+            <a href="/packers-and-movers-villupuram" class="city-link">Villupuram</a>
+
+            <a href="/packers-and-movers-nagercoil" class="city-link">Nagercoil</a>
+
+            <a href="/packers-and-movers-kanyakumari" class="city-link">Kanyakumari</a>
+
+            <a href="/packers-and-movers-sivakasi" class="city-link">Sivakasi</a>
+
+            <a href="/packers-and-movers-virudhunagar" class="city-link">Virudhunagar</a>
+
+            <a href="/packers-and-movers-ramanathapuram" class="city-link">Ramanathapuram</a>
+
+            <a href="/packers-and-movers-theni" class="city-link">Theni</a>
+
+            <a href="/packers-and-movers-pollachi" class="city-link">Pollachi</a>
+
+            <a href="/packers-and-movers-nilgiris" class="city-link">Nilgiris</a>
+
+            <a href="/packers-and-movers-ooty" class="city-link">Ooty</a>
+
+            <a href="/packers-and-movers-kumbakonam" class="city-link">Kumbakonam</a>
+
+            <a href="/packers-and-movers-tiruppur" class="city-link">Tiruppur</a>
+
+            <a href="/packers-and-movers-avadi" class="city-link">Avadi</a>
+
+            <a href="/packers-and-movers-pudukkottai" class="city-link">Pudukkottai</a>
+
+        </div>
+
+    </div>
+
+</details>
+
+<!-- =========================
+STATE ACCORDION
+TELANGANA
+========================= -->
+
+<details class="group bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mt-4">
+
+    <!-- Header -->
+
+    <summary class="list-none cursor-pointer flex items-center justify-between p-4 hover:bg-slate-50 transition">
+
+        <div class="flex items-center gap-3">
+
+            <div class="w-11 h-11 rounded-xl bg-gradient-to-br from-purple-500 to-fuchsia-600 text-white flex items-center justify-center">
+
+                <i class="fa-solid fa-map-location-dot"></i>
+
+            </div>
+
+            <div>
+
+                <h3 class="text-sm font-bold text-[#071B45]">
+
+                    Telangana
+
+                </h3>
+
+                <p class="text-[11px] text-slate-500">
+
+                    33+ Cities Available
+
+                </p>
+
+            </div>
+
+        </div>
+
+        <i class="fa-solid fa-chevron-down text-slate-400 group-open:rotate-180 transition duration-300"></i>
+
+    </summary>
+
+    <!-- Cities -->
+
+    <div class="px-4 pb-4">
+
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2">
+
+            <a href="/packers-and-movers-hyderabad" class="city-link">Hyderabad</a>
+
+            <a href="/packers-and-movers-warangal" class="city-link">Warangal</a>
+
+            <a href="/packers-and-movers-karimnagar" class="city-link">Karimnagar</a>
+
+            <a href="/packers-and-movers-khammam" class="city-link">Khammam</a>
+
+            <a href="/packers-and-movers-nizamabad" class="city-link">Nizamabad</a>
+
+            <a href="/packers-and-movers-adilabad" class="city-link">Adilabad</a>
+
+            <a href="/packers-and-movers-mahabubnagar" class="city-link">Mahabubnagar</a>
+
+            <a href="/packers-and-movers-siddipet" class="city-link">Siddipet</a>
+
+            <a href="/packers-and-movers-nalgonda" class="city-link">Nalgonda</a>
+
+            <a href="/packers-and-movers-suryapet" class="city-link">Suryapet</a>
+
+            <a href="/packers-and-movers-medak" class="city-link">Medak</a>
+
+            <a href="/packers-and-movers-sangareddy" class="city-link">Sangareddy</a>
+
+            <a href="/packers-and-movers-vikarabad" class="city-link">Vikarabad</a>
+
+            <a href="/packers-and-movers-jagtial" class="city-link">Jagtial</a>
+
+            <a href="/packers-and-movers-kamareddy" class="city-link">Kamareddy</a>
+
+            <a href="/packers-and-movers-mancherial" class="city-link">Mancherial</a>
+
+            <a href="/packers-and-movers-peddapalli" class="city-link">Peddapalli</a>
+
+            <a href="/packers-and-movers-bhadradri-kothagudem" class="city-link">Kothagudem</a>
+
+            <a href="/packers-and-movers-jangaon" class="city-link">Jangaon</a>
+
+            <a href="/packers-and-movers-narayanpet" class="city-link">Narayanpet</a>
+
+            <a href="/packers-and-movers-nirmal" class="city-link">Nirmal</a>
+
+            <a href="/packers-and-movers-komaram-bheem" class="city-link">Komaram Bheem</a>
+
+            <a href="/packers-and-movers-mulugu" class="city-link">Mulugu</a>
+
+            <a href="/packers-and-movers-jayashankar-bhupalpally" class="city-link">Bhupalpally</a>
+
+            <a href="/packers-and-movers-hanumakonda" class="city-link">Hanumakonda</a>
+
+            <a href="/packers-and-movers-wanaparthy" class="city-link">Wanaparthy</a>
+
+            <a href="/packers-and-movers-nagarkurnool" class="city-link">Nagarkurnool</a>
+
+            <a href="/packers-and-movers-yadadri-bhuvanagiri" class="city-link">Yadadri</a>
+
+            <a href="/packers-and-movers-jogulamba-gadwal" class="city-link">Gadwal</a>
+
+            <a href="/packers-and-movers-medchal" class="city-link">Medchal</a>
+
+        </div>
+
+    </div>
+
+</details>
+<!-- =========================
+STATE ACCORDION
+ANDHRA PRADESH
+========================= -->
+
+<details class="group bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mt-4">
+
+    <!-- Header -->
+
+    <summary class="list-none cursor-pointer flex items-center justify-between p-4 hover:bg-slate-50 transition">
+
+        <div class="flex items-center gap-3">
+
+            <div class="w-11 h-11 rounded-xl bg-gradient-to-br from-green-500 to-emerald-600 text-white flex items-center justify-center">
+
+                <i class="fa-solid fa-map-location-dot"></i>
+
+            </div>
+
+            <div>
+
+                <h3 class="text-sm font-bold text-[#071B45]">
+
+                    Andhra Pradesh
+
+                </h3>
+
+                <p class="text-[11px] text-slate-500">
+
+                    35+ Cities Available
+
+                </p>
+
+            </div>
+
+        </div>
+
+        <i class="fa-solid fa-chevron-down text-slate-400 group-open:rotate-180 transition duration-300"></i>
+
+    </summary>
+
+    <!-- Cities -->
+
+    <div class="px-4 pb-4">
+
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2">
+
+            <a href="/packers-and-movers-visakhapatnam" class="city-link">Visakhapatnam</a>
+
+            <a href="/packers-and-movers-vijayawada" class="city-link">Vijayawada</a>
+
+            <a href="/packers-and-movers-guntur" class="city-link">Guntur</a>
+
+            <a href="/packers-and-movers-nellore" class="city-link">Nellore</a>
+
+            <a href="/packers-and-movers-tirupati" class="city-link">Tirupati</a>
+
+            <a href="/packers-and-movers-kakinada" class="city-link">Kakinada</a>
+
+            <a href="/packers-and-movers-rajahmundry" class="city-link">Rajahmundry</a>
+
+            <a href="/packers-and-movers-eluru" class="city-link">Eluru</a>
+
+            <a href="/packers-and-movers-ongole" class="city-link">Ongole</a>
+
+            <a href="/packers-and-movers-kurnool" class="city-link">Kurnool</a>
+
+            <a href="/packers-and-movers-anantapur" class="city-link">Anantapur</a>
+
+            <a href="/packers-and-movers-kadapa" class="city-link">Kadapa</a>
+
+            <a href="/packers-and-movers-chittoor" class="city-link">Chittoor</a>
+
+            <a href="/packers-and-movers-srikakulam" class="city-link">Srikakulam</a>
+
+            <a href="/packers-and-movers-vizianagaram" class="city-link">Vizianagaram</a>
+
+            <a href="/packers-and-movers-machilipatnam" class="city-link">Machilipatnam</a>
+
+            <a href="/packers-and-movers-tenali" class="city-link">Tenali</a>
+
+            <a href="/packers-and-movers-bhimavaram" class="city-link">Bhimavaram</a>
+
+            <a href="/packers-and-movers-tadepalligudem" class="city-link">Tadepalligudem</a>
+
+            <a href="/packers-and-movers-proddatur" class="city-link">Proddatur</a>
+
+            <a href="/packers-and-movers-hindupur" class="city-link">Hindupur</a>
+
+            <a href="/packers-and-movers-adanoni" class="city-link">Adoni</a>
+
+            <a href="/packers-and-movers-nandyal" class="city-link">Nandyal</a>
+
+            <a href="/packers-and-movers-madanapalle" class="city-link">Madanapalle</a>
+
+            <a href="/packers-and-movers-gudivada" class="city-link">Gudivada</a>
+
+            <a href="/packers-and-movers-narasaraopet" class="city-link">Narasaraopet</a>
+
+            <a href="/packers-and-movers-chilakaluripet" class="city-link">Chilakaluripet</a>
+
+            <a href="/packers-and-movers-amalapuram" class="city-link">Amalapuram</a>
+
+            <a href="/packers-and-movers-kavali" class="city-link">Kavali</a>
+
+            <a href="/packers-and-movers-dharmavaram" class="city-link">Dharmavaram</a>
+
+        </div>
+
+    </div>
+
+</details>
+<!-- =========================
+STATE ACCORDION
+KERALA
+========================= -->
+
+<details class="group bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mt-4">
+
+    <!-- Header -->
+
+    <summary class="list-none cursor-pointer flex items-center justify-between p-4 hover:bg-slate-50 transition">
+
+        <div class="flex items-center gap-3">
+
+            <div class="w-11 h-11 rounded-xl bg-gradient-to-br from-cyan-500 to-teal-600 text-white flex items-center justify-center">
+
+                <i class="fa-solid fa-map-location-dot"></i>
+
+            </div>
+
+            <div>
+
+                <h3 class="text-sm font-bold text-[#071B45]">
+
+                    Kerala
+
+                </h3>
+
+                <p class="text-[11px] text-slate-500">
+
+                    25+ Cities Available
+
+                </p>
+
+            </div>
+
+        </div>
+
+        <i class="fa-solid fa-chevron-down text-slate-400 group-open:rotate-180 transition duration-300"></i>
+
+    </summary>
+
+    <!-- Cities -->
+
+    <div class="px-4 pb-4">
+
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2">
+
+            <a href="/packers-and-movers-kochi" class="city-link">Kochi</a>
+
+            <a href="/packers-and-movers-thiruvananthapuram" class="city-link">Thiruvananthapuram</a>
+
+            <a href="/packers-and-movers-kozhikode" class="city-link">Kozhikode</a>
+
+            <a href="/packers-and-movers-thrissur" class="city-link">Thrissur</a>
+
+            <a href="/packers-and-movers-kollam" class="city-link">Kollam</a>
+
+            <a href="/packers-and-movers-alappuzha" class="city-link">Alappuzha</a>
+
+            <a href="/packers-and-movers-kottayam" class="city-link">Kottayam</a>
+
+            <a href="/packers-and-movers-palakkad" class="city-link">Palakkad</a>
+
+            <a href="/packers-and-movers-kannur" class="city-link">Kannur</a>
+
+            <a href="/packers-and-movers-malappuram" class="city-link">Malappuram</a>
+
+            <a href="/packers-and-movers-kasaragod" class="city-link">Kasaragod</a>
+
+            <a href="/packers-and-movers-wayanad" class="city-link">Wayanad</a>
+
+            <a href="/packers-and-movers-idukki" class="city-link">Idukki</a>
+
+            <a href="/packers-and-movers-pathanamthitta" class="city-link">Pathanamthitta</a>
+
+            <a href="/packers-and-movers-ernakulam" class="city-link">Ernakulam</a>
+
+            <a href="/packers-and-movers-muvattupuzha" class="city-link">Muvattupuzha</a>
+
+            <a href="/packers-and-movers-angamaly" class="city-link">Angamaly</a>
+
+            <a href="/packers-and-movers-chalakudy" class="city-link">Chalakudy</a>
+
+            <a href="/packers-and-movers-kayamkulam" class="city-link">Kayamkulam</a>
+
+            <a href="/packers-and-movers-punalur" class="city-link">Punalur</a>
+
+            <a href="/packers-and-movers-kothamangalam" class="city-link">Kothamangalam</a>
+
+            <a href="/packers-and-movers-nedumangad" class="city-link">Nedumangad</a>
+
+            <a href="/packers-and-movers-thalassery" class="city-link">Thalassery</a>
+
+            <a href="/packers-and-movers-payyanur" class="city-link">Payyanur</a>
+
+            <a href="/packers-and-movers-guruvayur" class="city-link">Guruvayur</a>
+
+        </div>
+
+    </div>
+
+</details>
+<!-- =========================
+STATE ACCORDION
+MAHARASHTRA
+========================= -->
+
+<details class="group bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mt-4">
+
+    <!-- Header -->
+
+    <summary class="list-none cursor-pointer flex items-center justify-between p-4 hover:bg-slate-50 transition">
+
+        <div class="flex items-center gap-3">
+
+            <div class="w-11 h-11 rounded-xl bg-gradient-to-br from-red-500 to-rose-600 text-white flex items-center justify-center">
+
+                <i class="fa-solid fa-map-location-dot"></i>
+
+            </div>
+
+            <div>
+
+                <h3 class="text-sm font-bold text-[#071B45]">
+
+                    Maharashtra
+
+                </h3>
+
+                <p class="text-[11px] text-slate-500">
+
+                    45+ Cities Available
+
+                </p>
+
+            </div>
+
+        </div>
+
+        <i class="fa-solid fa-chevron-down text-slate-400 group-open:rotate-180 transition duration-300"></i>
+
+    </summary>
+
+    <!-- Cities -->
+
+    <div class="px-4 pb-4">
+
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2">
+
+            <a href="/packers-and-movers-mumbai" class="city-link">Mumbai</a>
+
+            <a href="/packers-and-movers-pune" class="city-link">Pune</a>
+
+            <a href="/packers-and-movers-nagpur" class="city-link">Nagpur</a>
+
+            <a href="/packers-and-movers-nashik" class="city-link">Nashik</a>
+
+            <a href="/packers-and-movers-thane" class="city-link">Thane</a>
+
+            <a href="/packers-and-movers-navi-mumbai" class="city-link">Navi Mumbai</a>
+
+            <a href="/packers-and-movers-kalyan" class="city-link">Kalyan</a>
+
+            <a href="/packers-and-movers-dombivli" class="city-link">Dombivli</a>
+
+            <a href="/packers-and-movers-aurangabad" class="city-link">Aurangabad</a>
+
+            <a href="/packers-and-movers-solapur" class="city-link">Solapur</a>
+
+            <a href="/packers-and-movers-kolhapur" class="city-link">Kolhapur</a>
+
+            <a href="/packers-and-movers-amravati" class="city-link">Amravati</a>
+
+            <a href="/packers-and-movers-akola" class="city-link">Akola</a>
+
+            <a href="/packers-and-movers-jalgaon" class="city-link">Jalgaon</a>
+
+            <a href="/packers-and-movers-latur" class="city-link">Latur</a>
+
+            <a href="/packers-and-movers-sangli" class="city-link">Sangli</a>
+
+            <a href="/packers-and-movers-satara" class="city-link">Satara</a>
+
+            <a href="/packers-and-movers-ratnagiri" class="city-link">Ratnagiri</a>
+
+            <a href="/packers-and-movers-raigad" class="city-link">Raigad</a>
+
+            <a href="/packers-and-movers-sindhudurg" class="city-link">Sindhudurg</a>
+
+            <a href="/packers-and-movers-beed" class="city-link">Beed</a>
+
+            <a href="/packers-and-movers-osmanabad" class="city-link">Osmanabad</a>
+
+            <a href="/packers-and-movers-parbhani" class="city-link">Parbhani</a>
+
+            <a href="/packers-and-movers-nanded" class="city-link">Nanded</a>
+
+            <a href="/packers-and-movers-hingoli" class="city-link">Hingoli</a>
+
+            <a href="/packers-and-movers-buldhana" class="city-link">Buldhana</a>
+
+            <a href="/packers-and-movers-yavatmal" class="city-link">Yavatmal</a>
+
+            <a href="/packers-and-movers-washim" class="city-link">Washim</a>
+
+            <a href="/packers-and-movers-gondia" class="city-link">Gondia</a>
+
+            <a href="/packers-and-movers-chandrapur" class="city-link">Chandrapur</a>
+
+            <a href="/packers-and-movers-gadchiroli" class="city-link">Gadchiroli</a>
+
+            <a href="/packers-and-movers-ahmednagar" class="city-link">Ahmednagar</a>
+
+            <a href="/packers-and-movers-dhule" class="city-link">Dhule</a>
+
+            <a href="/packers-and-movers-nandurbar" class="city-link">Nandurbar</a>
+
+            <a href="/packers-and-movers-palghar" class="city-link">Palghar</a>
+
+            <a href="/packers-and-movers-wardha" class="city-link">Wardha</a>
+
+            <a href="/packers-and-movers-bhandara" class="city-link">Bhandara</a>
+
+            <a href="/packers-and-movers-ulpan" class="city-link">Ulhasnagar</a>
+
+            <a href="/packers-and-movers-panvel" class="city-link">Panvel</a>
+
+            <a href="/packers-and-movers-malegaon" class="city-link">Malegaon</a>
+
+        </div>
+
+    </div>
+
+</details>
+<!-- =========================
+STATE ACCORDION
+GUJARAT
+========================= -->
+
+<details class="group bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mt-4">
+
+    <!-- Header -->
+
+    <summary class="list-none cursor-pointer flex items-center justify-between p-4 hover:bg-slate-50 transition">
+
+        <div class="flex items-center gap-3">
+
+            <div class="w-11 h-11 rounded-xl bg-gradient-to-br from-amber-500 to-orange-600 text-white flex items-center justify-center">
+
+                <i class="fa-solid fa-map-location-dot"></i>
+
+            </div>
+
+            <div>
+
+                <h3 class="text-sm font-bold text-[#071B45]">
+
+                    Gujarat
+
+                </h3>
+
+                <p class="text-[11px] text-slate-500">
+
+                    35+ Cities Available
+
+                </p>
+
+            </div>
+
+        </div>
+
+        <i class="fa-solid fa-chevron-down text-slate-400 group-open:rotate-180 transition duration-300"></i>
+
+    </summary>
+
+    <!-- Cities -->
+
+    <div class="px-4 pb-4">
+
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2">
+
+            <a href="/packers-and-movers-ahmedabad" class="city-link">Ahmedabad</a>
+
+            <a href="/packers-and-movers-surat" class="city-link">Surat</a>
+
+            <a href="/packers-and-movers-vadodara" class="city-link">Vadodara</a>
+
+            <a href="/packers-and-movers-rajkot" class="city-link">Rajkot</a>
+
+            <a href="/packers-and-movers-gandhinagar" class="city-link">Gandhinagar</a>
+
+            <a href="/packers-and-movers-bhavnagar" class="city-link">Bhavnagar</a>
+
+            <a href="/packers-and-movers-jamnagar" class="city-link">Jamnagar</a>
+
+            <a href="/packers-and-movers-junagadh" class="city-link">Junagadh</a>
+
+            <a href="/packers-and-movers-anand" class="city-link">Anand</a>
+
+            <a href="/packers-and-movers-bharuch" class="city-link">Bharuch</a>
+
+            <a href="/packers-and-movers-mehsana" class="city-link">Mehsana</a>
+
+            <a href="/packers-and-movers-patan" class="city-link">Patan</a>
+
+            <a href="/packers-and-movers-palanpur" class="city-link">Palanpur</a>
+
+            <a href="/packers-and-movers-morbi" class="city-link">Morbi</a>
+
+            <a href="/packers-and-movers-surendranagar" class="city-link">Surendranagar</a>
+
+            <a href="/packers-and-movers-navsari" class="city-link">Navsari</a>
+
+            <a href="/packers-and-movers-valsad" class="city-link">Valsad</a>
+
+            <a href="/packers-and-movers-vapi" class="city-link">Vapi</a>
+
+            <a href="/packers-and-movers-godhra" class="city-link">Godhra</a>
+
+            <a href="/packers-and-movers-dahod" class="city-link">Dahod</a>
+
+            <a href="/packers-and-movers-botad" class="city-link">Botad</a>
+
+            <a href="/packers-and-movers-amreli" class="city-link">Amreli</a>
+
+            <a href="/packers-and-movers-porbandar" class="city-link">Porbandar</a>
+
+            <a href="/packers-and-movers-dwarka" class="city-link">Dwarka</a>
+
+            <a href="/packers-and-movers-bhuj" class="city-link">Bhuj</a>
+
+            <a href="/packers-and-movers-gandhidham" class="city-link">Gandhidham</a>
+
+            <a href="/packers-and-movers-kandla" class="city-link">Kandla</a>
+
+            <a href="/packers-and-movers-veraval" class="city-link">Veraval</a>
+
+            <a href="/packers-and-movers-nadiad" class="city-link">Nadiad</a>
+
+            <a href="/packers-and-movers-kalol" class="city-link">Kalol</a>
+
+            <a href="/packers-and-movers-lunawada" class="city-link">Lunawada</a>
+
+            <a href="/packers-and-movers-modasa" class="city-link">Modasa</a>
+
+            <a href="/packers-and-movers-viramgam" class="city-link">Viramgam</a>
+
+            <a href="/packers-and-movers-keshod" class="city-link">Keshod</a>
+
+            <a href="/packers-and-movers-jetpur" class="city-link">Jetpur</a>
+
+        </div>
+
+    </div>
+
+</details>
+<!-- =========================
+STATE ACCORDION
+DELHI NCR
+========================= -->
+
+<details class="group bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mt-4">
+
+    <!-- Header -->
+
+    <summary class="list-none cursor-pointer flex items-center justify-between p-4 hover:bg-slate-50 transition">
+
+        <div class="flex items-center gap-3">
+
+            <div class="w-11 h-11 rounded-xl bg-gradient-to-br from-indigo-500 to-blue-600 text-white flex items-center justify-center">
+
+                <i class="fa-solid fa-map-location-dot"></i>
+
+            </div>
+
+            <div>
+
+                <h3 class="text-sm font-bold text-[#071B45]">
+
+                    Delhi NCR
+
+                </h3>
+
+                <p class="text-[11px] text-slate-500">
+
+                    20+ Cities Available
+
+                </p>
+
+            </div>
+
+        </div>
+
+        <i class="fa-solid fa-chevron-down text-slate-400 group-open:rotate-180 transition duration-300"></i>
+
+    </summary>
+
+    <!-- Cities -->
+
+    <div class="px-4 pb-4">
+
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2">
+
+            <a href="/packers-and-movers-delhi" class="city-link">Delhi</a>
+
+            <a href="/packers-and-movers-new-delhi" class="city-link">New Delhi</a>
+
+            <a href="/packers-and-movers-noida" class="city-link">Noida</a>
+
+            <a href="/packers-and-movers-greater-noida" class="city-link">Greater Noida</a>
+
+            <a href="/packers-and-movers-ghaziabad" class="city-link">Ghaziabad</a>
+
+            <a href="/packers-and-movers-gurgaon" class="city-link">Gurugram</a>
+
+            <a href="/packers-and-movers-faridabad" class="city-link">Faridabad</a>
+
+            <a href="/packers-and-movers-sonipat" class="city-link">Sonipat</a>
+
+            <a href="/packers-and-movers-bahadurgarh" class="city-link">Bahadurgarh</a>
+
+            <a href="/packers-and-movers-rohtak" class="city-link">Rohtak</a>
+
+            <a href="/packers-and-movers-panipat" class="city-link">Panipat</a>
+
+            <a href="/packers-and-movers-karnal" class="city-link">Karnal</a>
+
+            <a href="/packers-and-movers-rewari" class="city-link">Rewari</a>
+
+            <a href="/packers-and-movers-bhiwadi" class="city-link">Bhiwadi</a>
+
+            <a href="/packers-and-movers-alwar" class="city-link">Alwar</a>
+
+            <a href="/packers-and-movers-meerut" class="city-link">Meerut</a>
+
+            <a href="/packers-and-movers-hapur" class="city-link">Hapur</a>
+
+            <a href="/packers-and-movers-bulandshahr" class="city-link">Bulandshahr</a>
+
+            <a href="/packers-and-movers-palwal" class="city-link">Palwal</a>
+
+            <a href="/packers-and-movers-jhajjar" class="city-link">Jhajjar</a>
+
+        </div>
+
+    </div>
+
+</details>
+<!-- =========================
+STATE ACCORDION
+UTTAR PRADESH
+========================= -->
+
+<details class="group bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mt-4">
+
+    <!-- Header -->
+
+    <summary class="list-none cursor-pointer flex items-center justify-between p-4 hover:bg-slate-50 transition">
+
+        <div class="flex items-center gap-3">
+
+            <div class="w-11 h-11 rounded-xl bg-gradient-to-br from-emerald-500 to-green-600 text-white flex items-center justify-center">
+
+                <i class="fa-solid fa-map-location-dot"></i>
+
+            </div>
+
+            <div>
+
+                <h3 class="text-sm font-bold text-[#071B45]">
+
+                    Uttar Pradesh
+
+                </h3>
+
+                <p class="text-[11px] text-slate-500">
+
+                    75+ Cities Available
+
+                </p>
+
+            </div>
+
+        </div>
+
+        <i class="fa-solid fa-chevron-down text-slate-400 group-open:rotate-180 transition duration-300"></i>
+
+    </summary>
+
+    <!-- Cities -->
+
+    <div class="px-4 pb-4">
+
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2">
+
+            <a href="/packers-and-movers-lucknow" class="city-link">Lucknow</a>
+
+            <a href="/packers-and-movers-kanpur" class="city-link">Kanpur</a>
+
+            <a href="/packers-and-movers-noida" class="city-link">Noida</a>
+
+            <a href="/packers-and-movers-greater-noida" class="city-link">Greater Noida</a>
+
+            <a href="/packers-and-movers-ghaziabad" class="city-link">Ghaziabad</a>
+
+            <a href="/packers-and-movers-agra" class="city-link">Agra</a>
+
+            <a href="/packers-and-movers-varanasi" class="city-link">Varanasi</a>
+
+            <a href="/packers-and-movers-prayagraj" class="city-link">Prayagraj</a>
+
+            <a href="/packers-and-movers-meerut" class="city-link">Meerut</a>
+
+            <a href="/packers-and-movers-aligarh" class="city-link">Aligarh</a>
+
+            <a href="/packers-and-movers-bareilly" class="city-link">Bareilly</a>
+
+            <a href="/packers-and-movers-gorakhpur" class="city-link">Gorakhpur</a>
+
+            <a href="/packers-and-movers-moradabad" class="city-link">Moradabad</a>
+
+            <a href="/packers-and-movers-saharanpur" class="city-link">Saharanpur</a>
+
+            <a href="/packers-and-movers-jhansi" class="city-link">Jhansi</a>
+
+            <a href="/packers-and-movers-mathura" class="city-link">Mathura</a>
+
+            <a href="/packers-and-movers-firozabad" class="city-link">Firozabad</a>
+
+            <a href="/packers-and-movers-ayodhya" class="city-link">Ayodhya</a>
+
+            <a href="/packers-and-movers-raebareli" class="city-link">Raebareli</a>
+
+            <a href="/packers-and-movers-sitapur" class="city-link">Sitapur</a>
+
+            <a href="/packers-and-movers-muzaffarnagar" class="city-link">Muzaffarnagar</a>
+
+            <a href="/packers-and-movers-rampur" class="city-link">Rampur</a>
+
+            <a href="/packers-and-movers-bulandshahr" class="city-link">Bulandshahr</a>
+
+            <a href="/packers-and-movers-hapur" class="city-link">Hapur</a>
+
+            <a href="/packers-and-movers-amroha" class="city-link">Amroha</a>
+
+            <a href="/packers-and-movers-shahjahanpur" class="city-link">Shahjahanpur</a>
+
+            <a href="/packers-and-movers-basti" class="city-link">Basti</a>
+
+            <a href="/packers-and-movers-deoria" class="city-link">Deoria</a>
+
+            <a href="/packers-and-movers-ballia" class="city-link">Ballia</a>
+
+            <a href="/packers-and-movers-gonda" class="city-link">Gonda</a>
+
+            <a href="/packers-and-movers-bahraich" class="city-link">Bahraich</a>
+
+            <a href="/packers-and-movers-hardoi" class="city-link">Hardoi</a>
+
+            <a href="/packers-and-movers-lakhimpur-kheri" class="city-link">Lakhimpur</a>
+
+            <a href="/packers-and-movers-unnao" class="city-link">Unnao</a>
+
+            <a href="/packers-and-movers-farrukhabad" class="city-link">Farrukhabad</a>
+
+            <a href="/packers-and-movers-etawah" class="city-link">Etawah</a>
+
+            <a href="/packers-and-movers-mainpuri" class="city-link">Mainpuri</a>
+
+            <a href="/packers-and-movers-azamgarh" class="city-link">Azamgarh</a>
+
+            <a href="/packers-and-movers-jaunpur" class="city-link">Jaunpur</a>
+
+            <a href="/packers-and-movers-sultanpur" class="city-link">Sultanpur</a>
+
+        </div>
+
+    </div>
+
+</details>
+<!-- =========================
+STATE ACCORDION
+RAJASTHAN
+========================= -->
+
+<details class="group bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mt-4">
+
+    <!-- Header -->
+
+    <summary class="list-none cursor-pointer flex items-center justify-between p-4 hover:bg-slate-50 transition">
+
+        <div class="flex items-center gap-3">
+
+            <div class="w-11 h-11 rounded-xl bg-gradient-to-br from-pink-500 to-rose-600 text-white flex items-center justify-center">
+
+                <i class="fa-solid fa-map-location-dot"></i>
+
+            </div>
+
+            <div>
+
+                <h3 class="text-sm font-bold text-[#071B45]">
+
+                    Rajasthan
+
+                </h3>
+
+                <p class="text-[11px] text-slate-500">
+
+                    35+ Cities Available
+
+                </p>
+
+            </div>
+
+        </div>
+
+        <i class="fa-solid fa-chevron-down text-slate-400 group-open:rotate-180 transition duration-300"></i>
+
+    </summary>
+
+    <!-- Cities -->
+
+    <div class="px-4 pb-4">
+
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2">
+
+            <a href="/packers-and-movers-jaipur" class="city-link">Jaipur</a>
+
+            <a href="/packers-and-movers-jodhpur" class="city-link">Jodhpur</a>
+
+            <a href="/packers-and-movers-udaipur" class="city-link">Udaipur</a>
+
+            <a href="/packers-and-movers-kota" class="city-link">Kota</a>
+
+            <a href="/packers-and-movers-ajmer" class="city-link">Ajmer</a>
+
+            <a href="/packers-and-movers-bikaner" class="city-link">Bikaner</a>
+
+            <a href="/packers-and-movers-alwar" class="city-link">Alwar</a>
+
+            <a href="/packers-and-movers-bharatpur" class="city-link">Bharatpur</a>
+
+            <a href="/packers-and-movers-sikar" class="city-link">Sikar</a>
+
+            <a href="/packers-and-movers-pali" class="city-link">Pali</a>
+
+            <a href="/packers-and-movers-bhilwara" class="city-link">Bhilwara</a>
+
+            <a href="/packers-and-movers-chittorgarh" class="city-link">Chittorgarh</a>
+
+            <a href="/packers-and-movers-barmer" class="city-link">Barmer</a>
+
+            <a href="/packers-and-movers-jaisalmer" class="city-link">Jaisalmer</a>
+
+            <a href="/packers-and-movers-sri-ganganagar" class="city-link">Sri Ganganagar</a>
+
+            <a href="/packers-and-movers-hanumangarh" class="city-link">Hanumangarh</a>
+
+            <a href="/packers-and-movers-tonk" class="city-link">Tonk</a>
+
+            <a href="/packers-and-movers-bundi" class="city-link">Bundi</a>
+
+            <a href="/packers-and-movers-sawai-madhopur" class="city-link">Sawai Madhopur</a>
+
+            <a href="/packers-and-movers-nagaur" class="city-link">Nagaur</a>
+
+            <a href="/packers-and-movers-jhunjhunu" class="city-link">Jhunjhunu</a>
+
+            <a href="/packers-and-movers-dausa" class="city-link">Dausa</a>
+
+            <a href="/packers-and-movers-karauli" class="city-link">Karauli</a>
+
+            <a href="/packers-and-movers-dholpur" class="city-link">Dholpur</a>
+
+            <a href="/packers-and-movers-banswara" class="city-link">Banswara</a>
+
+            <a href="/packers-and-movers-dungarpur" class="city-link">Dungarpur</a>
+
+            <a href="/packers-and-movers-pratapgarh" class="city-link">Pratapgarh</a>
+
+            <a href="/packers-and-movers-jalore" class="city-link">Jalore</a>
+
+            <a href="/packers-and-movers-sirohi" class="city-link">Sirohi</a>
+
+            <a href="/packers-and-movers-baran" class="city-link">Baran</a>
+
+            <a href="/packers-and-movers-rajsamand" class="city-link">Rajsamand</a>
+
+            <a href="/packers-and-movers-kekri" class="city-link">Kekri</a>
+
+            <a href="/packers-and-movers-kotputli" class="city-link">Kotputli</a>
+
+            <a href="/packers-and-movers-beawar" class="city-link">Beawar</a>
+
+            <a href="/packers-and-movers-neem-ka-thana" class="city-link">Neem Ka Thana</a>
+
+        </div>
+
+    </div>
+
+</details>
+<!-- =========================
+STATE ACCORDION
+MADHYA PRADESH
+========================= -->
+
+<details class="group bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mt-4">
+
+    <!-- Header -->
+
+    <summary class="list-none cursor-pointer flex items-center justify-between p-4 hover:bg-slate-50 transition">
+
+        <div class="flex items-center gap-3">
+
+            <div class="w-11 h-11 rounded-xl bg-gradient-to-br from-lime-500 to-green-600 text-white flex items-center justify-center">
+
+                <i class="fa-solid fa-map-location-dot"></i>
+
+            </div>
+
+            <div>
+
+                <h3 class="text-sm font-bold text-[#071B45]">
+                    Madhya Pradesh
+                </h3>
+
+                <p class="text-[11px] text-slate-500">
+                    40+ Cities Available
+                </p>
+
+            </div>
+
+        </div>
+
+        <i class="fa-solid fa-chevron-down text-slate-400 group-open:rotate-180 transition duration-300"></i>
+
+    </summary>
+
+    <!-- Cities -->
+
+    <div class="px-4 pb-4">
+
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2">
+
+            <a href="/packers-and-movers-indore" class="city-link">Indore</a>
+
+            <a href="/packers-and-movers-bhopal" class="city-link">Bhopal</a>
+
+            <a href="/packers-and-movers-jabalpur" class="city-link">Jabalpur</a>
+
+            <a href="/packers-and-movers-gwalior" class="city-link">Gwalior</a>
+
+            <a href="/packers-and-movers-ujjain" class="city-link">Ujjain</a>
+
+            <a href="/packers-and-movers-sagar" class="city-link">Sagar</a>
+
+            <a href="/packers-and-movers-dewas" class="city-link">Dewas</a>
+
+            <a href="/packers-and-movers-ratlam" class="city-link">Ratlam</a>
+
+            <a href="/packers-and-movers-rewa" class="city-link">Rewa</a>
+
+            <a href="/packers-and-movers-satna" class="city-link">Satna</a>
+
+            <a href="/packers-and-movers-katni" class="city-link">Katni</a>
+
+            <a href="/packers-and-movers-singrauli" class="city-link">Singrauli</a>
+
+            <a href="/packers-and-movers-burhanpur" class="city-link">Burhanpur</a>
+
+            <a href="/packers-and-movers-khandwa" class="city-link">Khandwa</a>
+
+            <a href="/packers-and-movers-shivpuri" class="city-link">Shivpuri</a>
+
+            <a href="/packers-and-movers-chhindwara" class="city-link">Chhindwara</a>
+
+            <a href="/packers-and-movers-seoni" class="city-link">Seoni</a>
+
+            <a href="/packers-and-movers-balaghat" class="city-link">Balaghat</a>
+
+            <a href="/packers-and-movers-neemuch" class="city-link">Neemuch</a>
+
+            <a href="/packers-and-movers-mandsaur" class="city-link">Mandsaur</a>
+
+            <a href="/packers-and-movers-vidisha" class="city-link">Vidisha</a>
+
+            <a href="/packers-and-movers-betul" class="city-link">Betul</a>
+
+            <a href="/packers-and-movers-hoshangabad" class="city-link">Narmadapuram</a>
+
+            <a href="/packers-and-movers-harda" class="city-link">Harda</a>
+
+            <a href="/packers-and-movers-dhar" class="city-link">Dhar</a>
+
+            <a href="/packers-and-movers-khargone" class="city-link">Khargone</a>
+
+            <a href="/packers-and-movers-barwani" class="city-link">Barwani</a>
+
+            <a href="/packers-and-movers-alirajpur" class="city-link">Alirajpur</a>
+
+            <a href="/packers-and-movers-tikamgarh" class="city-link">Tikamgarh</a>
+
+            <a href="/packers-and-movers-datia" class="city-link">Datia</a>
+
+            <a href="/packers-and-movers-ashoknagar" class="city-link">Ashoknagar</a>
+
+            <a href="/packers-and-movers-guna" class="city-link">Guna</a>
+
+            <a href="/packers-and-movers-shahdol" class="city-link">Shahdol</a>
+
+            <a href="/packers-and-movers-anuppur" class="city-link">Anuppur</a>
+
+            <a href="/packers-and-movers-umaria" class="city-link">Umaria</a>
+
+            <a href="/packers-and-movers-panna" class="city-link">Panna</a>
+
+            <a href="/packers-and-movers-chhatarpur" class="city-link">Chhatarpur</a>
+
+            <a href="/packers-and-movers-damoh" class="city-link">Damoh</a>
+
+            <a href="/packers-and-movers-morena" class="city-link">Morena</a>
+
+            <a href="/packers-and-movers-bhind" class="city-link">Bhind</a>
+
+        </div>
+
+    </div>
+
+</details>
+<!-- =========================
+STATE ACCORDION
+MADHYA PRADESH
+========================= -->
+
+<details class="group bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mt-4">
+
+    <!-- Header -->
+
+    <summary class="list-none cursor-pointer flex items-center justify-between p-4 hover:bg-slate-50 transition">
+
+        <div class="flex items-center gap-3">
+
+            <div class="w-11 h-11 rounded-xl bg-gradient-to-br from-lime-500 to-green-600 text-white flex items-center justify-center">
+
+                <i class="fa-solid fa-map-location-dot"></i>
+
+            </div>
+
+            <div>
+
+                <h3 class="text-sm font-bold text-[#071B45]">
+                    Madhya Pradesh
+                </h3>
+
+                <p class="text-[11px] text-slate-500">
+                    40+ Cities Available
+                </p>
+
+            </div>
+
+        </div>
+
+        <i class="fa-solid fa-chevron-down text-slate-400 group-open:rotate-180 transition duration-300"></i>
+
+    </summary>
+
+    <!-- Cities -->
+
+    <div class="px-4 pb-4">
+
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2">
+
+            <a href="/packers-and-movers-indore" class="city-link">Indore</a>
+
+            <a href="/packers-and-movers-bhopal" class="city-link">Bhopal</a>
+
+            <a href="/packers-and-movers-jabalpur" class="city-link">Jabalpur</a>
+
+            <a href="/packers-and-movers-gwalior" class="city-link">Gwalior</a>
+
+            <a href="/packers-and-movers-ujjain" class="city-link">Ujjain</a>
+
+            <a href="/packers-and-movers-sagar" class="city-link">Sagar</a>
+
+            <a href="/packers-and-movers-dewas" class="city-link">Dewas</a>
+
+            <a href="/packers-and-movers-ratlam" class="city-link">Ratlam</a>
+
+            <a href="/packers-and-movers-rewa" class="city-link">Rewa</a>
+
+            <a href="/packers-and-movers-satna" class="city-link">Satna</a>
+
+            <a href="/packers-and-movers-katni" class="city-link">Katni</a>
+
+            <a href="/packers-and-movers-singrauli" class="city-link">Singrauli</a>
+
+            <a href="/packers-and-movers-burhanpur" class="city-link">Burhanpur</a>
+
+            <a href="/packers-and-movers-khandwa" class="city-link">Khandwa</a>
+
+            <a href="/packers-and-movers-shivpuri" class="city-link">Shivpuri</a>
+
+            <a href="/packers-and-movers-chhindwara" class="city-link">Chhindwara</a>
+
+            <a href="/packers-and-movers-seoni" class="city-link">Seoni</a>
+
+            <a href="/packers-and-movers-balaghat" class="city-link">Balaghat</a>
+
+            <a href="/packers-and-movers-neemuch" class="city-link">Neemuch</a>
+
+            <a href="/packers-and-movers-mandsaur" class="city-link">Mandsaur</a>
+
+            <a href="/packers-and-movers-vidisha" class="city-link">Vidisha</a>
+
+            <a href="/packers-and-movers-betul" class="city-link">Betul</a>
+
+            <a href="/packers-and-movers-hoshangabad" class="city-link">Narmadapuram</a>
+
+            <a href="/packers-and-movers-harda" class="city-link">Harda</a>
+
+            <a href="/packers-and-movers-dhar" class="city-link">Dhar</a>
+
+            <a href="/packers-and-movers-khargone" class="city-link">Khargone</a>
+
+            <a href="/packers-and-movers-barwani" class="city-link">Barwani</a>
+
+            <a href="/packers-and-movers-alirajpur" class="city-link">Alirajpur</a>
+
+            <a href="/packers-and-movers-tikamgarh" class="city-link">Tikamgarh</a>
+
+            <a href="/packers-and-movers-datia" class="city-link">Datia</a>
+
+            <a href="/packers-and-movers-ashoknagar" class="city-link">Ashoknagar</a>
+
+            <a href="/packers-and-movers-guna" class="city-link">Guna</a>
+
+            <a href="/packers-and-movers-shahdol" class="city-link">Shahdol</a>
+
+            <a href="/packers-and-movers-anuppur" class="city-link">Anuppur</a>
+
+            <a href="/packers-and-movers-umaria" class="city-link">Umaria</a>
+
+            <a href="/packers-and-movers-panna" class="city-link">Panna</a>
+
+            <a href="/packers-and-movers-chhatarpur" class="city-link">Chhatarpur</a>
+
+            <a href="/packers-and-movers-damoh" class="city-link">Damoh</a>
+
+            <a href="/packers-and-movers-morena" class="city-link">Morena</a>
+
+            <a href="/packers-and-movers-bhind" class="city-link">Bhind</a>
+
+        </div>
+
+    </div>
+
+</details>
+<!-- =========================
+STATE ACCORDION
+CHHATTISGARH
+========================= -->
+
+<details class="group bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mt-4">
+
+    <!-- Header -->
+
+    <summary class="list-none cursor-pointer flex items-center justify-between p-4 hover:bg-slate-50 transition">
+
+        <div class="flex items-center gap-3">
+
+            <div class="w-11 h-11 rounded-xl bg-gradient-to-br from-emerald-500 to-teal-600 text-white flex items-center justify-center">
+
+                <i class="fa-solid fa-map-location-dot"></i>
+
+            </div>
+
+            <div>
+
+                <h3 class="text-sm font-bold text-[#071B45]">
+
+                    Chhattisgarh
+
+                </h3>
+
+                <p class="text-[11px] text-slate-500">
+
+                    33+ Cities Available
+
+                </p>
+
+            </div>
+
+        </div>
+
+        <i class="fa-solid fa-chevron-down text-slate-400 group-open:rotate-180 transition duration-300"></i>
+
+    </summary>
+
+    <!-- Cities -->
+
+    <div class="px-4 pb-4">
+
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2">
+
+            <a href="/packers-and-movers-raipur" class="city-link">Raipur</a>
+
+            <a href="/packers-and-movers-bhilai" class="city-link">Bhilai</a>
+
+            <a href="/packers-and-movers-durg" class="city-link">Durg</a>
+
+            <a href="/packers-and-movers-bilaspur" class="city-link">Bilaspur</a>
+
+            <a href="/packers-and-movers-korba" class="city-link">Korba</a>
+
+            <a href="/packers-and-movers-raigarh" class="city-link">Raigarh</a>
+
+            <a href="/packers-and-movers-jagdalpur" class="city-link">Jagdalpur</a>
+
+            <a href="/packers-and-movers-rajnandgaon" class="city-link">Rajnandgaon</a>
+
+            <a href="/packers-and-movers-ambikapur" class="city-link">Ambikapur</a>
+
+            <a href="/packers-and-movers-dhamtari" class="city-link">Dhamtari</a>
+
+            <a href="/packers-and-movers-mahasamund" class="city-link">Mahasamund</a>
+
+            <a href="/packers-and-movers-janjgir" class="city-link">Janjgir</a>
+
+            <a href="/packers-and-movers-champa" class="city-link">Champa</a>
+
+            <a href="/packers-and-movers-kawardha" class="city-link">Kawardha</a>
+
+            <a href="/packers-and-movers-kanker" class="city-link">Kanker</a>
+
+            <a href="/packers-and-movers-kondagaon" class="city-link">Kondagaon</a>
+
+            <a href="/packers-and-movers-sukma" class="city-link">Sukma</a>
+
+            <a href="/packers-and-movers-bijapur" class="city-link">Bijapur</a>
+
+            <a href="/packers-and-movers-dantewada" class="city-link">Dantewada</a>
+
+            <a href="/packers-and-movers-balod" class="city-link">Balod</a>
+
+            <a href="/packers-and-movers-bemetara" class="city-link">Bemetara</a>
+
+            <a href="/packers-and-movers-baloda-bazar" class="city-link">Baloda Bazar</a>
+
+            <a href="/packers-and-movers-gariaband" class="city-link">Gariaband</a>
+
+            <a href="/packers-and-movers-mungeli" class="city-link">Mungeli</a>
+
+            <a href="/packers-and-movers-gaurela-pendra-marwahi" class="city-link">Gaurela</a>
+
+            <a href="/packers-and-movers-surajpur" class="city-link">Surajpur</a>
+
+            <a href="/packers-and-movers-surguja" class="city-link">Surguja</a>
+
+            <a href="/packers-and-movers-balrampur" class="city-link">Balrampur</a>
+
+            <a href="/packers-and-movers-koriya" class="city-link">Koriya</a>
+
+            <a href="/packers-and-movers-manendragarh" class="city-link">Manendragarh</a>
+
+        </div>
+
+    </div>
+
+</details>
+<!-- =========================
+STATE ACCORDION
+ODISHA
+========================= -->
+
+<details class="group bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mt-4">
+
+    <!-- Header -->
+
+    <summary class="list-none cursor-pointer flex items-center justify-between p-4 hover:bg-slate-50 transition">
+
+        <div class="flex items-center gap-3">
+
+            <div class="w-11 h-11 rounded-xl bg-gradient-to-br from-orange-500 to-amber-600 text-white flex items-center justify-center">
+
+                <i class="fa-solid fa-map-location-dot"></i>
+
+            </div>
+
+            <div>
+
+                <h3 class="text-sm font-bold text-[#071B45]">
+
+                    Odisha
+
+                </h3>
+
+                <p class="text-[11px] text-slate-500">
+
+                    30+ Cities Available
+
+                </p>
+
+            </div>
+
+        </div>
+
+        <i class="fa-solid fa-chevron-down text-slate-400 group-open:rotate-180 transition duration-300"></i>
+
+    </summary>
+
+    <!-- Cities -->
+
+    <div class="px-4 pb-4">
+
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2">
+
+            <a href="/packers-and-movers-bhubaneswar" class="city-link">Bhubaneswar</a>
+
+            <a href="/packers-and-movers-cuttack" class="city-link">Cuttack</a>
+
+            <a href="/packers-and-movers-rourkela" class="city-link">Rourkela</a>
+
+            <a href="/packers-and-movers-sambalpur" class="city-link">Sambalpur</a>
+
+            <a href="/packers-and-movers-berhampur" class="city-link">Berhampur</a>
+
+            <a href="/packers-and-movers-puri" class="city-link">Puri</a>
+
+            <a href="/packers-and-movers-balasore" class="city-link">Balasore</a>
+
+            <a href="/packers-and-movers-baripada" class="city-link">Baripada</a>
+
+            <a href="/packers-and-movers-jharsuguda" class="city-link">Jharsuguda</a>
+
+            <a href="/packers-and-movers-angul" class="city-link">Angul</a>
+
+            <a href="/packers-and-movers-koraput" class="city-link">Koraput</a>
+
+            <a href="/packers-and-movers-jeypore" class="city-link">Jeypore</a>
+
+            <a href="/packers-and-movers-bhadrak" class="city-link">Bhadrak</a>
+
+            <a href="/packers-and-movers-bargarh" class="city-link">Bargarh</a>
+
+            <a href="/packers-and-movers-kendrapara" class="city-link">Kendrapara</a>
+
+            <a href="/packers-and-movers-jagatsinghpur" class="city-link">Jagatsinghpur</a>
+
+            <a href="/packers-and-movers-dhenkanal" class="city-link">Dhenkanal</a>
+
+            <a href="/packers-and-movers-keonjhar" class="city-link">Keonjhar</a>
+
+            <a href="/packers-and-movers-sundargarh" class="city-link">Sundargarh</a>
+
+            <a href="/packers-and-movers-bolangir" class="city-link">Balangir</a>
+
+            <a href="/packers-and-movers-nabarangpur" class="city-link">Nabarangpur</a>
+
+            <a href="/packers-and-movers-kalahandi" class="city-link">Kalahandi</a>
+
+            <a href="/packers-and-movers-rayagada" class="city-link">Rayagada</a>
+
+            <a href="/packers-and-movers-nayagarh" class="city-link">Nayagarh</a>
+
+            <a href="/packers-and-movers-kandhamal" class="city-link">Kandhamal</a>
+
+            <a href="/packers-and-movers-ganjam" class="city-link">Ganjam</a>
+
+            <a href="/packers-and-movers-khordha" class="city-link">Khordha</a>
+
+            <a href="/packers-and-movers-subarnapur" class="city-link">Subarnapur</a>
+
+            <a href="/packers-and-movers-deogarh" class="city-link">Deogarh</a>
+
+            <a href="/packers-and-movers-malkangiri" class="city-link">Malkangiri</a>
+
+        </div>
+
+    </div>
+
+</details>
+<!-- =========================
+STATE ACCORDION
+BIHAR
+========================= -->
+
+<details class="group bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mt-4">
+
+    <!-- Header -->
+
+    <summary class="list-none cursor-pointer flex items-center justify-between p-4 hover:bg-slate-50 transition">
+
+        <div class="flex items-center gap-3">
+
+            <div class="w-11 h-11 rounded-xl bg-gradient-to-br from-yellow-500 to-orange-600 text-white flex items-center justify-center">
+
+                <i class="fa-solid fa-map-location-dot"></i>
+
+            </div>
+
+            <div>
+
+                <h3 class="text-sm font-bold text-[#071B45]">
+
+                    Bihar
+
+                </h3>
+
+                <p class="text-[11px] text-slate-500">
+
+                    38+ Cities Available
+
+                </p>
+
+            </div>
+
+        </div>
+
+        <i class="fa-solid fa-chevron-down text-slate-400 group-open:rotate-180 transition duration-300"></i>
+
+    </summary>
+
+    <!-- Cities -->
+
+    <div class="px-4 pb-4">
+
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2">
+
+            <a href="/packers-and-movers-patna" class="city-link">Patna</a>
+
+            <a href="/packers-and-movers-gaya" class="city-link">Gaya</a>
+
+            <a href="/packers-and-movers-muzaffarpur" class="city-link">Muzaffarpur</a>
+
+            <a href="/packers-and-movers-bhagalpur" class="city-link">Bhagalpur</a>
+
+            <a href="/packers-and-movers-darbhanga" class="city-link">Darbhanga</a>
+
+            <a href="/packers-and-movers-purnia" class="city-link">Purnia</a>
+
+            <a href="/packers-and-movers-begusarai" class="city-link">Begusarai</a>
+
+            <a href="/packers-and-movers-arrah" class="city-link">Arrah</a>
+
+            <a href="/packers-and-movers-bihar-sharif" class="city-link">Bihar Sharif</a>
+
+            <a href="/packers-and-movers-katihar" class="city-link">Katihar</a>
+
+            <a href="/packers-and-movers-saharsa" class="city-link">Saharsa</a>
+
+            <a href="/packers-and-movers-samastipur" class="city-link">Samastipur</a>
+
+            <a href="/packers-and-movers-siwan" class="city-link">Siwan</a>
+
+            <a href="/packers-and-movers-chapra" class="city-link">Chapra</a>
+
+            <a href="/packers-and-movers-buxar" class="city-link">Buxar</a>
+
+            <a href="/packers-and-movers-aurangabad-bihar" class="city-link">Aurangabad</a>
+
+            <a href="/packers-and-movers-nawada" class="city-link">Nawada</a>
+
+            <a href="/packers-and-movers-jamui" class="city-link">Jamui</a>
+
+            <a href="/packers-and-movers-kishanganj" class="city-link">Kishanganj</a>
+
+            <a href="/packers-and-movers-motihari" class="city-link">Motihari</a>
+
+            <a href="/packers-and-movers-bettiah" class="city-link">Bettiah</a>
+
+            <a href="/packers-and-movers-sitamarhi" class="city-link">Sitamarhi</a>
+
+            <a href="/packers-and-movers-madhubani" class="city-link">Madhubani</a>
+
+            <a href="/packers-and-movers-lakhisarai" class="city-link">Lakhisarai</a>
+
+            <a href="/packers-and-movers-sheikhpura" class="city-link">Sheikhpura</a>
+
+            <a href="/packers-and-movers-munger" class="city-link">Munger</a>
+
+            <a href="/packers-and-movers-jehanabad" class="city-link">Jehanabad</a>
+
+            <a href="/packers-and-movers-supaul" class="city-link">Supaul</a>
+
+            <a href="/packers-and-movers-araria" class="city-link">Araria</a>
+
+            <a href="/packers-and-movers-vaishali" class="city-link">Vaishali</a>
+
+        </div>
+
+    </div>
+
+</details>
+
+<!-- =========================
+STATE ACCORDION
+WEST BENGAL
+========================= -->
+
+<details class="group bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mt-4">
+
+    <!-- Header -->
+
+    <summary class="list-none cursor-pointer flex items-center justify-between p-4 hover:bg-slate-50 transition">
+
+        <div class="flex items-center gap-3">
+
+            <div class="w-11 h-11 rounded-xl bg-gradient-to-br from-red-500 to-pink-600 text-white flex items-center justify-center">
+
+                <i class="fa-solid fa-map-location-dot"></i>
+
+            </div>
+
+            <div>
+
+                <h3 class="text-sm font-bold text-[#071B45]">
+
+                    West Bengal
+
+                </h3>
+
+                <p class="text-[11px] text-slate-500">
+
+                    30+ Cities Available
+
+                </p>
+
+            </div>
+
+        </div>
+
+        <i class="fa-solid fa-chevron-down text-slate-400 group-open:rotate-180 transition duration-300"></i>
+
+    </summary>
+
+    <!-- Cities -->
+
+    <div class="px-4 pb-4">
+
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2">
+
+            <a href="/packers-and-movers-kolkata" class="city-link">Kolkata</a>
+
+            <a href="/packers-and-movers-howrah" class="city-link">Howrah</a>
+
+            <a href="/packers-and-movers-durgapur" class="city-link">Durgapur</a>
+
+            <a href="/packers-and-movers-asansol" class="city-link">Asansol</a>
+
+            <a href="/packers-and-movers-siliguri" class="city-link">Siliguri</a>
+
+            <a href="/packers-and-movers-kharagpur" class="city-link">Kharagpur</a>
+
+            <a href="/packers-and-movers-bardhaman" class="city-link">Bardhaman</a>
+
+            <a href="/packers-and-movers-malda" class="city-link">Malda</a>
+
+            <a href="/packers-and-movers-berhampore" class="city-link">Berhampore</a>
+
+            <a href="/packers-and-movers-raiganj" class="city-link">Raiganj</a>
+
+            <a href="/packers-and-movers-jalpaiguri" class="city-link">Jalpaiguri</a>
+
+            <a href="/packers-and-movers-cooch-behar" class="city-link">Cooch Behar</a>
+
+            <a href="/packers-and-movers-alipurduar" class="city-link">Alipurduar</a>
+
+            <a href="/packers-and-movers-balurghat" class="city-link">Balurghat</a>
+
+            <a href="/packers-and-movers-haldia" class="city-link">Haldia</a>
+
+            <a href="/packers-and-movers-midnapore" class="city-link">Midnapore</a>
+
+            <a href="/packers-and-movers-bankura" class="city-link">Bankura</a>
+
+            <a href="/packers-and-movers-purulia" class="city-link">Purulia</a>
+
+            <a href="/packers-and-movers-krishnanagar" class="city-link">Krishnanagar</a>
+
+            <a href="/packers-and-movers-ranaghat" class="city-link">Ranaghat</a>
+
+            <a href="/packers-and-movers-barasat" class="city-link">Barasat</a>
+
+            <a href="/packers-and-movers-barrackpore" class="city-link">Barrackpore</a>
+
+            <a href="/packers-and-movers-dumdum" class="city-link">Dum Dum</a>
+
+            <a href="/packers-and-movers-kalyani" class="city-link">Kalyani</a>
+
+            <a href="/packers-and-movers-bongaon" class="city-link">Bongaon</a>
+
+            <a href="/packers-and-movers-diamond-harbour" class="city-link">Diamond Harbour</a>
+
+            <a href="/packers-and-movers-tamluk" class="city-link">Tamluk</a>
+
+            <a href="/packers-and-movers-chandannagar" class="city-link">Chandannagar</a>
+
+            <a href="/packers-and-movers-serampore" class="city-link">Serampore</a>
+
+            <a href="/packers-and-movers-hooghly" class="city-link">Hooghly</a>
+
+        </div>
+
+    </div>
+
+</details>
+<!-- =========================
+STATE ACCORDION
+PUNJAB
+========================= -->
+
+<details class="group bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mt-4">
+
+    <!-- Header -->
+
+    <summary class="list-none cursor-pointer flex items-center justify-between p-4 hover:bg-slate-50 transition">
+
+        <div class="flex items-center gap-3">
+
+            <div class="w-11 h-11 rounded-xl bg-gradient-to-br from-orange-500 to-red-600 text-white flex items-center justify-center">
+
+                <i class="fa-solid fa-map-location-dot"></i>
+
+            </div>
+
+            <div>
+
+                <h3 class="text-sm font-bold text-[#071B45]">
+
+                    Punjab
+
+                </h3>
+
+                <p class="text-[11px] text-slate-500">
+
+                    28+ Cities Available
+
+                </p>
+
+            </div>
+
+        </div>
+
+        <i class="fa-solid fa-chevron-down text-slate-400 group-open:rotate-180 transition duration-300"></i>
+
+    </summary>
+
+    <!-- Cities -->
+
+    <div class="px-4 pb-4">
+
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2">
+
+            <a href="/packers-and-movers-amritsar" class="city-link">Amritsar</a>
+
+            <a href="/packers-and-movers-ludhiana" class="city-link">Ludhiana</a>
+
+            <a href="/packers-and-movers-jalandhar" class="city-link">Jalandhar</a>
+
+            <a href="/packers-and-movers-patiala" class="city-link">Patiala</a>
+
+            <a href="/packers-and-movers-bathinda" class="city-link">Bathinda</a>
+
+            <a href="/packers-and-movers-mohali" class="city-link">Mohali</a>
+
+            <a href="/packers-and-movers-zirakpur" class="city-link">Zirakpur</a>
+
+            <a href="/packers-and-movers-pathankot" class="city-link">Pathankot</a>
+
+            <a href="/packers-and-movers-hoshiarpur" class="city-link">Hoshiarpur</a>
+
+            <a href="/packers-and-movers-moga" class="city-link">Moga</a>
+
+            <a href="/packers-and-movers-firozpur" class="city-link">Firozpur</a>
+
+            <a href="/packers-and-movers-faridkot" class="city-link">Faridkot</a>
+
+            <a href="/packers-and-movers-muktsar" class="city-link">Sri Muktsar Sahib</a>
+
+            <a href="/packers-and-movers-sangrur" class="city-link">Sangrur</a>
+
+            <a href="/packers-and-movers-barnala" class="city-link">Barnala</a>
+
+            <a href="/packers-and-movers-malerkotla" class="city-link">Malerkotla</a>
+
+            <a href="/packers-and-movers-kapurthala" class="city-link">Kapurthala</a>
+
+            <a href="/packers-and-movers-phagwara" class="city-link">Phagwara</a>
+
+            <a href="/packers-and-movers-nawanshahr" class="city-link">Nawanshahr</a>
+
+            <a href="/packers-and-movers-ropar" class="city-link">Rupnagar</a>
+
+            <a href="/packers-and-movers-fatehgarh-sahib" class="city-link">Fatehgarh Sahib</a>
+
+            <a href="/packers-and-movers-mansa" class="city-link">Mansa</a>
+
+            <a href="/packers-and-movers-gurdaspur" class="city-link">Gurdaspur</a>
+
+            <a href="/packers-and-movers-tarn-taran" class="city-link">Tarn Taran</a>
+
+            <a href="/packers-and-movers-rajpura" class="city-link">Rajpura</a>
+
+            <a href="/packers-and-movers-dera-bassi" class="city-link">Dera Bassi</a>
+
+            <a href="/packers-and-movers-abohar" class="city-link">Abohar</a>
+
+            <a href="/packers-and-movers-sunam" class="city-link">Sunam</a>
+
+        </div>
+
+    </div>
+
+</details>
+
+
+<!-- =========================
+STATE ACCORDION
+HIMACHAL PRADESH
+========================= -->
+
+<details class="group bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mt-4">
+
+    <!-- Header -->
+
+    <summary class="list-none cursor-pointer flex items-center justify-between p-4 hover:bg-slate-50 transition">
+
+        <div class="flex items-center gap-3">
+
+            <div class="w-11 h-11 rounded-xl bg-gradient-to-br from-sky-500 to-blue-600 text-white flex items-center justify-center">
+
+                <i class="fa-solid fa-map-location-dot"></i>
+
+            </div>
+
+            <div>
+
+                <h3 class="text-sm font-bold text-[#071B45]">
+
+                    Himachal Pradesh
+
+                </h3>
+
+                <p class="text-[11px] text-slate-500">
+
+                    22+ Cities Available
+
+                </p>
+
+            </div>
+
+        </div>
+
+        <i class="fa-solid fa-chevron-down text-slate-400 group-open:rotate-180 transition duration-300"></i>
+
+    </summary>
+
+    <!-- Cities -->
+
+    <div class="px-4 pb-4">
+
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2">
+
+            <a href="/packers-and-movers-shimla" class="city-link">Shimla</a>
+
+            <a href="/packers-and-movers-dharamshala" class="city-link">Dharamshala</a>
+
+            <a href="/packers-and-movers-solan" class="city-link">Solan</a>
+
+            <a href="/packers-and-movers-mandi" class="city-link">Mandi</a>
+
+            <a href="/packers-and-movers-kullu" class="city-link">Kullu</a>
+
+            <a href="/packers-and-movers-manali" class="city-link">Manali</a>
+
+            <a href="/packers-and-movers-bilaspur-hp" class="city-link">Bilaspur</a>
+
+            <a href="/packers-and-movers-hamirpur-hp" class="city-link">Hamirpur</a>
+
+            <a href="/packers-and-movers-una" class="city-link">Una</a>
+
+            <a href="/packers-and-movers-kangra" class="city-link">Kangra</a>
+
+            <a href="/packers-and-movers-palampur" class="city-link">Palampur</a>
+
+            <a href="/packers-and-movers-nahan" class="city-link">Nahan</a>
+
+            <a href="/packers-and-movers-paonta-sahib" class="city-link">Paonta Sahib</a>
+
+            <a href="/packers-and-movers-chamba" class="city-link">Chamba</a>
+
+            <a href="/packers-and-movers-dalhousie" class="city-link">Dalhousie</a>
+
+            <a href="/packers-and-movers-kasauli" class="city-link">Kasauli</a>
+
+            <a href="/packers-and-movers-baddi" class="city-link">Baddi</a>
+
+            <a href="/packers-and-movers-nalagarh" class="city-link">Nalagarh</a>
+
+            <a href="/packers-and-movers-rohru" class="city-link">Rohru</a>
+
+            <a href="/packers-and-movers-theog" class="city-link">Theog</a>
+
+            <a href="/packers-and-movers-keylong" class="city-link">Keylong</a>
+
+            <a href="/packers-and-movers-reckong-peo" class="city-link">Reckong Peo</a>
+
+        </div>
+
+    </div>
+
+</details>
+
+
+<!-- =========================
+STATE ACCORDION
+UTTARAKHAND
+========================= -->
+
+<details class="group bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mt-4">
+
+    <!-- Header -->
+
+    <summary class="list-none cursor-pointer flex items-center justify-between p-4 hover:bg-slate-50 transition">
+
+        <div class="flex items-center gap-3">
+
+            <div class="w-11 h-11 rounded-xl bg-gradient-to-br from-cyan-500 to-sky-600 text-white flex items-center justify-center">
+
+                <i class="fa-solid fa-map-location-dot"></i>
+
+            </div>
+
+            <div>
+
+                <h3 class="text-sm font-bold text-[#071B45]">
+
+                    Uttarakhand
+
+                </h3>
+
+                <p class="text-[11px] text-slate-500">
+
+                    20+ Cities Available
+
+                </p>
+
+            </div>
+
+        </div>
+
+        <i class="fa-solid fa-chevron-down text-slate-400 group-open:rotate-180 transition duration-300"></i>
+
+    </summary>
+
+    <!-- Cities -->
+
+    <div class="px-4 pb-4">
+
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2">
+
+            <a href="/packers-and-movers-dehradun" class="city-link">Dehradun</a>
+
+            <a href="/packers-and-movers-haridwar" class="city-link">Haridwar</a>
+
+            <a href="/packers-and-movers-rishikesh" class="city-link">Rishikesh</a>
+
+            <a href="/packers-and-movers-roorkee" class="city-link">Roorkee</a>
+
+            <a href="/packers-and-movers-haldwani" class="city-link">Haldwani</a>
+
+            <a href="/packers-and-movers-rudrapur" class="city-link">Rudrapur</a>
+
+            <a href="/packers-and-movers-kashipur" class="city-link">Kashipur</a>
+
+            <a href="/packers-and-movers-almora" class="city-link">Almora</a>
+
+            <a href="/packers-and-movers-nainital" class="city-link">Nainital</a>
+
+            <a href="/packers-and-movers-pithoragarh" class="city-link">Pithoragarh</a>
+
+            <a href="/packers-and-movers-bageshwar" class="city-link">Bageshwar</a>
+
+            <a href="/packers-and-movers-chamoli" class="city-link">Chamoli</a>
+
+            <a href="/packers-and-movers-rudraprayag" class="city-link">Rudraprayag</a>
+
+            <a href="/packers-and-movers-uttarkashi" class="city-link">Uttarkashi</a>
+
+            <a href="/packers-and-movers-tehri-garhwal" class="city-link">Tehri Garhwal</a>
+
+            <a href="/packers-and-movers-srinagar-garhwal" class="city-link">Srinagar Garhwal</a>
+
+            <a href="/packers-and-movers-kotdwar" class="city-link">Kotdwar</a>
+
+            <a href="/packers-and-movers-vikasnagar" class="city-link">Vikasnagar</a>
+
+            <a href="/packers-and-movers-khatima" class="city-link">Khatima</a>
+
+            <a href="/packers-and-movers-ramnagar" class="city-link">Ramnagar</a>
+
+        </div>
+
+    </div>
+
+</details>
+<!-- =========================
+STATE ACCORDION
+JAMMU & KASHMIR
+========================= -->
+
+<details class="group bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mt-4">
+
+    <!-- Header -->
+
+    <summary class="list-none cursor-pointer flex items-center justify-between p-4 hover:bg-slate-50 transition">
+
+        <div class="flex items-center gap-3">
+
+            <div class="w-11 h-11 rounded-xl bg-gradient-to-br from-sky-500 to-indigo-600 text-white flex items-center justify-center">
+
+                <i class="fa-solid fa-mountain-city"></i>
+
+            </div>
+
+            <div>
+
+                <h3 class="text-sm font-bold text-[#071B45]">
+
+                    Jammu & Kashmir
+
+                </h3>
+
+                <p class="text-[11px] text-slate-500">
+
+                    20+ Cities Available
+
+                </p>
+
+            </div>
+
+        </div>
+
+        <i class="fa-solid fa-chevron-down text-slate-400 group-open:rotate-180 transition duration-300"></i>
+
+    </summary>
+
+    <!-- Cities -->
+
+    <div class="px-4 pb-4">
+
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2">
+
+            <a href="/packers-and-movers-srinagar" class="city-link">Srinagar</a>
+
+            <a href="/packers-and-movers-jammu" class="city-link">Jammu</a>
+
+            <a href="/packers-and-movers-anantnag" class="city-link">Anantnag</a>
+
+            <a href="/packers-and-movers-baramulla" class="city-link">Baramulla</a>
+
+            <a href="/packers-and-movers-kupwara" class="city-link">Kupwara</a>
+
+            <a href="/packers-and-movers-pulwama" class="city-link">Pulwama</a>
+
+            <a href="/packers-and-movers-budgam" class="city-link">Budgam</a>
+
+            <a href="/packers-and-movers-ganderbal" class="city-link">Ganderbal</a>
+
+            <a href="/packers-and-movers-shopian" class="city-link">Shopian</a>
+
+            <a href="/packers-and-movers-kulgam" class="city-link">Kulgam</a>
+
+            <a href="/packers-and-movers-bandipora" class="city-link">Bandipora</a>
+
+            <a href="/packers-and-movers-sopore" class="city-link">Sopore</a>
+
+            <a href="/packers-and-movers-udhampur" class="city-link">Udhampur</a>
+
+            <a href="/packers-and-movers-kathua" class="city-link">Kathua</a>
+
+            <a href="/packers-and-movers-samba" class="city-link">Samba</a>
+
+            <a href="/packers-and-movers-rajouri" class="city-link">Rajouri</a>
+
+            <a href="/packers-and-movers-poonch" class="city-link">Poonch</a>
+
+            <a href="/packers-and-movers-reasi" class="city-link">Reasi</a>
+
+            <a href="/packers-and-movers-doda" class="city-link">Doda</a>
+
+            <a href="/packers-and-movers-kishtwar" class="city-link">Kishtwar</a>
+
+            <a href="/packers-and-movers-ramban" class="city-link">Ramban</a>
+
+            <a href="/packers-and-movers-akhnoor" class="city-link">Akhnoor</a>
+
+        </div>
+
+    </div>
+
+</details>
+<!-- =========================
+STATE ACCORDION
+ASSAM
+========================= -->
+
+<details class="group bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mt-4">
+
+    <!-- Header -->
+
+    <summary class="list-none cursor-pointer flex items-center justify-between p-4 hover:bg-slate-50 transition">
+
+        <div class="flex items-center gap-3">
+
+            <div class="w-11 h-11 rounded-xl bg-gradient-to-br from-green-500 to-emerald-600 text-white flex items-center justify-center">
+
+                <i class="fa-solid fa-map-location-dot"></i>
+
+            </div>
+
+            <div>
+
+                <h3 class="text-sm font-bold text-[#071B45]">
+
+                    Assam
+
+                </h3>
+
+                <p class="text-[11px] text-slate-500">
+
+                    28+ Cities Available
+
+                </p>
+
+            </div>
+
+        </div>
+
+        <i class="fa-solid fa-chevron-down text-slate-400 group-open:rotate-180 transition duration-300"></i>
+
+    </summary>
+
+    <!-- Cities -->
+
+    <div class="px-4 pb-4">
+
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2">
+
+            <a href="/packers-and-movers-guwahati" class="city-link">Guwahati</a>
+
+            <a href="/packers-and-movers-silchar" class="city-link">Silchar</a>
+
+            <a href="/packers-and-movers-dibrugarh" class="city-link">Dibrugarh</a>
+
+            <a href="/packers-and-movers-jorhat" class="city-link">Jorhat</a>
+
+            <a href="/packers-and-movers-tezpur" class="city-link">Tezpur</a>
+
+            <a href="/packers-and-movers-nagaon" class="city-link">Nagaon</a>
+
+            <a href="/packers-and-movers-tinsukia" class="city-link">Tinsukia</a>
+
+            <a href="/packers-and-movers-bongaigaon" class="city-link">Bongaigaon</a>
+
+            <a href="/packers-and-movers-dhubri" class="city-link">Dhubri</a>
+
+            <a href="/packers-and-movers-golaghat" class="city-link">Golaghat</a>
+
+            <a href="/packers-and-movers-sivasagar" class="city-link">Sivasagar</a>
+
+            <a href="/packers-and-movers-karimganj" class="city-link">Karimganj</a>
+
+            <a href="/packers-and-movers-lakhimpur" class="city-link">North Lakhimpur</a>
+
+            <a href="/packers-and-movers-morigaon" class="city-link">Morigaon</a>
+
+            <a href="/packers-and-movers-barpeta" class="city-link">Barpeta</a>
+
+            <a href="/packers-and-movers-nalbari" class="city-link">Nalbari</a>
+
+            <a href="/packers-and-movers-kokrajhar" class="city-link">Kokrajhar</a>
+
+            <a href="/packers-and-movers-dhemaji" class="city-link">Dhemaji</a>
+
+            <a href="/packers-and-movers-sonitpur" class="city-link">Sonitpur</a>
+
+            <a href="/packers-and-movers-biswanath" class="city-link">Biswanath</a>
+
+            <a href="/packers-and-movers-hojai" class="city-link">Hojai</a>
+
+            <a href="/packers-and-movers-charaideo" class="city-link">Charaideo</a>
+
+            <a href="/packers-and-movers-dima-hasao" class="city-link">Dima Hasao</a>
+
+            <a href="/packers-and-movers-cachar" class="city-link">Cachar</a>
+
+            <a href="/packers-and-movers-majuli" class="city-link">Majuli</a>
+
+            <a href="/packers-and-movers-bajali" class="city-link">Bajali</a>
+
+            <a href="/packers-and-movers-tamulpur" class="city-link">Tamulpur</a>
+
+            <a href="/packers-and-movers-west-karbi-anglong" class="city-link">West Karbi Anglong</a>
+
+        </div>
+
+    </div>
+
+</details>
+<!-- =========================
+STATE ACCORDION
+GOA
+========================= -->
+
+<details class="group bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mt-4">
+
+    <!-- Header -->
+
+    <summary class="list-none cursor-pointer flex items-center justify-between p-4 hover:bg-slate-50 transition">
+
+        <div class="flex items-center gap-3">
+
+            <div class="w-11 h-11 rounded-xl bg-gradient-to-br from-cyan-500 to-blue-600 text-white flex items-center justify-center">
+
+                <i class="fa-solid fa-map-location-dot"></i>
+
+            </div>
+
+            <div>
+
+                <h3 class="text-sm font-bold text-[#071B45]">
+
+                    Goa
+
+                </h3>
+
+                <p class="text-[11px] text-slate-500">
+
+                    15+ Cities Available
+
+                </p>
+
+            </div>
+
+        </div>
+
+        <i class="fa-solid fa-chevron-down text-slate-400 group-open:rotate-180 transition duration-300"></i>
+
+    </summary>
+
+    <!-- Cities -->
+
+    <div class="px-4 pb-4">
+
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2">
+
+            <a href="/packers-and-movers-panaji" class="city-link">Panaji</a>
+
+            <a href="/packers-and-movers-margao" class="city-link">Margao</a>
+
+            <a href="/packers-and-movers-vasco-da-gama" class="city-link">Vasco da Gama</a>
+
+            <a href="/packers-and-movers-mapusa" class="city-link">Mapusa</a>
+
+            <a href="/packers-and-movers-ponda" class="city-link">Ponda</a>
+
+            <a href="/packers-and-movers-bicholim" class="city-link">Bicholim</a>
+
+            <a href="/packers-and-movers-curchorem" class="city-link">Curchorem</a>
+
+            <a href="/packers-and-movers-sanquelim" class="city-link">Sanquelim</a>
+
+            <a href="/packers-and-movers-cuncolim" class="city-link">Cuncolim</a>
+
+            <a href="/packers-and-movers-valpoi" class="city-link">Valpoi</a>
+
+            <a href="/packers-and-movers-pernem" class="city-link">Pernem</a>
+
+            <a href="/packers-and-movers-canacona" class="city-link">Canacona</a>
+
+            <a href="/packers-and-movers-quepem" class="city-link">Quepem</a>
+
+            <a href="/packers-and-movers-sanguem" class="city-link">Sanguem</a>
+
+            <a href="/packers-and-movers-calangute" class="city-link">Calangute</a>
+
+        </div>
+
+    </div>
+
+</details>
+<!-- =========================
+STATE ACCORDION
+NORTH EAST INDIA
+========================= -->
+
+<details class="group bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mt-4">
+
+    <!-- Header -->
+
+    <summary class="list-none cursor-pointer flex items-center justify-between p-4 hover:bg-slate-50 transition">
+
+        <div class="flex items-center gap-3">
+
+            <div class="w-11 h-11 rounded-xl bg-gradient-to-br from-violet-500 to-indigo-600 text-white flex items-center justify-center">
+
+                <i class="fa-solid fa-earth-asia"></i>
+
+            </div>
+
+            <div>
+
+                <h3 class="text-sm font-bold text-[#071B45]">
+
+                    North East India
+
+                </h3>
+
+                <p class="text-[11px] text-slate-500">
+
+                    7 States • 70+ Cities
+
+                </p>
+
+            </div>
+
+        </div>
+
+        <i class="fa-solid fa-chevron-down text-slate-400 group-open:rotate-180 transition duration-300"></i>
+
+    </summary>
+
+    <div class="p-4 space-y-4">
+
+        <!-- Arunachal Pradesh -->
+
+        <div>
+
+            <h4 class="text-xs font-semibold text-orange-500 uppercase mb-2">
+                Arunachal Pradesh
+            </h4>
+
+            <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-2">
+
+                <a href="/packers-and-movers-itanagar" class="city-link">Itanagar</a>
+                <a href="/packers-and-movers-naharlagun" class="city-link">Naharlagun</a>
+                <a href="/packers-and-movers-pasighat" class="city-link">Pasighat</a>
+                <a href="/packers-and-movers-tawang" class="city-link">Tawang</a>
+                <a href="/packers-and-movers-ziro" class="city-link">Ziro</a>
+
+            </div>
+
+        </div>
+
+        <!-- Meghalaya -->
+
+        <div>
+
+            <h4 class="text-xs font-semibold text-orange-500 uppercase mb-2">
+                Meghalaya
+            </h4>
+
+            <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-2">
+
+                <a href="/packers-and-movers-shillong" class="city-link">Shillong</a>
+                <a href="/packers-and-movers-tura" class="city-link">Tura</a>
+                <a href="/packers-and-movers-jo-wai" class="city-link">Jowai</a>
+                <a href="/packers-and-movers-baghmara" class="city-link">Baghmara</a>
+                <a href="/packers-and-movers-williamnagar" class="city-link">Williamnagar</a>
+
+            </div>
+
+        </div>
+
+        <!-- Manipur -->
+
+        <div>
+
+            <h4 class="text-xs font-semibold text-orange-500 uppercase mb-2">
+                Manipur
+            </h4>
+
+            <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-2">
+
+                <a href="/packers-and-movers-imphal" class="city-link">Imphal</a>
+                <a href="/packers-and-movers-thoubal" class="city-link">Thoubal</a>
+                <a href="/packers-and-movers-bishnupur-manipur" class="city-link">Bishnupur</a>
+                <a href="/packers-and-movers-churachandpur" class="city-link">Churachandpur</a>
+                <a href="/packers-and-movers-ukhrul" class="city-link">Ukhrul</a>
+
+            </div>
+
+        </div>
+
+        <!-- Mizoram -->
+
+        <div>
+
+            <h4 class="text-xs font-semibold text-orange-500 uppercase mb-2">
+                Mizoram
+            </h4>
+
+            <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-2">
+
+                <a href="/packers-and-movers-aizawl" class="city-link">Aizawl</a>
+                <a href="/packers-and-movers-lunglei" class="city-link">Lunglei</a>
+                <a href="/packers-and-movers-saiha" class="city-link">Saiha</a>
+                <a href="/packers-and-movers-kolasib" class="city-link">Kolasib</a>
+                <a href="/packers-and-movers-champhai" class="city-link">Champhai</a>
+
+            </div>
+
+        </div>
+
+        <!-- Nagaland -->
+
+        <div>
+
+            <h4 class="text-xs font-semibold text-orange-500 uppercase mb-2">
+                Nagaland
+            </h4>
+
+            <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-2">
+
+                <a href="/packers-and-movers-kohima" class="city-link">Kohima</a>
+                <a href="/packers-and-movers-dimapur" class="city-link">Dimapur</a>
+                <a href="/packers-and-movers-mokokchung" class="city-link">Mokokchung</a>
+                <a href="/packers-and-movers-tuensang" class="city-link">Tuensang</a>
+                <a href="/packers-and-movers-wokha" class="city-link">Wokha</a>
+
+            </div>
+
+        </div>
+
+        <!-- Sikkim -->
+
+        <div>
+
+            <h4 class="text-xs font-semibold text-orange-500 uppercase mb-2">
+                Sikkim
+            </h4>
+
+            <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-2">
+
+                <a href="/packers-and-movers-gangtok" class="city-link">Gangtok</a>
+                <a href="/packers-and-movers-namchi" class="city-link">Namchi</a>
+                <a href="/packers-and-movers-gyalshing" class="city-link">Gyalshing</a>
+                <a href="/packers-and-movers-mangan" class="city-link">Mangan</a>
+                <a href="/packers-and-movers-rangpo" class="city-link">Rangpo</a>
+
+            </div>
+
+        </div>
+
+        <!-- Tripura -->
+
+        <div>
+
+            <h4 class="text-xs font-semibold text-orange-500 uppercase mb-2">
+                Tripura
+            </h4>
+
+            <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-2">
+
+                <a href="/packers-and-movers-agartala" class="city-link">Agartala</a>
+                <a href="/packers-and-movers-udaipur-tripura" class="city-link">Udaipur</a>
+                <a href="/packers-and-movers-dharmanagar" class="city-link">Dharmanagar</a>
+                <a href="/packers-and-movers-kailashahar" class="city-link">Kailashahar</a>
+                <a href="/packers-and-movers-belonia" class="city-link">Belonia</a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</details>
+
+        </div>
+
+    </div>
+
+</section>
+
+<style>
+.city-link{
+display:flex;
+align-items:center;
+justify-content:center;
+height:38px;
+background:#F8FAFC;
+border:1px solid #E2E8F0;
+border-radius:10px;
+font-size:12px;
+font-weight:500;
+color:#071B45;
+transition:.25s;
+text-decoration:none;
+}
+
+.city-link:hover{
+background:#F97316;
+border-color:#F97316;
+color:#fff;
+transform:translateY(-2px);
+}
+</style>
+
+    <footer class="bg-[#03112F] text-white relative overflow-hidden">
+
+    <!-- Glow Effect -->
+
+    <div class="absolute top-0 right-0 w-96 h-96 bg-orange-500/10 blur-[120px]"></div>
+
+    <div class="container-custom relative z-10 py-10">
+
+        <div class="grid lg:grid-cols-4 gap-6">
+
+            <!-- COMPANY -->
+
+            <div>
+
+                <img
+                    src="https://www.sainikpackersmovers.in/assets/img/logo/logo.png"
+                    alt="Sainik Packers Movers"
+                    class="h-11">
+
+                <p
+                    class="mt-4 text-[12px] leading-6 text-slate-400">
+
+                    Professional relocation company providing home shifting,
+                    office moving, vehicle transportation and warehousing
+                    solutions across India.
+
+                </p>
+
+                <!-- Service Tags -->
+
+                <div class="flex flex-wrap gap-2 mt-4">
+
+                    <span class="px-2 py-1 rounded-lg bg-white/5 text-[10px]">
+                        <i class="fa-solid fa-house text-orange-500 mr-1"></i>
+                        Home
+                    </span>
+
+                    <span class="px-2 py-1 rounded-lg bg-white/5 text-[10px]">
+                        <i class="fa-solid fa-building text-orange-500 mr-1"></i>
+                        Office
+                    </span>
+
+                    <span class="px-2 py-1 rounded-lg bg-white/5 text-[10px]">
+                        <i class="fa-solid fa-car-side text-orange-500 mr-1"></i>
+                        Car
+                    </span>
+
+                    <span class="px-2 py-1 rounded-lg bg-white/5 text-[10px]">
+                        <i class="fa-solid fa-motorcycle text-orange-500 mr-1"></i>
+                        Bike
+                    </span>
+
+                </div>
+
+                <!-- Social -->
+
+                <div class="flex gap-2 mt-5">
+
+                    <a href="#"
+                        class="w-8 h-8 rounded-xl bg-white/5 hover:bg-orange-500 flex items-center justify-center transition">
+
+                        <i class="fab fa-facebook-f text-xs"></i>
+
+                    </a>
+
+                    <a href="#"
+                        class="w-8 h-8 rounded-xl bg-white/5 hover:bg-orange-500 flex items-center justify-center transition">
+
+                        <i class="fab fa-instagram text-xs"></i>
+
+                    </a>
+
+                    <a href="#"
+                        class="w-8 h-8 rounded-xl bg-white/5 hover:bg-orange-500 flex items-center justify-center transition">
+
+                        <i class="fab fa-linkedin-in text-xs"></i>
+
+                    </a>
+
+                    <a href="#"
+                        class="w-8 h-8 rounded-xl bg-white/5 hover:bg-orange-500 flex items-center justify-center transition">
+
+                        <i class="fab fa-youtube text-xs"></i>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- QUICK LINKS -->
+
+            <div>
+
+                <h3
+                    class="text-sm font-semibold uppercase tracking-wider mb-4">
+
+                    Quick Links
+
+                </h3>
+
+                <ul class="space-y-2">
+
+                    <li><a href="/" class="group flex items-center gap-2 text-[12px] text-slate-400 hover:text-orange-400">
+                        <i class="fa-solid fa-chevron-right text-[8px] text-orange-500"></i> Home
+                    </a></li>
+
+                    <li><a href="about.html" class="group flex items-center gap-2 text-[12px] text-slate-400 hover:text-orange-400">
+                        <i class="fa-solid fa-chevron-right text-[8px] text-orange-500"></i> About Us
+                    </a></li>
+
+                    <li><a href="#" class="group flex items-center gap-2 text-[12px] text-slate-400 hover:text-orange-400">
+                        <i class="fa-solid fa-chevron-right text-[8px] text-orange-500"></i> Services
+                    </a></li>
+
+                    <li><a href="#" class="group flex items-center gap-2 text-[12px] text-slate-400 hover:text-orange-400">
+                        <i class="fa-solid fa-chevron-right text-[8px] text-orange-500"></i> Gallery
+                    </a></li>
+
+                    <li><a href="#" class="group flex items-center gap-2 text-[12px] text-slate-400 hover:text-orange-400">
+                        <i class="fa-solid fa-chevron-right text-[8px] text-orange-500"></i> Blog
+                    </a></li>
+
+                    <li><a href="#" class="group flex items-center gap-2 text-[12px] text-slate-400 hover:text-orange-400">
+                        <i class="fa-solid fa-chevron-right text-[8px] text-orange-500"></i> Contact
+                    </a></li>
+
+                </ul>
+
+            </div>
+
+            <!-- SERVICES -->
+
+            <div>
+
+                <h3
+                    class="text-sm font-semibold uppercase tracking-wider mb-4">
+
+                    Services
+
+                </h3>
+
+                <ul class="space-y-2">
+
+                    <li><a href="#" class="flex items-center gap-2 text-[12px] text-slate-400 hover:text-orange-400">
+                        <i class="fa-solid fa-house text-orange-500 text-[10px]"></i>
+                        Home Shifting
+                    </a></li>
+
+                    <li><a href="#" class="flex items-center gap-2 text-[12px] text-slate-400 hover:text-orange-400">
+                        <i class="fa-solid fa-building text-orange-500 text-[10px]"></i>
+                        Office Relocation
+                    </a></li>
+
+                    <li><a href="#" class="flex items-center gap-2 text-[12px] text-slate-400 hover:text-orange-400">
+                        <i class="fa-solid fa-car text-orange-500 text-[10px]"></i>
+                        Car Transport
+                    </a></li>
+
+                    <li><a href="#" class="flex items-center gap-2 text-[12px] text-slate-400 hover:text-orange-400">
+                        <i class="fa-solid fa-motorcycle text-orange-500 text-[10px]"></i>
+                        Bike Transport
+                    </a></li>
+
+                    <li><a href="#" class="flex items-center gap-2 text-[12px] text-slate-400 hover:text-orange-400">
+                        <i class="fa-solid fa-box text-orange-500 text-[10px]"></i>
+                        Packing Service
+                    </a></li>
+
+                    <li><a href="#" class="flex items-center gap-2 text-[12px] text-slate-400 hover:text-orange-400">
+                        <i class="fa-solid fa-warehouse text-orange-500 text-[10px]"></i>
+                        Warehousing
+                    </a></li>
+
+                </ul>
+
+            </div>
+
+            <!-- CONTACT -->
+
+            <div>
+
+                <h3
+                    class="text-sm font-semibold uppercase tracking-wider mb-4">
+
+                    Contact Us
+
+                </h3>
+
+                <div class="space-y-3">
+
+                    <a href="tel:9342422422"
+                        class="flex items-center gap-3 p-3 rounded-2xl bg-white/5 hover:bg-white/10 transition">
+
+                        <div class="w-9 h-9 rounded-xl bg-orange-500/20 flex items-center justify-center">
+                            <i class="fa-solid fa-phone text-orange-500 text-xs"></i>
+                        </div>
+
+                        <div>
+                            <div class="text-[12px] font-medium">
+                                9342-422-422
+                            </div>
+                            <div class="text-[10px] text-slate-500">
+                                24×7 Support
+                            </div>
+                        </div>
+
+                    </a>
+
+                    <a href="mailto:sainikpackermovers@gmail.com"
+                        class="flex items-center gap-3 p-3 rounded-2xl bg-white/5 hover:bg-white/10 transition">
+
+                        <div class="w-9 h-9 rounded-xl bg-orange-500/20 flex items-center justify-center">
+                            <i class="fa-solid fa-envelope text-orange-500 text-xs"></i>
+                        </div>
+
+                        <div class="text-[11px] text-slate-300">
+                            sainikpackermovers@gmail.com
+                        </div>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- TRUST BADGES -->
+
+    <div class="border-t border-white/10">
+
+        <div class="container-custom py-4">
+
+            <div class="flex flex-wrap justify-center gap-2">
+
+                <span class="px-3 py-1 rounded-full bg-white/5 text-[10px]">
+                    🛡 Verified Professionals
+                </span>
+
+                <span class="px-3 py-1 rounded-full bg-white/5 text-[10px]">
+                    🚚 PAN India Network
+                </span>
+
+                <span class="px-3 py-1 rounded-full bg-white/5 text-[10px]">
+                    ⭐ Premium Moving Service
+                </span>
+
+                <span class="px-3 py-1 rounded-full bg-white/5 text-[10px]">
+                    ☎ 24×7 Support
+                </span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- SEO CITY LINKS -->
+    <div class="border-t border-white/10">
+
+        <div class="container-custom py-6">
+
+            <h4
+                class="text-xs font-semibold uppercase tracking-wide text-white mb-4">
+
+                Packers & Movers Services Across India
+
+            </h4>
+
+            <div
+                class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-x-4 gap-y-1">
+
+                <a href="#" class="text-[11px] text-slate-500 hover:text-orange-400">Packers & Movers Bangalore</a>
+                <a href="#" class="text-[11px] text-slate-500 hover:text-orange-400">Packers & Movers Hyderabad</a>
+                <a href="#" class="text-[11px] text-slate-500 hover:text-orange-400">Packers & Movers Chennai</a>
+                <a href="#" class="text-[11px] text-slate-500 hover:text-orange-400">Packers & Movers Mumbai</a>
+                <a href="#" class="text-[11px] text-slate-500 hover:text-orange-400">Packers & Movers Delhi</a>
+                <a href="#" class="text-[11px] text-slate-500 hover:text-orange-400">Packers & Movers Pune</a>
+
+                <a href="#" class="text-[11px] text-slate-500 hover:text-orange-400">Packers & Movers Noida</a>
+                <a href="#" class="text-[11px] text-slate-500 hover:text-orange-400">Packers & Movers Gurgaon</a>
+                <a href="#" class="text-[11px] text-slate-500 hover:text-orange-400">Packers & Movers Faridabad</a>
+                <a href="#" class="text-[11px] text-slate-500 hover:text-orange-400">Packers & Movers Ghaziabad</a>
+                <a href="#" class="text-[11px] text-slate-500 hover:text-orange-400">Packers & Movers Jaipur</a>
+                <a href="#" class="text-[11px] text-slate-500 hover:text-orange-400">Packers & Movers Udaipur</a>
+
+                <a href="#" class="text-[11px] text-slate-500 hover:text-orange-400">Packers & Movers Jodhpur</a>
+                <a href="#" class="text-[11px] text-slate-500 hover:text-orange-400">Packers & Movers Kolkata</a>
+                <a href="#" class="text-[11px] text-slate-500 hover:text-orange-400">Packers & Movers Ahmedabad</a>
+                <a href="#" class="text-[11px] text-slate-500 hover:text-orange-400">Packers & Movers Surat</a>
+                <a href="#" class="text-[11px] text-slate-500 hover:text-orange-400">Packers & Movers Vadodara</a>
+                <a href="#" class="text-[11px] text-slate-500 hover:text-orange-400">Packers & Movers Rajkot</a>
+
+                <a href="#" class="text-[11px] text-slate-500 hover:text-orange-400">Packers & Movers Indore</a>
+                <a href="#" class="text-[11px] text-slate-500 hover:text-orange-400">Packers & Movers Bhopal</a>
+                <a href="#" class="text-[11px] text-slate-500 hover:text-orange-400">Packers & Movers Nagpur</a>
+                <a href="#" class="text-[11px] text-slate-500 hover:text-orange-400">Packers & Movers Lucknow</a>
+                <a href="#" class="text-[11px] text-slate-500 hover:text-orange-400">Packers & Movers Kanpur</a>
+                <a href="#" class="text-[11px] text-slate-500 hover:text-orange-400">Packers & Movers Varanasi</a>
+
+                <a href="#" class="text-[11px] text-slate-500 hover:text-orange-400">Packers & Movers Kochi</a>
+                <a href="#" class="text-[11px] text-slate-500 hover:text-orange-400">Packers & Movers Coimbatore</a>
+                <a href="#" class="text-[11px] text-slate-500 hover:text-orange-400">Packers & Movers Visakhapatnam</a>
+                <a href="#" class="text-[11px] text-slate-500 hover:text-orange-400">Packers & Movers Vijayawada</a>
+                <a href="#" class="text-[11px] text-slate-500 hover:text-orange-400">Packers & Movers Mysore</a>
+                <a href="#" class="text-[11px] text-slate-500 hover:text-orange-400">Packers & Movers Mangalore</a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- COPYRIGHT -->
+    <div class="border-t border-white/10">
+
+        <div
+            class="container-custom py-3 flex flex-col md:flex-row items-center justify-between gap-2">
+
+            <p
+                class="text-[11px] text-slate-500 text-center md:text-left">
+
+                © 2026 Sainik Packers & Movers. All Rights Reserved.
+
+            </p>
+
+            <div
+                class="flex items-center gap-4">
+
+                <a href="#"
+                    class="text-[11px] text-slate-500 hover:text-orange-400">
+                    Privacy Policy
+                </a>
+
+                <a href="#"
+                    class="text-[11px] text-slate-500 hover:text-orange-400">
+                    Terms & Conditions
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    
+
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
